@@ -33,7 +33,25 @@ import HeartIMG from "../img/Heart.svg";
 
 //Icons
 
+//Dropdown
+import Dropdown from "../Utils/Dropdown";
+
 export default function TopSection() {
+  const dropdownOptionsAbout = [
+    "Home Option 1",
+    "Home Option 2",
+    "Home Option 3",
+  ]; // Option for About Dropdown
+  const dropdownOptionsInitiatives = [
+    "About Option A",
+    "About Option B",
+    "About Option C",
+  ]; // Option for Initiatives Dropdown
+  const dropdownOptionsProjects = ["Project 1", "Project 2", "Project 3"]; // Option for Projects Dropdown
+  const dropdownOptionsNews = ["Project 1", "Project 2", "Project 3"]; // Option for News Dropdown
+  const dropdownOptionsPartners = ["Project 1", "Project 2", "Project 3"]; // Option for Partners Dropdown
+  const dropdownOptionsContactUs = ["Project 1", "Project 2", "Project 3"]; // Option for Contact Us Dropdown
+
   return (
     <Container>
       <Box>
@@ -43,17 +61,44 @@ export default function TopSection() {
             <Logo src={iGEMLogo} />
           </LogoArea>
           <LinksContainer>
-            <Links>ABOUT</Links>
+            <Links>
+              <Dropdown options={dropdownOptionsAbout} navItemName="ABOUT" />
+            </Links>
             <Slashes>/</Slashes>
-            <Links>INITIATIVES</Links>
+            <Links>
+              {" "}
+              <Dropdown
+                options={dropdownOptionsInitiatives}
+                navItemName="INITIATIVES"
+              />
+            </Links>
             <Slashes>/</Slashes>
-            <Links>PROJECTS</Links>
+            <Links>
+              {" "}
+              <Dropdown
+                options={dropdownOptionsProjects}
+                navItemName="PROJECTS"
+              />
+            </Links>
             <Slashes>/</Slashes>
-            <Links>NEWS</Links>
+            <Links>
+              {" "}
+              <Dropdown options={dropdownOptionsNews} navItemName="NEWS" />
+            </Links>
             <Slashes>/</Slashes>
-            <Links>PARTNERS</Links>
+            <Links>
+              {" "}
+              <Dropdown
+                options={dropdownOptionsPartners}
+                navItemName="PARTNERS"
+              />
+            </Links>
             <Slashes>/</Slashes>
-            <Links>CONTACT US</Links>
+            <Dropdown
+              options={dropdownOptionsContactUs}
+              navItemName="CONTACT US"
+            />
+            <Links></Links>
           </LinksContainer>
         </NavBarContainer>
         <HeroContainer>
