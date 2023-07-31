@@ -19,6 +19,12 @@ import {
   Slashes,
   SmallText,
   Heart,
+  LeftInformationContainer,
+  HeartImageContainer,
+  FirstCircle,
+  SecondCircle,
+  HeartImage,
+  SubRightSection,
 } from "./TopSectionStyles";
 
 //Logo
@@ -52,14 +58,25 @@ export default function TopSection() {
         </NavBarContainer>
         <HeroContainer>
           <LeftSection>
-            <BigText>EMPOWER YOUR IMAGINATION</BigText>
-            <SmallText>/ EST 2023</SmallText>
+            <LeftInformationContainer>
+              <BigText>EMPOWER YOUR IMAGINATION</BigText>
+              <SmallText>/ EST 2023</SmallText>
+            </LeftInformationContainer>
+            <HeartImageContainer>
+              <FirstCircle>
+                <SecondCircle>
+                  <HeartImage src={HeartIMG} />
+                </SecondCircle>
+              </FirstCircle>
+            </HeartImageContainer>
           </LeftSection>
           <RightSection>
-            <InfoText>
-              Follow along as we trek the vast field of genetics
-            </InfoText>
-            <LMButton>Learn More</LMButton>
+            <SubRightSection>
+              <InfoText>
+                Follow along as we trek the vast field of genetics
+              </InfoText>
+              <LMButton>Learn More</LMButton>
+            </SubRightSection>
           </RightSection>
         </HeroContainer>
       </Box>

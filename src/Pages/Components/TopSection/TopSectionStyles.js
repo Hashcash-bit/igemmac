@@ -9,6 +9,7 @@ export const Container = styled.div`
   display: flex;
   width: 100%;
   justify-content: center;
+  cursor: default;
 `;
 
 export const Box = styled.div`
@@ -19,11 +20,21 @@ export const Box = styled.div`
   width: 98%;
   border-radius: 50px;
   margin-top: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid white;
+  z-index: 0;
 `;
 
 export const NavBarContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 97%;
 `;
 
 export const LogoArea = styled.div`
@@ -43,20 +54,128 @@ export const LinksContainer = styled.div`
   gap: 5px;
 `;
 
-export const Links = styled(Link)``;
+export const Links = styled(Link)`
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4a5957;
+  padding: 10px 20px;
+  transition: ease-in-out 0.2s;
 
-export const Slashes = styled.div``;
+  &:hover {
+    background-color: #c1dbd9;
+    color: black;
+    border-radius: 5px;
+  }
+`;
 
-export const HeroContainer = styled.div``;
+export const Slashes = styled.div`
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px 0px;
+  color: white;
+  font-weight: bold;
+`;
 
-export const LeftSection = styled.div``;
+export const HeroContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  align-items: center;
+`;
 
-export const BigText = styled.div``;
+export const LeftSection = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
-export const SmallText = styled.div``;
+export const LeftInformationContainer = styled.div`
+  display: flex;
+  align-items: end;
+`;
 
-export const RightSection = styled.div``;
+export const HeartImageContainer = styled.div`
+  //   z-index: 5;
+`;
 
-export const InfoText = styled.div``;
+export const FirstCircle = styled.div`
+  background-color: #c1dbd9;
+  padding: 50px;
+  height: 200px;
+  width: 500px;
+  border-radius: 500px 500px 0px 0;
+  z-index: -1;
+  margin-top: -70px;
+  margin-left: 20px;
+  border: 4px solid white;
+`;
 
-export const LMButton = styled(Link)``;
+export const SecondCircle = styled.div`
+  background-color: #ecf8f7;
+  padding: 50px;
+  height: 146px;
+  width: 400px;
+  border-radius: 500px 500px 0px 0;
+  z-index: -1;
+  border: 4px solid white;
+`;
+
+export const HeartImage = styled.img`
+  z-index: 99999;
+  margin-top: -200px;
+`;
+
+export const BigText = styled.div`
+  font-weight: bold;
+  font-size: 7.5rem;
+  width: min-content;
+  height: min-content;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+  z-index: 4;
+`;
+
+export const SmallText = styled.div`
+  padding: 20px 0px;
+  color: white;
+  font-weight: bold;
+`;
+
+export const RightSection = styled.div`
+  border-left: 7px solid white;
+  padding-left: 20px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+`;
+
+export const SubRightSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: start;
+  width: 300px;
+`;
+
+export const InfoText = styled.div`
+  width: fit-content;
+  height: 50%;
+  align-items: center;
+`;
+
+export const LMButton = styled(Link)`
+  padding: 10px 20px;
+  background-color: #96080a;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  width: fit-content;
+  transition: ease-in-out 0.3s;
+
+  &:hover {
+    font-weight: bold;
+  }
+`;
