@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// Important React Dependendcies
+import React from "react";
+
+//Styles
+import "./App.css";
+
+// Importing the router
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+
+// Importing the External Components
+import Pages from "./Pages/Pages";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          {/* Use the element prop instead of the Component prop */}
+          <Route path="/" element={<Pages />} exact />
+          {/* <Route path="/Login" element={<Login />} exact /> */}
+          {/* <Route path="/Signup" element={<SignUp />} exact /> */}
+          {/* <Route path="*" element={<ErrorPage />} /> */}
+        </Routes>
+      </Router>
+    </>
   );
 }
 
