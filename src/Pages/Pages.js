@@ -4,6 +4,7 @@ import React from "react";
 import TopSection from "./Components/TopSection/TopSection";
 import { Entireelement, InternalComponents } from "./PagesStyles";
 import Navbar from "./Components/TopSection/Navbar";
+import Slider from "./Components/InfoSlider/Slider";
 
 export default function Pages() {
   return (
@@ -12,6 +13,7 @@ export default function Pages() {
         <InternalComponents>
           <Navbar />
           <TopSection />
+          <Slider />
         </InternalComponents>
       </Entireelement>
     </>

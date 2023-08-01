@@ -53,9 +53,7 @@ export const Heart = styled.img`
   height: 30px;
 `;
 
-export const Logo = styled.img`
-
-`;
+export const Logo = styled.img``;
 
 export const LinksContainer = styled.div`
   display: flex;
