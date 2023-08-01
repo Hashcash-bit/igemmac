@@ -27,6 +27,10 @@ export const Box = styled.div`
   justify-content: center;
   align-items: center;
   border: 4px solid white;
+
+  @media screen and (max-width: 500px) {
+    padding-right: 0px;
+  }
 `;
 
 export const NavBarContainer = styled.div`
@@ -49,7 +53,9 @@ export const Heart = styled.img`
   height: 30px;
 `;
 
-export const Logo = styled.img``;
+export const Logo = styled.img`
+
+`;
 
 export const LinksContainer = styled.div`
   display: flex;
@@ -73,14 +79,30 @@ export const HeroContainer = styled.div`
   justify-content: space-between;
   width: 97%;
   align-items: center;
+
   @media screen and (max-width: 1375px) {
     flex-direction: column;
+    gap: 50px;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  @media screen and (max-width: 1375px) {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 `;
 
 export const LeftSection = styled.div`
   display: flex;
   flex-direction: column;
+  width: 100%;
+
+  @media screen and (max-width: 415px) {
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const LeftInformationContainer = styled.div`
@@ -127,13 +149,53 @@ export const BigText = styled.div`
   height: min-content;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
     1px 1px 0 #fff;
-    z-index: 2;
+  z-index: 2;
+
+  @media screen and (max-width: 1035px) {
+    font-size: 110px;
+  }
+
+  @media screen and (max-width: 948px) {
+    font-size: 100px;
+  }
+
+  @media screen and (max-width: 870px) {
+    font-size: 90px;
+  }
+
+  @media screen and (max-width: 799px) {
+    font-size: 80px;
+  }
+
+  @media screen and (max-width: 722px) {
+    font-size: 70px;
+  }
+
+  @media screen and (max-width: 650px) {
+    font-size: 60px;
+  }
+
+  @media screen and (max-width: 571px) {
+    font-size: 50px;
+  }
+
+  @media screen and (max-width: 415px) {
+    font-size: 40px;
+  }
+
+  @media screen and (max-width: 312px) {
+    font-size: 35px;
+  }
 `;
 
 export const SmallText = styled.div`
   padding: 20px 0px;
   color: white;
   font-weight: bold;
+
+  @media screen and (max-width: 571px) {
+    display: none;
+  }
 `;
 
 export const RightSection = styled.div`
@@ -143,6 +205,19 @@ export const RightSection = styled.div`
   align-items: center;
   justify-content: center;
   display: flex;
+
+  @media screen and (max-width: 1375px) {
+    width: 100%;
+    border: none;
+    padding: none;
+    justify-content: start;
+    height: max-content;
+  }
+
+  @media screen and (max-width: 370px) {
+    justify-content: center;
+    padding: 0;
+  }
 `;
 
 export const SubRightSection = styled.div`
@@ -151,6 +226,11 @@ export const SubRightSection = styled.div`
   gap: 15px;
   justify-content: start;
   width: 300px;
+
+  @media screen and (max-width: 370px) {
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const InfoText = styled.div`

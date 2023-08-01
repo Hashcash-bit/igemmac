@@ -48,7 +48,11 @@ export const Heart = styled.img`
   height: 30px;
 `;
 
-export const Logo = styled.img``;
+export const Logo = styled.img`
+  @media screen and (max-width: 300px) {
+    width: 120px;
+  }
+`;
 
 export const LinksContainer = styled.div`
   display: flex;

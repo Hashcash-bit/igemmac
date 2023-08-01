@@ -29,7 +29,7 @@ export const InternalComponents = styled.div`
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: #f1eed3; /* Change the color as desired */
+    // background-color: #f1eed3; /* Change the color as desired */
     border-radius: 4px; /* Adjust the border radius as desired */
   }
 `;
