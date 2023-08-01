@@ -56,6 +56,7 @@ export const LinksContainer = styled.div`
 `;
 
 export const Links = styled.div`
+//   background-color: red;
   @media screen and (max-width: 1100px) {
     display: none;
   }
@@ -127,6 +128,11 @@ export const HiddenButtonContainer = styled.div`
   width: 100%;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 555px) {
+    flex-direction: column;
+    gap: 40px;
+  }
 `;
 
 export const LeftArea = styled.div`
@@ -134,17 +140,95 @@ export const LeftArea = styled.div`
   width: 50%;
   display: flex;
   flex-direction: column;
+  gap: 40px;
+  @media screen and (max-width: 555px) {
+    width: 100%;
+  }
 `;
 
-export const AboutUsBox = styled.div``;
-export const ProjectsBox = styled.div``;
-export const NewsBox = styled.div``;
+export const AboutUsBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+`;
 
-export const RightArea = styled.div``;
-export const PartnerBox = styled.div``;
-export const InitiativesBox = styled.div``;
-export const ContactBox = styled.div``;
+export const ProjectsBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+`;
 
-export const Heading = styled.div``;
-export const LinksSection = styled.div``;
-export const LinksH = styled(Link)``;
+export const NewsBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+`;
+
+export const RightArea = styled.div`
+  height: fit-content;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  @media screen and (max-width: 555px) {
+    width: 100%;
+  }
+`;
+
+export const PartnerBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+`;
+
+export const InitiativesBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+`;
+
+export const ContactBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+`;
+
+export const Heading = styled.div`
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  width: 70%;
+`;
+
+export const LinksSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 10px;
+`;
+
+export const LinksH = styled(Link)`
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4a5957;
+  //   padding: 10px 20px;
+  transition: ease-in-out 0.2s;
+
+  &:hover {
+    color: white;
+    border-radius: 5px;
+  }
+`;
