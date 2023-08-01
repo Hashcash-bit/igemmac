@@ -37,19 +37,16 @@ import HeartIMG from "../img/Heart.svg";
 import Dropdown from "../Utils/Dropdown";
 
 export default function TopSection() {
-  const dropdownOptionsAbout = [
-    "Home Option 1",
-    "Home Option 2",
-    "Home Option 3",
-  ]; // Option for About Dropdown
+  const dropdownOptionsAbout = ["Our Team", "Our Mission", "Join Us"]; // Option for About Dropdown
   const dropdownOptionsInitiatives = [
-    "About Option A",
-    "About Option B",
-    "About Option C",
+    "STEMcast",
+    "Conference",
+    "Biolab Tutorials",
+    "McMaster Courses",
   ]; // Option for Initiatives Dropdown
-  const dropdownOptionsProjects = ["Project 1", "Project 2", "Project 3"]; // Option for Projects Dropdown
-  const dropdownOptionsNews = ["Project 1", "Project 2", "Project 3"]; // Option for News Dropdown
-  const dropdownOptionsPartners = ["Project 1", "Project 2", "Project 3"]; // Option for Partners Dropdown
+  const dropdownOptionsProjects = ["Current", "2022", "2021", "2020", "2019", "2018"]; // Option for Projects Dropdown
+  const dropdownOptionsNews = ["BioNews", "Genetic News", "Fuck Franky"]; // Option for News Dropdown
+  const dropdownOptionsPartners = ["Sponsors", "Collaborators", "Partner With Us"]; // Option for Partners Dropdown
   const dropdownOptionsContactUs = ["Project 1", "Project 2", "Project 3"]; // Option for Contact Us Dropdown
 
   return (
@@ -94,11 +91,12 @@ export default function TopSection() {
               />
             </Links>
             <Slashes>/</Slashes>
+            <Links>
             <Dropdown
               options={dropdownOptionsContactUs}
               navItemName="CONTACT US"
             />
-            <Links></Links>
+            </Links>
           </LinksContainer>
         </NavBarContainer>
         <HeroContainer>

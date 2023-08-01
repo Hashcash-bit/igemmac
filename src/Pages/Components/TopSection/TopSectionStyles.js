@@ -27,7 +27,6 @@ export const Box = styled.div`
   justify-content: center;
   align-items: center;
   border: 4px solid white;
-  z-index: 0;
 `;
 
 export const NavBarContainer = styled.div`
@@ -35,6 +34,9 @@ export const NavBarContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 97%;
+  @media screen and (max-width: 1375px) {
+    display: none;
+  }
 `;
 
 export const LogoArea = styled.div`
@@ -71,6 +73,9 @@ export const HeroContainer = styled.div`
   justify-content: space-between;
   width: 97%;
   align-items: center;
+  @media screen and (max-width: 1375px) {
+    flex-direction: column;
+  }
 `;
 
 export const LeftSection = styled.div`
@@ -84,7 +89,9 @@ export const LeftInformationContainer = styled.div`
 `;
 
 export const HeartImageContainer = styled.div`
-  //   z-index: 5;
+  @media screen and (max-width: 1400px) {
+    display: none;
+  }
 `;
 
 export const FirstCircle = styled.div`
@@ -121,7 +128,6 @@ export const BigText = styled.div`
   height: min-content;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
     1px 1px 0 #fff;
-  z-index: 4;
 `;
 
 export const SmallText = styled.div`
