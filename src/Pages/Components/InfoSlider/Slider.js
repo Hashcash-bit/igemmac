@@ -1,46 +1,218 @@
-import React from 'react';
-import styled, { keyframes } from 'styled-components';
+// Default Deps
+import React from "react";
 
-const slideAnimation = keyframes`
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-`;
-
-const SliderContainer = styled.div`
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-`;
-
-const SlideWrapper = styled.div`
-  display: inline-flex;
-  animation: ${slideAnimation} 8s linear infinite;
-  white-space: nowrap;
-
-  /* Add additional styles to make the sliding smooth */
-  &:hover {
-    animation-play-state: paused;
-  }
-`;
-
-const SlideItem = styled.span`
-  margin-right: 30px;
-  font-size: 24px;
-  color: #333;
-`;
-
-const StaticText = styled.span`
-  font-size: 24px;
-  color: #333;
-`;
+//Styled Components
+import {
+  SlideItem,
+  SlideWrapper,
+  SliderContainer,
+  StaticText,
+} from "./SliderStyles";
 
 const Slider = () => {
   // Create an array of words to slide
-  const words = ["Word 1", "Word 2", "Word 3"];
+  const words = [
+    "INNOVATORS",
+    "+",
+    "RESEARCHERS",
+    "+",
+    "ENGINEERS",
+    "+",
+    "GENETICISTS",
+    "+",
+    "PIONEERS",
+    "+",
+    "VISIONARIES",
+    "+",
+    "CREATORS",
+    "+",
+    "SCIENTISTS",
+    "+",
+    "TECHNOLOGISTS",
+    "+",
+    "BIOLOGISTS",
+    "+",
+    "EXPLORERS",
+    "+",
+    "DESIGNERS",
+    "+",
+    "DEVELOPERS",
+    "+",
+    "LEADERS",
+    "+",
+    "INNOVATORS",
+    "+",
+    "THINKERS",
+    "+",
+    "DREAMERS",
+    "+",
+    "SCHOLARS",
+    "+",
+    "FUTURISTS",
+    "+",
+    "TRAILBLAZERS",
+    "+",
+    "INNOVATORS",
+    "+",
+    "RESEARCHERS",
+    "+",
+    "ENGINEERS",
+    "+",
+    "GENETICISTS",
+    "+",
+    "PIONEERS",
+    "+",
+    "VISIONARIES",
+    "+",
+    "CREATORS",
+    "+",
+    "SCIENTISTS",
+    "+",
+    "TECHNOLOGISTS",
+    "+",
+    "BIOLOGISTS",
+    "+",
+    "EXPLORERS",
+    "+",
+    "DESIGNERS",
+    "+",
+    "DEVELOPERS",
+    "+",
+    "LEADERS",
+    "+",
+    "INNOVATORS",
+    "+",
+    "THINKERS",
+    "+",
+    "DREAMERS",
+    "+",
+    "SCHOLARS",
+    "+",
+    "FUTURISTS",
+    "+",
+    "TRAILBLAZERS",
+    "+",
+    "INNOVATORS",
+    "+",
+    "RESEARCHERS",
+    "+",
+    "ENGINEERS",
+    "+",
+    "GENETICISTS",
+    "+",
+    "PIONEERS",
+    "+",
+    "VISIONARIES",
+    "+",
+    "CREATORS",
+    "+",
+    "SCIENTISTS",
+    "+",
+    "TECHNOLOGISTS",
+    "+",
+    "BIOLOGISTS",
+    "+",
+    "EXPLORERS",
+    "+",
+    "DESIGNERS",
+    "+",
+    "DEVELOPERS",
+    "+",
+    "LEADERS",
+    "+",
+    "INNOVATORS",
+    "+",
+    "THINKERS",
+    "+",
+    "DREAMERS",
+    "+",
+    "SCHOLARS",
+    "+",
+    "FUTURISTS",
+    "+",
+    "TRAILBLAZERS",
+    "+",
+    "INNOVATORS",
+    "+",
+    "RESEARCHERS",
+    "+",
+    "ENGINEERS",
+    "+",
+    "GENETICISTS",
+    "+",
+    "PIONEERS",
+    "+",
+    "VISIONARIES",
+    "+",
+    "CREATORS",
+    "+",
+    "SCIENTISTS",
+    "+",
+    "TECHNOLOGISTS",
+    "+",
+    "BIOLOGISTS",
+    "+",
+    "EXPLORERS",
+    "+",
+    "DESIGNERS",
+    "+",
+    "DEVELOPERS",
+    "+",
+    "LEADERS",
+    "+",
+    "INNOVATORS",
+    "+",
+    "THINKERS",
+    "+",
+    "DREAMERS",
+    "+",
+    "SCHOLARS",
+    "+",
+    "FUTURISTS",
+    "+",
+    "TRAILBLAZERS",
+    "+",
+    "INNOVATORS",
+    "+",
+    "RESEARCHERS",
+    "+",
+    "ENGINEERS",
+    "+",
+    "GENETICISTS",
+    "+",
+    "PIONEERS",
+    "+",
+    "VISIONARIES",
+    "+",
+    "CREATORS",
+    "+",
+    "SCIENTISTS",
+    "+",
+    "TECHNOLOGISTS",
+    "+",
+    "BIOLOGISTS",
+    "+",
+    "EXPLORERS",
+    "+",
+    "DESIGNERS",
+    "+",
+    "DEVELOPERS",
+    "+",
+    "LEADERS",
+    "+",
+    "INNOVATORS",
+    "+",
+    "THINKERS",
+    "+",
+    "DREAMERS",
+    "+",
+    "SCHOLARS",
+    "+",
+    "FUTURISTS",
+    "+",
+    "TRAILBLAZERS",
+    "+",
+  ];
 
   return (
     <SliderContainer>
