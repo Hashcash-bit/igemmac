@@ -100,7 +100,6 @@ export const FirstCircle = styled.div`
   height: 200px;
   width: 500px;
   border-radius: 500px 500px 0px 0;
-  z-index: -1;
   margin-top: -70px;
   margin-left: 20px;
   border: 4px solid white;
@@ -128,6 +127,7 @@ export const BigText = styled.div`
   height: min-content;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
     1px 1px 0 #fff;
+    z-index: 2;
 `;
 
 export const SmallText = styled.div`

@@ -56,7 +56,7 @@ export const LinksContainer = styled.div`
 `;
 
 export const Links = styled.div`
-//   background-color: red;
+  //   background-color: red;
   @media screen and (max-width: 1100px) {
     display: none;
   }
@@ -84,7 +84,7 @@ export const MenuToggle = styled.div`
     align-items: center;
     display: flex;
     margin-right: 25px;
-    color: #f1eed3;
+    color: #4a5957;
   }
 `;
 
