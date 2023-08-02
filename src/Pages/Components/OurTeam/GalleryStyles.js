@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   font-family: Montserrat-Alt1;
   display: flex;
+  flex-direction: column;
   width: 100%;
   justify-content: center;
   cursor: default;
@@ -30,8 +31,35 @@ export const Box = styled.div`
 `;
 
 export const ContainerTitle = styled.div`
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+  gap: 20px;
+  margin-top: 35px;
+  overflow: hidden;
+`;
 
-`
+export const Title = styled.div`
+  font-size: 35px;
+  font-weight: 600;
+  justify-content: center;
+  width: fit-content;
+  padding: 10px 40px;
+  border-radius: 100px;
+  border: 4px solid black;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: black;
+`;
+
+export const SubTitle = styled.div`
+  font-size: 18px;
+  color: #6D5957;
+`;
 
 export const GalleryContainer = styled.div`
   padding: 40px;

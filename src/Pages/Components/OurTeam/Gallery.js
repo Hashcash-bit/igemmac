@@ -19,7 +19,13 @@ import {
   ImageContainer,
   NoImageText,
   PersonName,
+  SubTitle,
+  Title,
 } from "./GalleryStyles";
+
+// Vectors
+import Team from "../img/Team.svg";
+import Grid from "../img/Grid.png";
 
 // List of job options
 const jobOptions = [
@@ -73,7 +79,10 @@ const Gallery = () => {
   return (
     <>
       <Container>
-        <ContainerTitle>MEET OUR TEAM</ContainerTitle>
+        <ContainerTitle>
+          <Title>MEET OUR TEAM</Title>
+          <SubTitle>Here is the team that made all this possible</SubTitle>
+        </ContainerTitle>
         <Box>
           <FilterBar>
             {jobOptions.map((option) => (
