@@ -8,6 +8,9 @@ import Image2 from "../img/1658410385342.jpg";
 
 // Styled Components
 import {
+  Box,
+  Container,
+  ContainerTitle,
   FilterBar,
   FilterOption,
   GalleryContainer,
@@ -15,6 +18,7 @@ import {
   GalleryImages,
   ImageContainer,
   NoImageText,
+  PersonName,
 } from "./GalleryStyles";
 
 // List of job options
@@ -68,35 +72,40 @@ const Gallery = () => {
 
   return (
     <>
-      <FilterBar>
-        {jobOptions.map((option) => (
-          <FilterOption
-            key={option}
-            onClick={() => handleFilterChange(option)}
-            active={selectedFilter === option}
-          >
-            {option}
-          </FilterOption>
-        ))}
-      </FilterBar>
-      <GalleryContainer>
-        <GalleryImages>
-          {filteredGallery.length === 0 ? (
-            <NoImageText>No Image</NoImageText>
-          ) : (
-            filteredGallery.map((item) => (
-              <ImageContainer key={item.id}>
-                {item.image ? (
-                  <GalleryImage src={item.image} alt={`Job: ${item.job}`} />
-                ) : (
-                  <NoImageText>No Image</NoImageText>
-                )}
-                <PersonName>{item.name}</PersonName>
-              </ImageContainer>
-            ))
-          )}
-        </GalleryImages>
-      </GalleryContainer>
+      <Container>
+        <ContainerTitle>MEET OUR TEAM</ContainerTitle>
+        <Box>
+          <FilterBar>
+            {jobOptions.map((option) => (
+              <FilterOption
+                key={option}
+                onClick={() => handleFilterChange(option)}
+                active={selectedFilter === option}
+              >
+                {option}
+              </FilterOption>
+            ))}
+          </FilterBar>
+          <GalleryContainer>
+            <GalleryImages>
+              {filteredGallery.length === 0 ? (
+                <NoImageText>No Image</NoImageText>
+              ) : (
+                filteredGallery.map((item) => (
+                  <ImageContainer key={item.id}>
+                    {item.image ? (
+                      <GalleryImage src={item.image} alt={`Job: ${item.job}`} />
+                    ) : (
+                      <NoImageText>No Image</NoImageText>
+                    )}
+                    <PersonName>{item.name}</PersonName>
+                  </ImageContainer>
+                ))
+              )}
+            </GalleryImages>
+          </GalleryContainer>
+        </Box>
+      </Container>
     </>
   );
 };

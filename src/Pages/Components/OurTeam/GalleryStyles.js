@@ -1,5 +1,38 @@
 import styled from "styled-components";
 
+export const Container = styled.div`
+  font-family: Montserrat-Alt1;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  cursor: default;
+`;
+
+export const Box = styled.div`
+  height: max-content;
+  background-color: #94b2af;
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  border-radius: 50px;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid white;
+
+  @media screen and (max-width: 500px) {
+    padding-right: 0px;
+  }
+`;
+
+export const ContainerTitle = styled.div`
+
+`
+
 export const GalleryContainer = styled.div`
   padding: 40px;
   overflow-x: auto;
