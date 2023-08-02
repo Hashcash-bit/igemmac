@@ -6,6 +6,7 @@ import { Entireelement, InternalComponents } from "./PagesStyles";
 import Navbar from "./Components/TopSection/Navbar";
 import Slider from "./Components/InfoSlider/Slider";
 import Gallery from "./Components/OurTeam/Gallery";
+import Methodology from "./Components/Methodology/Methodology";
 
 export default function Pages() {
   return (
@@ -16,6 +17,7 @@ export default function Pages() {
           <TopSection />
           <Slider />
           <Gallery />
+          <Methodology />
         </InternalComponents>
       </Entireelement>
     </>

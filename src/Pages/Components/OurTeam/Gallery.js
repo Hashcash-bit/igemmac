@@ -18,10 +18,8 @@ const jobOptions = [
 ];
 
 const GalleryContainer = styled.div`
-  padding: 20px;
-  text-align: center;
-  overflow-y: auto;
-  max-height: 500px; /* Set the maximum height for the gallery */
+  padding: 40px;
+  overflow-x: auto;
 `;
 
 const FilterBar = styled.div`
@@ -49,7 +47,8 @@ const GalleryImages = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
-  margin-top: 30px;
+  overflow-x: auto;
+  white-space: nowrap;
 `;
 
 const ImageContainer = styled.div`
@@ -57,15 +56,12 @@ const ImageContainer = styled.div`
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-
-  &:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
+  text-align: center;
 `;
 
 const GalleryImage = styled.img`
   width: 100%;
-  height: 200px; /* Fixed height for all images */
+  height: 150px; /* Fixed height for all images */
   object-fit: cover;
   border-radius: 5px;
 `;
@@ -99,6 +95,16 @@ const Gallery = () => {
     { id: 8, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 9, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 10, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 11, image: Image1, job: "Innovators", name: "John Doe" },
+    { id: 12, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 13, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 14, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 15, image: Image2, job: "Researchers", name: "Jane Smith" },
+    { id: 16, image: Image2, job: "Researchers", name: "Jane Smith" },
+    { id: 17, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 18, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 19, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 20, image: Image1, job: "Researchers", name: "Jane Smith" },
     // Add more image data with different job categories
   ];
 
@@ -148,3 +154,5 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
+
