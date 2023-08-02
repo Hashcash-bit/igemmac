@@ -58,7 +58,7 @@ export const Title = styled.div`
 
 export const SubTitle = styled.div`
   font-size: 18px;
-  color: #6D5957;
+  color: #6d5957;
 `;
 
 export const GalleryContainer = styled.div`
@@ -72,10 +72,10 @@ export const FilterBar = styled.div`
   gap: 20px;
 `;
 
-export const FilterOption = styled.button`
-  background-color: ${({ active }) => (active ? "#f95d9b" : "#3a3a3a")};
-  color: white;
-  border: none;
+export const FilterOption = styled.div`
+  //   background-color: ${({ active }) => (active ? "#f95d9b" : "#94b2af")};
+  color: black;
+  border: ${({ active }) => (active ? "2px solid black" : "2px solid transparent")};
   padding: 10px 20px;
   border-radius: 20px;
   cursor: pointer;
@@ -83,7 +83,8 @@ export const FilterOption = styled.button`
   font-weight: bold;
 
   &:hover {
-    background-color: ${({ active }) => (active ? "#f95d9b" : "#555")};
+    // background-color: ${({ active }) => (active ? "#f95d9b" : "#555")};
+    border: 2px solid black;
   }
 `;
 

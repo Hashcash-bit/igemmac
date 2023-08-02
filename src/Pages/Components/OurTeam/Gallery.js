@@ -83,18 +83,18 @@ const Gallery = () => {
           <Title>MEET OUR TEAM</Title>
           <SubTitle>Here is the team that made all this possible</SubTitle>
         </ContainerTitle>
+        <FilterBar>
+          {jobOptions.map((option) => (
+            <FilterOption
+              key={option}
+              onClick={() => handleFilterChange(option)}
+              active={selectedFilter === option}
+            >
+              {option}
+            </FilterOption>
+          ))}
+        </FilterBar>
         <Box>
-          <FilterBar>
-            {jobOptions.map((option) => (
-              <FilterOption
-                key={option}
-                onClick={() => handleFilterChange(option)}
-                active={selectedFilter === option}
-              >
-                {option}
-              </FilterOption>
-            ))}
-          </FilterBar>
           <GalleryContainer>
             <GalleryImages>
               {filteredGallery.length === 0 ? (
