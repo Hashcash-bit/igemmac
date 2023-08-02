@@ -6,6 +6,17 @@ import Image1 from "../img/gallery1.jpg";
 import Image2 from "../img/1658410385342.jpg";
 // Add more images as needed
 
+// Styled Components
+import {
+  FilterBar,
+  FilterOption,
+  GalleryContainer,
+  GalleryImage,
+  GalleryImages,
+  ImageContainer,
+  NoImageText,
+} from "./GalleryStyles";
+
 // List of job options
 const jobOptions = [
   "All",
@@ -16,69 +27,6 @@ const jobOptions = [
   "Pioneers",
   // Add more job options
 ];
-
-const GalleryContainer = styled.div`
-  padding: 40px;
-  overflow-x: auto;
-`;
-
-const FilterBar = styled.div`
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-`;
-
-const FilterOption = styled.button`
-  background-color: ${({ active }) => (active ? "#f95d9b" : "#3a3a3a")};
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-
-  &:hover {
-    background-color: ${({ active }) => (active ? "#f95d9b" : "#555")};
-  }
-`;
-
-const GalleryImages = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  overflow-x: auto;
-  white-space: nowrap;
-`;
-
-const ImageContainer = styled.div`
-  background-color: #f5f5f5;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  text-align: center;
-`;
-
-const GalleryImage = styled.img`
-  width: 100%;
-  height: 150px; /* Fixed height for all images */
-  object-fit: cover;
-  border-radius: 5px;
-`;
-
-const PersonName = styled.div`
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 10px;
-  color: #333;
-`;
-
-const NoImageText = styled.div`
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 10px;
-  color: #ccc;
-`;
 
 const Gallery = () => {
   const [selectedFilter, setSelectedFilter] = useState("All");
@@ -154,5 +102,3 @@ const Gallery = () => {
 };
 
 export default Gallery;
-
-
