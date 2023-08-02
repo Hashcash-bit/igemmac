@@ -7,6 +7,7 @@ import Navbar from "./Components/TopSection/Navbar";
 import Slider from "./Components/InfoSlider/Slider";
 import Gallery from "./Components/OurTeam/Gallery";
 import Methodology from "./Components/Methodology/Methodology";
+import Footer from "./Components/Footer/Footer";
 
 export default function Pages() {
   return (
@@ -18,6 +19,7 @@ export default function Pages() {
           <Slider />
           <Gallery />
           <Methodology />
+          <Footer />
         </InternalComponents>
       </Entireelement>
     </>
