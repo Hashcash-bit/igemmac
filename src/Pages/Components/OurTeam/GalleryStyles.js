@@ -13,7 +13,6 @@ export const Box = styled.div`
   height: max-content;
   background-color: #94b2af;
   display: flex;
-  flex-direction: column;
   width: 98%;
   border-radius: 50px;
   margin-top: 15px;
@@ -54,6 +53,18 @@ export const Title = styled.div`
   align-items: center;
   text-align: center;
   color: black;
+
+  @media screen and (max-width: 400px) {
+    font-size: 30px;
+  }
+
+  @media screen and (max-width: 360px) {
+    font-size: 25px;
+  }
+
+  @media screen and (max-width: 315px) {
+    font-size: 20px;
+  }
 `;
 
 export const SubTitle = styled.div`
@@ -64,6 +75,7 @@ export const SubTitle = styled.div`
 export const GalleryContainer = styled.div`
   padding: 40px;
   overflow-x: auto;
+  //   height: 500px;
 `;
 
 export const FilterBar = styled.div`
@@ -73,14 +85,15 @@ export const FilterBar = styled.div`
 `;
 
 export const FilterOption = styled.div`
-  //   background-color: ${({ active }) => (active ? "#f95d9b" : "#94b2af")};
   color: black;
-  border: ${({ active }) => (active ? "2px solid black" : "2px solid transparent")};
+  border: ${({ active }) =>
+    active ? "2px solid black" : "2px solid transparent"};
   padding: 10px 20px;
   border-radius: 20px;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
+  transition: ease-in-out 0.2s;
 
   &:hover {
     // background-color: ${({ active }) => (active ? "#f95d9b" : "#555")};
@@ -90,10 +103,33 @@ export const FilterOption = styled.div`
 
 export const GalleryImages = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(7, 1fr); /* Two columns */
+  grid-auto-rows: minmax(150px, 1fr); /* Control the height of each row */
   gap: 20px;
   overflow-x: auto;
   white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+
+  &::-webkit-scrollbar {
+    height: 5px;
+    border-radius: 100px;
+    justify-content: none;
+    align-items: none;
+    align-content: none;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #6d5957; /* Change the color as desired */
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: black; /* Change the color as desired */
+    border-radius: 4px; /* Adjust the border radius as desired */
+  }
 `;
 
 export const ImageContainer = styled.div`
