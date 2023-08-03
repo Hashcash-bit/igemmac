@@ -11,17 +11,12 @@ export const Container = styled.div`
 `;
 
 export const Box = styled.div`
-  background-color: #94b2af;
   width: 98%;
-  border-radius: 50px;
-  margin-top: 15px;
-  padding-top: 10px;
+  //   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  gap: 40px;
   justify-content: center;
   align-items: center;
-  border: 4px solid white;
 
   @media screen and (max-width: 500px) {
     padding-right: 0px;
@@ -69,28 +64,49 @@ export const Title = styled.div`
 export const SubTitle = styled.div`
   font-size: 18px;
   color: #6d5957;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 `;
 
-export const MethodologyWrapper = styled.div`
-  overflow: hidden;
-`;
+export const MethodologyWrapper = styled.div``;
 
 export const MethodologySection = styled.section`
   padding: 40px;
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns */
   gap: 20px;
+
+  @media screen and (max-width: 610px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const MethodologyBox = styled.div`
   position: relative; /* Needed for positioning the dropdown */
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
+  background-color: #96080b;
+  border-radius: 25px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   text-align: center;
   cursor: pointer;
+`;
+
+export const BoxContainer = styled.div`
+  gap: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #94b2af;
   transition: transform 0.2s ease-in-out;
+  border-radius: 25px;
+  border: 4px solid white;
+  padding: 30px 0px;
+
+  &:hover {
+    transform: translatey(-5px);
+  }
 `;
 
 export const MethodologyDropdown = styled.div`
@@ -107,17 +123,37 @@ export const MethodologyDropdown = styled.div`
   margin-top: 10px; /* Add some spacing between the box and the dropdown */
   transform: translateX(-50%); /* Center the dropdown horizontally */
   left: 50%; /* Center the dropdown horizontally */
+
+  @media screen and (max-width: 380px) {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 325px) {
+    display: none;
+  }
 `;
 
 export const MethodologyTitle = styled.h3`
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #333;
+  color: black;
 `;
 
 export const MethodologyImage = styled.img`
-  width: 100%;
+  //   width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+  @media screen and (max-width: 1020px) {
+    display: none;
+  }
+`;
+
+export const MethodologyImage1 = styled.img`
+  //   width: 100%;
   height: 150px;
   object-fit: cover;
   border-radius: 5px;

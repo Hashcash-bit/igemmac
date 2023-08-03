@@ -7,12 +7,14 @@ import Image2 from "../img/gallery1.jpg";
 import Image3 from "../img/—Pngtree—3d dna helix sequence element_5340349.png";
 import {
   Box,
+  BoxContainer,
   Container,
   ContainerTitle,
   MethodologyBox,
   MethodologyDescription,
   MethodologyDropdown,
   MethodologyImage,
+  MethodologyImage1,
   MethodologySection,
   MethodologyTitle,
   MethodologyWrapper,
@@ -24,38 +26,38 @@ import {
 const methodologyData = [
   {
     id: 1,
-    title: "Step 1",
-    image: Image1,
+    title: "GENOMICS",
+    image: Image3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo eget lectus congue iaculis.",
   },
   {
     id: 2,
-    title: "Step 2",
-    image: Image2,
+    title: "GENOMICS",
+    image: Image3,
     text: "Phasellus sit amet nibh at elit auctor aliquet a id orci.",
   },
   {
     id: 3,
-    title: "Step 1",
-    image: Image1,
+    title: "GENOMICS",
+    image: Image3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo eget lectus congue iaculis.",
   },
   {
     id: 4,
-    title: "Step 2",
-    image: Image2,
+    title: "GENOMICS",
+    image: Image3,
     text: "Phasellus sit amet nibh at elit auctor aliquet a id orci.",
   },
   {
     id: 5,
-    title: "Step 1",
-    image: Image1,
+    title: "GENOMICS",
+    image: Image3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo eget lectus congue iaculis.",
   },
   {
     id: 6,
-    title: "Step 2",
-    image: Image2,
+    title: "GENOMICS",
+    image: Image3,
     text: "Phasellus sit amet nibh at elit auctor aliquet a id orci.",
   },
   // Add more methodology data with unique information
@@ -90,14 +92,16 @@ const Methodology = () => {
                   onClick={() => handleBoxClick(item.id)}
                   active={activeBoxId === item.id}
                 >
-                  <MethodologyTitle>{item.title}</MethodologyTitle>
-                  <MethodologyImage src={item.image} alt={item.title} />
+                  <BoxContainer>
+                    <MethodologyImage src={item.image} alt={item.title} />
+                    <MethodologyTitle>{item.title}</MethodologyTitle>
+                  </BoxContainer>
                   <MethodologyDropdown
                     show={activeBoxId === item.id}
                     onClick={handleDropdownClick}
                   >
                     <MethodologyTitle>{item.title}</MethodologyTitle>
-                    <MethodologyImage src={item.image} alt={item.title} />
+                    <MethodologyImage1 src={item.image} alt={item.title} />
                     <MethodologyDescription>{item.text}</MethodologyDescription>
                   </MethodologyDropdown>
                 </MethodologyBox>
