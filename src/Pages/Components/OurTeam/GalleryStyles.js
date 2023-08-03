@@ -70,6 +70,10 @@ export const Title = styled.div`
 export const SubTitle = styled.div`
   font-size: 18px;
   color: #6d5957;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 `;
 
 export const GalleryContainer = styled.div`
@@ -82,6 +86,18 @@ export const FilterBar = styled.div`
   display: flex;
   justify-content: center;
   gap: 20px;
+
+  @media screen and (max-width: 880px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    grid-auto-rows: minmax(150px, 1fr); /* Control the height of each row */
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 470px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const FilterOption = styled.div`
@@ -98,6 +114,12 @@ export const FilterOption = styled.div`
   &:hover {
     // background-color: ${({ active }) => (active ? "#f95d9b" : "#555")};
     border: 2px solid black;
+  }
+
+  @media screen and (max-width: 880px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
