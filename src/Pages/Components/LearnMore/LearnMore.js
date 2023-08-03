@@ -26,6 +26,7 @@ import {
 
 //React Icons
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { BsFillPlayBtnFill } from "react-icons/bs";
 
 //Pill
 import Pill from "../img/Pill.svg";
@@ -33,6 +34,12 @@ import Pill from "../img/Pill.svg";
 export default function LearnMore() {
   return (
     <>
+      <MiddleGhostBox>
+        <MiddleBox>
+          {" "}
+          <BsFillPlayBtnFill />
+        </MiddleBox>
+      </MiddleGhostBox>
       <Container>
         <Box>
           <LeftBox>
@@ -48,9 +55,6 @@ export default function LearnMore() {
               Learn More <AiOutlineArrowRight />
             </LearnMLB>
           </LeftBox>
-          <MiddleGhostBox>
-            <MiddleBox></MiddleBox>
-          </MiddleGhostBox>
           <RightBox>
             <LeftArea>
               <HeaderContainer>

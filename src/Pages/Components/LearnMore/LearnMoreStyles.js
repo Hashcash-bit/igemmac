@@ -9,6 +9,7 @@ export const Container = styled.div`
   width: 100%;
   justify-content: center;
   cursor: default;
+  margin-top: -80px;
 `;
 
 export const Box = styled.div`
@@ -18,6 +19,7 @@ export const Box = styled.div`
   justify-content: center;
   align-items: center;
   display: flex;
+  gap: 40px;
 
   @media screen and (max-width: 500px) {
     padding-right: 0px;
@@ -30,6 +32,7 @@ export const LeftBox = styled.div`
   height: max-content;
   width: 300px;
   gap: 20px;
+  margin-top: 40px;
 `;
 
 export const SubLB = styled.div`
@@ -38,12 +41,14 @@ export const SubLB = styled.div`
   background-color: #94b2af;
   border-radius: 25px;
   padding: 20px;
+  height: 200px;
 `;
 
 export const TopLB = styled.div`
   font-size: 45px;
   height: 12px;
   margin-bottom: 10px;
+  margin-top: 50px;
 `;
 
 export const MiddleLB = styled.div`
@@ -79,9 +84,32 @@ export const LearnMLB = styled(Link)`
 
 export const MiddleGhostBox = styled.div`
   background-color: #aeebe4;
+  position: relative;
+  top: 30px;
+  left: 500px;
+  border-radius: 25px;
+  z-index: 1;
+  width: 300px;
+  height: 150px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
-export const MiddleBox = styled.div``;
+export const MiddleBox = styled.div`
+  border-radius: 25px;
+  border: 4px solid white;
+  background-color: #96080a;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  width: 200px;
+  height: 100px;
+`;
 
 export const RightBox = styled.div`
   display: flex;
@@ -102,12 +130,12 @@ export const LeftArea = styled.div`
   text-align: center;
   gap: 12px;
   width: 250px;
+  margin-top: 25px;
 `;
 
 export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: column;
-  //   height: 50px;
   width: 100%;
 `;
 
