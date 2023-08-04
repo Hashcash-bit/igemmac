@@ -1,5 +1,5 @@
 //Default React Imports
-import React from "react";
+import React, { useState } from "react";
 
 //Styled Components
 import {
@@ -23,6 +23,7 @@ import {
   Plus,
   Image,
 } from "./LearnMoreStyles";
+import styled from "styled-components";
 
 //React Icons
 import { AiOutlineArrowRight } from "react-icons/ai";
@@ -31,11 +32,23 @@ import { BsFillPlayBtnFill } from "react-icons/bs";
 //Pill
 import Pill from "../img/Pill.svg";
 
+//Popup Video
+import VideoPopup from "../Utils/VideoPopup/VideoPopup";
+
 export default function LearnMore() {
+  const [isVideoPopupOpen, setIsVideoPopupOpen] = useState(false);
+
+  const openVideoPopup = () => {
+    setIsVideoPopupOpen(true);
+  };
+
+  const closeVideoPopup = () => {
+    setIsVideoPopupOpen(false);
+  };
   return (
     <>
       <MiddleGhostBox>
-        <MiddleBox>
+        <MiddleBox onClick={openVideoPopup}>
           {" "}
           <BsFillPlayBtnFill />
         </MiddleBox>
@@ -69,6 +82,11 @@ export default function LearnMore() {
           </RightBox>
         </Box>
       </Container>
+      <VideoPopup
+        videoId="ZjkyMNDjsp0" // YouTube video ID The shit after the "v" in the youtube url
+        isOpen={isVideoPopupOpen}
+        onClose={closeVideoPopup}
+      />
     </>
   );
 }
