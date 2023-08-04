@@ -22,6 +22,7 @@ import {
   HeaderContainer,
   Plus,
   Image,
+  LearnMRB,
 } from "./LearnMoreStyles";
 import styled from "styled-components";
 
@@ -75,6 +76,9 @@ export default function LearnMore() {
                 <Header>Effective Research</Header>
               </HeaderContainer>
               <SubHeader>This research affects 99% of the population</SubHeader>
+              <LearnMRB>
+                Learn More <AiOutlineArrowRight />
+              </LearnMRB>
             </LeftArea>
             <RightArea>
               <Image src={Pill} />
