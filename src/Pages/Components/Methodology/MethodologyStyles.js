@@ -119,7 +119,7 @@ export const MethodologyDropdown = styled.div`
   background-color: #f5f5f5;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  z-index: 1; /* Ensure the dropdown appears above other elements */
+  z-index: 2; /* Ensure the dropdown appears above other elements */
   margin-top: 10px; /* Add some spacing between the box and the dropdown */
   transform: translateX(-50%); /* Center the dropdown horizontally */
   left: 50%; /* Center the dropdown horizontally */
