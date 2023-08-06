@@ -63,6 +63,16 @@ const Gallery = () => {
     { id: 18, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 19, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 20, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 21, image: Image1, job: "Innovators", name: "John Doe" },
+    { id: 22, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 23, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 24, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 25, image: Image2, job: "Researchers", name: "Jane Smith" },
+    { id: 26, image: Image2, job: "Researchers", name: "Jane Smith" },
+    { id: 27, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 28, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 29, image: Image1, job: "Researchers", name: "Jane Smith" },
+    { id: 30, image: Image1, job: "Researchers", name: "Jane Smith" },
     // Add more image data with different job categories
   ];
 

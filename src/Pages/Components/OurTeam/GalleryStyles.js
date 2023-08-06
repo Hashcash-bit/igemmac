@@ -76,12 +76,6 @@ export const SubTitle = styled.div`
   text-align: center;
 `;
 
-export const GalleryContainer = styled.div`
-  padding: 40px;
-  overflow-x: auto;
-  //   height: 500px;
-`;
-
 export const FilterBar = styled.div`
   display: flex;
   justify-content: center;
@@ -123,19 +117,33 @@ export const FilterOption = styled.div`
   }
 `;
 
+export const GalleryContainer = styled.div`
+  padding: 40px;
+  overflow-x: auto;
+
+  @media screen and (max-width: 1025px) {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+`;
+
 export const GalleryImages = styled.div`
   display: grid;
-  grid-template-columns: repeat(7, 1fr); /* Two columns */
-  grid-auto-rows: minmax(150px, 1fr); /* Control the height of each row */
+  grid-template-columns: repeat(7, 2fr);
   gap: 20px;
-  overflow-x: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 20px;
   white-space: nowrap;
   justify-content: center;
   align-items: center;
   height: 700px;
 
   &::-webkit-scrollbar {
-    height: 5px;
+    width: 5px;
     border-radius: 100px;
     justify-content: none;
     align-items: none;
@@ -144,13 +152,33 @@ export const GalleryImages = styled.div`
 
   &::-webkit-scrollbar-track {
     background-color: #6d5957; /* Change the color as desired */
-    height: 10px;
+    width: 10px;
     border-radius: 10px;
   }
 
   &::-webkit-scrollbar-thumb {
     background-color: black; /* Change the color as desired */
     border-radius: 4px; /* Adjust the border radius as desired */
+  }
+
+  @media screen and (max-width: 1050px) {
+    grid-template-columns: repeat(5, 2fr);
+  }
+
+  @media screen and (max-width: 745px) {
+    grid-template-columns: repeat(4, 2fr);
+  }
+
+  @media screen and (max-width: 595px) {
+    grid-template-columns: repeat(3, 2fr);
+  }
+
+  @media screen and (max-width: 470px) {
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  @media screen and (max-width: 440px) {
+    grid-template-columns: repeat(1, 2fr);
   }
 `;
 
