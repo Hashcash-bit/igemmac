@@ -9,6 +9,7 @@ import {
   SlideWrapper,
   SliderContainer,
   StaticText,
+  HiddenWA,
 } from "./SliderStyles";
 
 //Importing Words
@@ -19,6 +20,7 @@ const Slider = () => {
 
   return (
     <Container>
+      <HiddenWA>WE ARE:</HiddenWA>
       <Box>
         <SliderContainer>
           <StaticText>WE ARE:</StaticText>

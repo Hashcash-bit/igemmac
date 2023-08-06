@@ -6,6 +6,11 @@ export const Container = styled.div`
   width: 100%;
   justify-content: center;
   cursor: default;
+
+  @media screen and (max-width: 650px) {
+    flex-direction: column;
+    margin-top: 30px;
+  }
 `;
 
 export const Box = styled.div`
@@ -16,7 +21,7 @@ export const Box = styled.div`
   width: 98%;
   border-radius: 50px;
   margin-top: 15px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   border: 4px solid white;
   overflow: hidden;
@@ -39,13 +44,28 @@ export const SliderContainer = styled.div`
   display: flex;
   align-items: center;
   overflow: hidden;
+  // background-color: blue;
+`;
+
+export const HiddenWA = styled.div`
+  display: none;
+
+  @media screen and (max-width: 650px) {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #96080a;
+  }
 `;
 
 export const SlideWrapper = styled.div`
   display: inline-flex;
-  animation: ${slideAnimation} 30s linear infinite;
+  animation: ${slideAnimation} 10s linear infinite;
   white-space: nowrap;
-  width: 90%;
+  width: 80%;
 
   /* Add additional styles to make the sliding smooth */
   &:hover {
@@ -67,11 +87,15 @@ export const StaticText = styled.div`
   background-color: #96080a;
   z-index: 5;
   height: 75px;
-  width: 10%;
+  width: 200px;
   align-items: center;
   display: flex;
   justify-content: center;
   border-top: 5px solid white;
   border-right: 5px solid white;
   border-bottom: 5px solid white;
+
+  @media screen and (max-width: 650px) {
+    display: none;
+  }
 `;

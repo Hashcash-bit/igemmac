@@ -30,11 +30,10 @@ import Grid from "../img/Grid.png";
 // List of job options
 const jobOptions = [
   "All",
-  "Innovators",
   "Researchers",
-  "Engineers",
-  "Geneticists",
-  "Pioneers",
+  "Designers",
+  "Developers",
+  "Leads",
   // Add more job options
 ];
 
@@ -43,7 +42,7 @@ const Gallery = () => {
 
   // Sample image data for different job categories
   const galleryData = [
-    { id: 1, image: Image1, job: "Innovators", name: "John Doe" },
+    { id: 1, image: Image1, job: "Designers", name: "John Doe" },
     { id: 2, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 3, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 4, image: Image1, job: "Researchers", name: "Jane Smith" },
@@ -53,7 +52,7 @@ const Gallery = () => {
     { id: 8, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 9, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 10, image: Image1, job: "Researchers", name: "Jane Smith" },
-    { id: 11, image: Image1, job: "Innovators", name: "John Doe" },
+    { id: 11, image: Image1, job: "Designers", name: "John Doe" },
     { id: 12, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 13, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 14, image: Image1, job: "Researchers", name: "Jane Smith" },
@@ -63,7 +62,7 @@ const Gallery = () => {
     { id: 18, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 19, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 20, image: Image1, job: "Researchers", name: "Jane Smith" },
-    { id: 21, image: Image1, job: "Innovators", name: "John Doe" },
+    { id: 21, image: Image1, job: "Designers", name: "John Doe" },
     { id: 22, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 23, image: Image1, job: "Researchers", name: "Jane Smith" },
     { id: 24, image: Image1, job: "Researchers", name: "Jane Smith" },
