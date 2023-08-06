@@ -14,6 +14,7 @@ export const InternalComponents = styled.div`
   max-width: 1700px;
   overflow-y: scroll; // make the list scrollable vertically
   max-height: 100vh; // limit the height of the list
+  overflow-x: hidden;
 
   &::-webkit-scrollbar {
     width: 5px;
