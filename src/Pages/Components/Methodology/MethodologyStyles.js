@@ -41,7 +41,7 @@ export const Title = styled.div`
   justify-content: center;
   width: fit-content;
   padding: 10px 40px;
-  border-radius: 100px;
+  border-radius: 0px;
   border: 4px solid black;
   display: flex;
   align-items: center;
@@ -87,7 +87,7 @@ export const MethodologySection = styled.section`
 export const MethodologyBox = styled.div`
   position: relative; /* Needed for positioning the dropdown */
   background-color: #96080b;
-  border-radius: 25px;
+  border-radius: 0px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   text-align: center;
   cursor: pointer;
@@ -100,7 +100,7 @@ export const BoxContainer = styled.div`
   justify-content: center;
   background-color: #94b2af;
   transition: transform 0.2s ease-in-out;
-  border-radius: 25px;
+  border-radius: 0px;
   border: 4px solid white;
   padding: 30px 0px;
 

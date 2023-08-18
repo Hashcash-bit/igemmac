@@ -14,7 +14,7 @@ export const Box = styled.div`
   background-color: #94b2af;
   display: flex;
   width: 98%;
-  border-radius: 50px;
+  border-radius: 00px;
   margin-top: 15px;
   padding-top: 10px;
   padding-left: 10px;
@@ -47,7 +47,7 @@ export const Title = styled.div`
   justify-content: center;
   width: fit-content;
   padding: 10px 40px;
-  border-radius: 100px;
+  border-radius: 0px;
   border: 4px solid black;
   display: flex;
   align-items: center;
@@ -99,7 +99,7 @@ export const FilterOption = styled.div`
   border: ${({ active }) =>
     active ? "2px solid black" : "2px solid transparent"};
   padding: 10px 20px;
-  border-radius: 20px;
+  border-radius: 0px;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
@@ -185,7 +185,7 @@ export const GalleryImages = styled.div`
 export const ImageContainer = styled.div`
   background-color: #f5f5f5;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 0px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   text-align: center;
 `;
