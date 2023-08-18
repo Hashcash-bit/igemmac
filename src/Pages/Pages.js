@@ -18,8 +18,8 @@ export default function Pages() {
           <Navbar />
           <TopSection />
           <Slider />
-          <Gallery />
           <Methodology />
+          <Gallery />
           <LearnMore />
           <Footer />
         </InternalComponents>
