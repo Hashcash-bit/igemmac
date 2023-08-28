@@ -14,7 +14,7 @@ export const Container = styled.div`
 
 export const Box = styled.div`
   height: max-content;
-  background-color: #94b2af;
+  background-color: #dda7a2;
   display: flex;
   flex-direction: column;
   width: 98%;
@@ -26,7 +26,7 @@ export const Box = styled.div`
   gap: 40px;
   justify-content: center;
   align-items: center;
-  border: 4px solid white;
+  border: 4px solid #7a003c;
 
   @media screen and (max-width: 500px) {
     padding-right: 0px;
@@ -68,7 +68,7 @@ export const Slashes = styled.div`
   justify-content: center;
   display: flex;
   padding: 10px 0px;
-  color: white;
+  color: #7a003c;
   font-weight: bold;
 `;
 
@@ -115,24 +115,25 @@ export const HeartImageContainer = styled.div`
 `;
 
 export const FirstCircle = styled.div`
-  background-color: #c1dbd9;
+  background-color: #d58681;
   padding: 50px;
   height: 200px;
   width: 500px;
   border-radius: 500px 500px 0px 0;
   margin-top: -70px;
   margin-left: 20px;
-  border: 4px solid white;
+  border: 0px solid #7a003c;
 `;
 
 export const SecondCircle = styled.div`
-  background-color: #ecf8f7;
+  background-color: #efd2bf;
   padding: 50px;
+  padding-bottom: 70px;
   height: 146px;
   width: 400px;
   border-radius: 500px 500px 0px 0;
   z-index: -1;
-  border: 4px solid white;
+  border: 0px solid #7a003c;
 `;
 
 export const HeartImage = styled.img`
@@ -188,7 +189,7 @@ export const BigText = styled.div`
 
 export const SmallText = styled.div`
   padding: 20px 0px;
-  color: white;
+  color: #7a003c;
   font-weight: bold;
 
   @media screen and (max-width: 571px) {
@@ -197,7 +198,7 @@ export const SmallText = styled.div`
 `;
 
 export const RightSection = styled.div`
-  border-left: 7px solid white;
+  border-left: 7px solid #7a003c;
   padding-left: 20px;
   height: 300px;
   align-items: center;

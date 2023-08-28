@@ -15,7 +15,7 @@ export const Container = styled.div`
 
 export const Box = styled.div`
   height: max-content;
-  background-color: #96080a;
+  background-color: #971a35;
   display: flex;
   height: 75px;
   width: 98%;
@@ -57,7 +57,7 @@ export const HiddenWA = styled.div`
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    color: #96080a;
+    color: #971a35;
   }
 `;
 
@@ -84,7 +84,7 @@ export const StaticText = styled.div`
   font-size: 24px;
   font-weight: bold;
   color: white;
-  background-color: #96080a;
+  background-color: #971a35;
   z-index: 5;
   height: 75px;
   width: 200px;

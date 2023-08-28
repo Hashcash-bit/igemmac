@@ -98,7 +98,7 @@ export const BoxContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #94b2af;
+  background-color: #dda7a2;
   transition: transform 0.2s ease-in-out;
   border-radius: 0px;
   border: 4px solid white;

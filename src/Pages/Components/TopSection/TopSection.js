@@ -102,7 +102,7 @@ export default function TopSection() {
         <HeroContainer>
           <LeftSection>
             <LeftInformationContainer>
-              <BigText>EMPOWER YOUR IMAGINATION</BigText>
+              <BigText>INTRODUCING iGEM MCMASTER</BigText>
               <SmallText>/ EST 2023</SmallText>
             </LeftInformationContainer>
             <HeartImageContainer>
