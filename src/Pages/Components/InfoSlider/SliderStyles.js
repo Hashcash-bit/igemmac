@@ -23,7 +23,7 @@ export const Box = styled.div`
   margin-top: 15px;
   justify-content: space-between;
   align-items: center;
-  border: 4px solid white;
+  border: 4px solid #7a003c;
   overflow: hidden;
 
   @media screen and (max-width: 500px) {
@@ -91,9 +91,9 @@ export const StaticText = styled.div`
   align-items: center;
   display: flex;
   justify-content: center;
-  border-top: 5px solid white;
-  border-right: 5px solid white;
-  border-bottom: 5px solid white;
+  border-top: 5px solid #7a003c;
+  border-right: 5px solid #7a003c;
+  border-bottom: 5px solid #7a003c;
 
   @media screen and (max-width: 650px) {
     display: none;

@@ -53,7 +53,10 @@ export const Heart = styled.img`
   height: 30px;
 `;
 
-export const Logo = styled.img``;
+export const Logo = styled.img`
+  width: 130px;
+  height: 30px;
+`;
 
 export const LinksContainer = styled.div`
   display: flex;
@@ -109,6 +112,7 @@ export const LeftInformationContainer = styled.div`
 `;
 
 export const HeartImageContainer = styled.div`
+  margin-top: 20px;
   @media screen and (max-width: 1400px) {
     display: none;
   }
@@ -138,7 +142,9 @@ export const SecondCircle = styled.div`
 
 export const HeartImage = styled.img`
   z-index: 99999;
-  margin-top: -200px;
+  margin-top: -110px;
+  margin-left: 0px;
+  height: 400px;
 `;
 
 export const BigText = styled.div`

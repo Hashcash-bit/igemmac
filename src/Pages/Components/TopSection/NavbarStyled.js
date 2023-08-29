@@ -46,6 +46,8 @@ export const LogoArea = styled.div`
 
 export const Heart = styled.img`
   height: 30px;
+  width: 406px;
+  height: 150px;
 `;
 
 export const Logo = styled.img`

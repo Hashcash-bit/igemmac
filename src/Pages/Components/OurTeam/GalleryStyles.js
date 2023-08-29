@@ -183,7 +183,7 @@ export const GalleryImages = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  background-color: #FDF9EC;
+  background-color: #f8e6c3;
   padding: 10px;
   border-radius: 0px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);

@@ -101,7 +101,7 @@ export const BoxContainer = styled.div`
   background-color: #dda7a2;
   transition: transform 0.2s ease-in-out;
   border-radius: 0px;
-  border: 4px solid white;
+  border: 4px solid #7a003c;
   padding: 30px 0px;
 
   &:hover {

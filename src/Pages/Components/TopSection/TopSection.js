@@ -28,8 +28,8 @@ import {
 } from "./TopSectionStyles";
 
 //Logo
-import iGEMLogo from "../img/Logo.svg";
-import HeartIMG from "../img/Heart.svg";
+import iGEMLogo from "../img/mgempic.png";
+import HeartIMG from "../img/mgemlogo.png";
 
 //Icons
 

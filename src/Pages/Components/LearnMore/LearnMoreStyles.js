@@ -148,7 +148,7 @@ export const MiddleGhostBox = styled.div`
 export const MiddleBox = styled.div`
   position: absolute;
   border-radius: 25px;
-  border: 4px solid white;
+  border: 4px solid #7a003c;
   background-color: #96080a;
   width: 100%;
   height: 100%;
