@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Container = styled.div`
-  font-family: Montserrat-Alt1;
+  font-family: Jost;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -99,6 +99,7 @@ export const LeftSection = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 30px;
 
   @media screen and (max-width: 415px) {
     justify-content: center;
@@ -150,6 +151,7 @@ export const HeartImage = styled.img`
 export const BigText = styled.div`
   font-weight: bold;
   font-size: 7.5rem;
+  line-height: 160px;
   width: min-content;
   height: min-content;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,

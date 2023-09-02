@@ -55,7 +55,7 @@ export default function TopSection() {
         <NavBarContainer>
           <LogoArea>
             <Heart src={HeartIMG} />
-            <Logo src={iGEMLogo} />
+            
           </LogoArea>
           <LinksContainer>
             <Links>
