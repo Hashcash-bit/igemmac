@@ -11,6 +11,7 @@ import Background from "./Component/Background/Background";
 import TemplateImage from "../Img/pfp.jpg";
 import Objective from "./Component/Objective/Objective";
 import Chassis from "./Component/ChassisSelection/Chassis";
+import Butyrate from "./Component/Biomarkers/Butyrate/Butyrate";
 
 export default function ObjectivePages() {
   return (
@@ -21,6 +22,7 @@ export default function ObjectivePages() {
       <Background />
       <Objective />
       <Chassis />
+      <Butyrate />
     </div>
   );
 }
