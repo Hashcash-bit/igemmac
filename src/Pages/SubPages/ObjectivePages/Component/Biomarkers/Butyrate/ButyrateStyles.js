@@ -38,7 +38,7 @@ export const TapeImage = styled.img`
   height: 200px;
   position: absolute;
   left: 1120px;
-  top: 428vh;
+  top: 420vh;
 `;
 
 export const BottomSection = styled.div`
