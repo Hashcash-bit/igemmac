@@ -9,6 +9,7 @@ import Background from "./Component/Background/Background";
 
 // The image imports
 import TemplateImage from "../Img/pfp.jpg";
+import Objective from "./Component/Objective/Objective";
 
 export default function ObjectivePages() {
   return (
@@ -17,6 +18,7 @@ export default function ObjectivePages() {
         <img src={TemplateImage} />
       </PictureArea>
       <Background />
+      <Objective />
     </div>
   );
 }
