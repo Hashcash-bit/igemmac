@@ -13,6 +13,7 @@ import Objective from "./Component/Objective/Objective";
 import Chassis from "./Component/ChassisSelection/Chassis";
 import Butyrate from "./Component/Biomarkers/Butyrate/Butyrate";
 import Indole from "./Component/Biomarkers/Indole/Indole";
+import HydrogenPeroxide from "./Component/Biomarkers/HydrogenPeroxide/HydrogenPeroxide";
 
 export default function ObjectivePages() {
   return (
@@ -25,6 +26,7 @@ export default function ObjectivePages() {
       <Chassis />
       <Butyrate />
       <Indole />
+      <HydrogenPeroxide />
     </div>
   );
 }
