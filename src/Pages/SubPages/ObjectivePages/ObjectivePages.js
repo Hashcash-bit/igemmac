@@ -14,6 +14,8 @@ import Chassis from "./Component/ChassisSelection/Chassis";
 import Butyrate from "./Component/Biomarkers/Butyrate/Butyrate";
 import Indole from "./Component/Biomarkers/Indole/Indole";
 import HydrogenPeroxide from "./Component/Biomarkers/HydrogenPeroxide/HydrogenPeroxide";
+import Tetrahydrofolate from "./Component/Biomarkers/Tetrahydrofolate/Tetrahydrofolate";
+import Tetrathionate from "./Component/Biomarkers/Tetrathionate/Tetrathionate";
 
 export default function ObjectivePages() {
   return (
@@ -27,6 +29,8 @@ export default function ObjectivePages() {
       <Butyrate />
       <Indole />
       <HydrogenPeroxide />
+      <Tetrahydrofolate />
+      <Tetrathionate />
     </div>
   );
 }
