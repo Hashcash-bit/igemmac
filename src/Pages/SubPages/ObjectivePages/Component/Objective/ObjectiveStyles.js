@@ -53,7 +53,7 @@ export const TopArea = styled.div`
 `;
 
 export const ColoredArea = styled.div`
-  width: 70%;
+  width: 94.8%;
   background-color: #efd2bf;
   padding: 25px 15px;
 `;
