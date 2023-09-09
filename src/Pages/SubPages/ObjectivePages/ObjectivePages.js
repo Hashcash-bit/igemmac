@@ -10,6 +10,7 @@ import Background from "./Component/Background/Background";
 // The image imports
 import TemplateImage from "../Img/pfp.jpg";
 import Objective from "./Component/Objective/Objective";
+import Chassis from "./Component/ChassisSelection/Chassis";
 
 export default function ObjectivePages() {
   return (
@@ -19,6 +20,7 @@ export default function ObjectivePages() {
       </PictureArea>
       <Background />
       <Objective />
+      <Chassis />
     </div>
   );
 }
