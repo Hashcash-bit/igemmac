@@ -1,24 +1,8 @@
 import React from "react";
-import TopBar from "../TopBar/TopBar";
-import {
-  TopSection,
-  Image,
-  LeftBottomSection,
-  RightBottomSection,
-  TapeImage,
-  TextInfo,
-  TextInfoContainer,
-  Title,
-  BottomSection,
-  TopArea,
-  ColoredArea,
-  Text,
-  OptionDisplay,
-  Options,
-} from "./ChassisStyles";
 
-import TemplateImage from "../../../Img/pfp.jpg";
-import Tape from "../../../Img/tap.png";
+import TopBar from "../TopBar/TopBar";
+
+import { TopSection, Image, Title, BottomSection } from "./ChassisStyles";
 
 export default function Chassis() {
   return (
@@ -28,7 +12,6 @@ export default function Chassis() {
         display: "flex",
         flexDirection: "column",
         justifyContent: "start",
-        // gap: "100px",
       }}
     >
       <TopBar />
