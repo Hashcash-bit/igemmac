@@ -58,11 +58,11 @@ export default function LearnMore() {
         <Box>
           <LeftBox>
             <SubLB>
-              <TopLB>“</TopLB>
+              <TopLB></TopLB>
               <MiddleLB>
                 Your genetics load the gun. Your lifestyle pulls the trigger.
               </MiddleLB>
-              <BottomLB>”</BottomLB>
+              <BottomLB></BottomLB>
               <NameLB>MEHMET OZ</NameLB>
             </SubLB>
             <LearnMLB>

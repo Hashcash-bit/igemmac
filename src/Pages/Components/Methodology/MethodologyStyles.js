@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  font-family: Montserrat-Alt1;
+  font-family: Jost;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -98,10 +98,10 @@ export const BoxContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #94b2af;
+  background-color: #dda7a2;
   transition: transform 0.2s ease-in-out;
   border-radius: 0px;
-  border: 4px solid white;
+  border: 4px solid #7a003c;
   padding: 30px 0px;
 
   &:hover {

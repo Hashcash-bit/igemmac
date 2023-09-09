@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
 
 export const Container = styled.div`
-  font-family: Montserrat-Alt1;
+  font-family: Jost;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -15,7 +15,7 @@ export const Container = styled.div`
 
 export const Box = styled.div`
   height: max-content;
-  background-color: #96080a;
+  background-color: #971a35;
   display: flex;
   height: 75px;
   width: 98%;
@@ -23,7 +23,7 @@ export const Box = styled.div`
   margin-top: 15px;
   justify-content: space-between;
   align-items: center;
-  border: 4px solid white;
+  border: 4px solid #7a003c;
   overflow: hidden;
 
   @media screen and (max-width: 500px) {
@@ -57,7 +57,7 @@ export const HiddenWA = styled.div`
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    color: #96080a;
+    color: #971a35;
   }
 `;
 
@@ -84,16 +84,16 @@ export const StaticText = styled.div`
   font-size: 24px;
   font-weight: bold;
   color: white;
-  background-color: #96080a;
+  background-color: #971a35;
   z-index: 5;
   height: 75px;
   width: 200px;
   align-items: center;
   display: flex;
   justify-content: center;
-  border-top: 5px solid white;
-  border-right: 5px solid white;
-  border-bottom: 5px solid white;
+  border-top: 5px solid #7a003c;
+  border-right: 5px solid #7a003c;
+  border-bottom: 5px solid #7a003c;
 
   @media screen and (max-width: 650px) {
     display: none;

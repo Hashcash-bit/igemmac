@@ -5,7 +5,7 @@ export const Entireelement = styled.div`
   justify-content: center;
   display: flex;
   height: 100vh;
-  background-color: #aeebe4;
+  background-color: #efd2bf;
   align-items: start;
 `;
 

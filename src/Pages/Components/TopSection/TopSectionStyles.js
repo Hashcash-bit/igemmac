@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Container = styled.div`
-  font-family: Montserrat-Alt1;
+  font-family: Jost;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -14,7 +14,7 @@ export const Container = styled.div`
 
 export const Box = styled.div`
   height: max-content;
-  background-color: #94b2af;
+  background-color: #dda7a2;
   display: flex;
   flex-direction: column;
   width: 98%;
@@ -26,7 +26,7 @@ export const Box = styled.div`
   gap: 40px;
   justify-content: center;
   align-items: center;
-  border: 4px solid white;
+  border: 4px solid #7a003c;
 
   @media screen and (max-width: 500px) {
     padding-right: 0px;
@@ -53,7 +53,10 @@ export const Heart = styled.img`
   height: 30px;
 `;
 
-export const Logo = styled.img``;
+export const Logo = styled.img`
+  width: 130px;
+  height: 30px;
+`;
 
 export const LinksContainer = styled.div`
   display: flex;
@@ -68,7 +71,7 @@ export const Slashes = styled.div`
   justify-content: center;
   display: flex;
   padding: 10px 0px;
-  color: white;
+  color: #7a003c;
   font-weight: bold;
 `;
 
@@ -96,6 +99,7 @@ export const LeftSection = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 30px;
 
   @media screen and (max-width: 415px) {
     justify-content: center;
@@ -109,40 +113,45 @@ export const LeftInformationContainer = styled.div`
 `;
 
 export const HeartImageContainer = styled.div`
+  margin-top: 20px;
   @media screen and (max-width: 1400px) {
     display: none;
   }
 `;
 
 export const FirstCircle = styled.div`
-  background-color: #c1dbd9;
+  background-color: #d58681;
   padding: 50px;
   height: 200px;
   width: 500px;
   border-radius: 500px 500px 0px 0;
   margin-top: -70px;
   margin-left: 20px;
-  border: 4px solid white;
+  border: 0px solid #7a003c;
 `;
 
 export const SecondCircle = styled.div`
-  background-color: #ecf8f7;
+  background-color: #efd2bf;
   padding: 50px;
+  padding-bottom: 70px;
   height: 146px;
   width: 400px;
   border-radius: 500px 500px 0px 0;
   z-index: -1;
-  border: 4px solid white;
+  border: 0px solid #7a003c;
 `;
 
 export const HeartImage = styled.img`
   z-index: 99999;
-  margin-top: -200px;
+  margin-top: -110px;
+  margin-left: 0px;
+  height: 400px;
 `;
 
 export const BigText = styled.div`
   font-weight: bold;
   font-size: 7.5rem;
+  line-height: 160px;
   width: min-content;
   height: min-content;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
@@ -188,7 +197,7 @@ export const BigText = styled.div`
 
 export const SmallText = styled.div`
   padding: 20px 0px;
-  color: white;
+  color: #7a003c;
   font-weight: bold;
 
   @media screen and (max-width: 571px) {
@@ -197,7 +206,7 @@ export const SmallText = styled.div`
 `;
 
 export const RightSection = styled.div`
-  border-left: 7px solid white;
+  border-left: 7px solid #7a003c;
   padding-left: 20px;
   height: 300px;
   align-items: center;

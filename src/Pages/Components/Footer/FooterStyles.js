@@ -13,7 +13,7 @@ export const SubsContainer = styled.div`
 
 export const SubsBox = styled.div`
   width: 1000px;
-  background-color: #96080a;
+  background-color: #7a003c;
   display: flex;
   align-items: center;
   padding: 30px 30px;
@@ -99,7 +99,7 @@ export const SubButton = styled.div`
 
 export const FooterContainer = styled.div`
   width: 100%;
-  background-color: #94b2af;
+  background-color: #d58681;
   display: flex;
   flex-direction: column;
   justify-content: center;

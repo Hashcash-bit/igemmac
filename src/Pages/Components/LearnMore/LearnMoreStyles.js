@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Container = styled.div`
-  font-family: Montserrat-Alt1;
+  font-family: Jost;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -53,7 +53,7 @@ export const LeftBox = styled.div`
 export const SubLB = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #94b2af;
+  background-color: #d58681;
   border-radius: 25px;
   padding: 20px;
   height: 200px;
@@ -87,7 +87,7 @@ export const NameLB = styled.div`
 
 export const LearnMLB = styled(Link)`
   font-size: 18px;
-  color: #96080a;
+  color: #d58681;
   font-weight: bold;
   text-decoration: none;
   transition: ease-in-out 0.2s;
@@ -111,7 +111,7 @@ export const LearnMRB = styled(Link)`
     display: flex;
     margin-left: 40px;
     font-size: 18px;
-    color: #96080a;
+    color: #d58681;
     font-weight: bold;
     text-decoration: none;
     transition: ease-in-out 0.2s;
@@ -127,7 +127,7 @@ export const LearnMRB = styled(Link)`
 `;
 
 export const MiddleGhostBox = styled.div`
-  background-color: #aeebe4;
+  background-color: ;
   position: relative;
   top: -10px;
   left: 500px;
@@ -148,7 +148,7 @@ export const MiddleGhostBox = styled.div`
 export const MiddleBox = styled.div`
   position: absolute;
   border-radius: 25px;
-  border: 4px solid white;
+  border: 4px solid #7a003c;
   background-color: #96080a;
   width: 100%;
   height: 100%;
@@ -165,7 +165,7 @@ export const RightBox = styled.div`
   height: 300px;
   width: max-content;
   gap: 20px;
-  background-color: #94b2af;
+  background-color: #d58681;
   border-radius: 25px;
   padding: 20px;
 

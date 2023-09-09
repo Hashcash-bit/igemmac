@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  font-family: Montserrat-Alt1;
+  font-family: Jost;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -11,7 +11,7 @@ export const Container = styled.div`
 
 export const Box = styled.div`
   height: max-content;
-  background-color: #94b2af;
+  background-color: #d58681;
   display: flex;
   width: 98%;
   border-radius: 00px;
@@ -22,7 +22,7 @@ export const Box = styled.div`
   gap: 40px;
   justify-content: center;
   align-items: center;
-  border: 4px solid white;
+  border: 0px solid white;
 
   @media screen and (max-width: 500px) {
     padding-right: 0px;
@@ -183,7 +183,7 @@ export const GalleryImages = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  background-color: #f5f5f5;
+  background-color: #f8e6c3;
   padding: 10px;
   border-radius: 0px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -194,7 +194,7 @@ export const GalleryImage = styled.img`
   width: 100%;
   height: 150px; /* Fixed height for all images */
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 0px;
 `;
 
 export const PersonName = styled.div`

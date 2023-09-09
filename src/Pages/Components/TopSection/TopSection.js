@@ -28,8 +28,8 @@ import {
 } from "./TopSectionStyles";
 
 //Logo
-import iGEMLogo from "../img/Logo.svg";
-import HeartIMG from "../img/Heart.svg";
+import iGEMLogo from "../img/mgempic.png";
+import HeartIMG from "../img/mgemlogo.png";
 
 //Icons
 
@@ -55,7 +55,7 @@ export default function TopSection() {
         <NavBarContainer>
           <LogoArea>
             <Heart src={HeartIMG} />
-            <Logo src={iGEMLogo} />
+            
           </LogoArea>
           <LinksContainer>
             <Links>
@@ -102,7 +102,7 @@ export default function TopSection() {
         <HeroContainer>
           <LeftSection>
             <LeftInformationContainer>
-              <BigText>EMPOWER YOUR IMAGINATION</BigText>
+              <BigText>INTRODUCING iGEM MCMASTER</BigText>
               <SmallText>/ EST 2023</SmallText>
             </LeftInformationContainer>
             <HeartImageContainer>

@@ -46,6 +46,8 @@ export const LogoArea = styled.div`
 
 export const Heart = styled.img`
   height: 30px;
+  width: 406px;
+  height: 150px;
 `;
 
 export const Logo = styled.img`
@@ -72,7 +74,7 @@ export const Slashes = styled.div`
   justify-content: center;
   display: flex;
   padding: 10px 0px;
-  color: white;
+  color: #7a003c;
   font-weight: bold;
   @media screen and (max-width: 1100px) {
     display: none;
@@ -88,7 +90,7 @@ export const MenuToggle = styled.div`
     align-items: center;
     display: flex;
     margin-right: 25px;
-    color: #4a5957;
+    color: #7a003c;
   }
 `;
 
@@ -118,7 +120,7 @@ export const TopSection = styled.div`
 export const CloseIcon = styled(BiX)`
   font-size: 30px;
   margin-right: 25px;
-  color: #f1eed3;
+  color: #7a003c;
   transition: ease-in-out 0.15s;
   &:hover {
     transform: translateY(-3px);
@@ -227,12 +229,12 @@ export const LinksH = styled(Link)`
   font-size: 15px;
   font-weight: bold;
   text-decoration: none;
-  color: #4a5957;
+  color: #7a003c;
   //   padding: 10px 20px;
   transition: ease-in-out 0.2s;
 
   &:hover {
-    color: white;
+    color: #7a003c;
     border-radius: 5px;
   }
 `;
