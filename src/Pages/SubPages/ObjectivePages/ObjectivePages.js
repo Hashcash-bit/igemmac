@@ -1,5 +1,5 @@
 //Default react imports
-import React from "react";
+import React, { useRef } from "react";
 
 // The Styled component imports
 import { PictureArea } from "./ObjectivePagesStyled";
@@ -18,19 +18,53 @@ import Tetrahydrofolate from "./Component/Biomarkers/Tetrahydrofolate/Tetrahydro
 import Tetrathionate from "./Component/Biomarkers/Tetrathionate/Tetrathionate";
 
 export default function ObjectivePages() {
+  const objectiveRef = useRef(null);
+  const butyrateRef = useRef(null);
+  const indoleRef = useRef(null);
+  const hydrogenPeroxideRef = useRef(null);
+  const tetrahydrofolateRef = useRef(null);
+  const tetrathionateRef = useRef(null);
+
+  const scrollToRef = (ref) =>
+    window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
+
   return (
     <div style={{ overflowX: "hidden", overflowY: "auto" }}>
       <PictureArea>
         <img src={TemplateImage} />
       </PictureArea>
       <Background />
-      <Objective />
+      <Objective
+        ref={objectiveRef}
+        scrollToRef={scrollToRef}
+        butyrateRef={butyrateRef}
+        indoleRef={indoleRef}
+        hydrogenPeroxideRef={hydrogenPeroxideRef}
+        tetrahydrofolateRef={tetrahydrofolateRef}
+        tetrathionateRef={tetrathionateRef}
+      />
       <Chassis />
-      <Butyrate />
-      <Indole />
-      <HydrogenPeroxide />
-      <Tetrahydrofolate />
-      <Tetrathionate />
+      <div ref={butyrateRef}>
+        <Butyrate scrollToRef={scrollToRef} objectiveRef={objectiveRef} />
+      </div>
+      <div ref={indoleRef}>
+        <Indole scrollToRef={scrollToRef} objectiveRef={objectiveRef} />
+      </div>
+      <div ref={hydrogenPeroxideRef}>
+        <HydrogenPeroxide
+          scrollToRef={scrollToRef}
+          objectiveRef={objectiveRef}
+        />
+      </div>
+      <div ref={tetrahydrofolateRef}>
+        <Tetrahydrofolate
+          scrollToRef={scrollToRef}
+          objectiveRef={objectiveRef}
+        />
+      </div>
+      <div ref={tetrathionateRef}>
+        <Tetrathionate scrollToRef={scrollToRef} objectiveRef={objectiveRef} />
+      </div>
     </div>
   );
 }
