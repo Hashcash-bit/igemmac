@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import TopBar from "../../TopBar/TopBar";
 import {
   TopSection,
@@ -23,7 +23,7 @@ import {
 import TemplateImage from "../../../../Img/pfp.jpg";
 import Tape from "../../../../Img/tap.png";
 
-export default function Indole() {
+export default function Indole({ scrollToRef, objectiveRef }) {
   return (
     <div
       style={{
@@ -71,7 +71,9 @@ export default function Indole() {
           </RightBottomSection>
         </TopSection>
         <ButtonContainer>
-          <ButtonPadding>Back to Objective</ButtonPadding>
+          <ButtonPadding onClick={() => scrollToRef(objectiveRef)}>
+            Back to Objective
+          </ButtonPadding>
         </ButtonContainer>
       </div>
     </div>

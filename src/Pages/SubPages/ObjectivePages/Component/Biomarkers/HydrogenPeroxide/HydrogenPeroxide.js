@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import TopBar from "../../TopBar/TopBar";
 import {
   TopSection,
@@ -12,9 +12,6 @@ import {
   TopArea,
   ColoredArea,
   Text,
-  BottomSection,
-  OptionDisplay,
-  Options,
   TextContainer,
   ButtonContainer,
   ButtonPadding,
@@ -23,7 +20,7 @@ import {
 import TemplateImage from "../../../../Img/pfp.jpg";
 import Tape from "../../../../Img/tap.png";
 
-export default function HydrogenPeroxide() {
+export default function HydrogenPeroxide({ scrollToRef, objectiveRef }) {
   return (
     <div
       style={{
@@ -71,7 +68,9 @@ export default function HydrogenPeroxide() {
           </RightBottomSection>
         </TopSection>
         <ButtonContainer>
-          <ButtonPadding>Back to Objective</ButtonPadding>
+          <ButtonPadding onClick={() => scrollToRef(objectiveRef)}>
+            Back to Objective
+          </ButtonPadding>
         </ButtonContainer>
       </div>
     </div>
