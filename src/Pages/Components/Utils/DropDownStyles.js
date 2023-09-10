@@ -12,5 +12,6 @@ export const DropDownButton = styled.div`
     background-color: #c1dbd9;
     color: black;
     border-radius: 5px;
+    cursor: pointer;
   }
 `;

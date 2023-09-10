@@ -37,17 +37,57 @@ import HeartIMG from "../img/mgemlogo.png";
 import Dropdown from "../Utils/Dropdown";
 
 export default function TopSection() {
+  // About Functionality
   const dropdownOptionsAbout = ["Our Team", "Our Mission", "Join Us"]; // Option for About Dropdown
+  const aboutRoutes = ["/OurTeam", "/OurMission", "/JoinUs"];
+
+  // Initiatives Functionality
   const dropdownOptionsInitiatives = [
     "STEMcast",
     "Conference",
     "Biolab Tutorials",
     "McMaster Courses",
   ]; // Option for Initiatives Dropdown
-  const dropdownOptionsProjects = ["Current", "2022", "2021", "2020", "2019", "2018"]; // Option for Projects Dropdown
+  const initiativesRoutes = [
+    "/STEMcast",
+    "/Conference",
+    "/BiolabTutorials",
+    "/McMasterCourses",
+  ];
+
+  // Projects Functionality
+  const dropdownOptionsProjects = [
+    "Current",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+  ]; // Option for Projects Dropdown
+  const projectsRoutes = [
+    "/Current",
+    "/2022",
+    "/2021",
+    "/2020",
+    "/2019",
+    "/2018",
+  ];
+
+  // News Functionality
   const dropdownOptionsNews = ["BioNews", "Genetic News", "Fuck Franky"]; // Option for News Dropdown
-  const dropdownOptionsPartners = ["Sponsors", "Collaborators", "Partner With Us"]; // Option for Partners Dropdown
+  const newsRoutes = ["/BioNews", "/GeneticNews", "FuckFranky"];
+
+  // Partners Functionality
+  const dropdownOptionsPartners = [
+    "Sponsors",
+    "Collaborators",
+    "Partner With Us",
+  ]; // Option for Partners Dropdown
+  const partnersRoutes = ["/Sponsors", "/Collaborators", "/PartnerWithUs"];
+
+  // ContactUs Fucntionality
   const dropdownOptionsContactUs = ["Project 1", "Project 2", "Project 3"]; // Option for Contact Us Dropdown
+  const contactusRoutes = ["/Project1", "/Project2", "/Project3"];
 
   return (
     <Container>
@@ -55,17 +95,21 @@ export default function TopSection() {
         <NavBarContainer>
           <LogoArea>
             <Heart src={HeartIMG} />
-            
           </LogoArea>
           <LinksContainer>
             <Links>
-              <Dropdown options={dropdownOptionsAbout} navItemName="ABOUT" />
+              <Dropdown
+                options={dropdownOptionsAbout}
+                routes={aboutRoutes}
+                navItemName="ABOUT"
+              />
             </Links>
             <Slashes>/</Slashes>
             <Links>
               {" "}
               <Dropdown
                 options={dropdownOptionsInitiatives}
+                routes={initiativesRoutes}
                 navItemName="INITIATIVES"
               />
             </Links>
@@ -74,28 +118,35 @@ export default function TopSection() {
               {" "}
               <Dropdown
                 options={dropdownOptionsProjects}
+                routes={projectsRoutes}
                 navItemName="PROJECTS"
               />
             </Links>
             <Slashes>/</Slashes>
             <Links>
               {" "}
-              <Dropdown options={dropdownOptionsNews} navItemName="NEWS" />
+              <Dropdown
+                options={dropdownOptionsNews}
+                routes={newsRoutes}
+                navItemName="NEWS"
+              />
             </Links>
             <Slashes>/</Slashes>
             <Links>
               {" "}
               <Dropdown
                 options={dropdownOptionsPartners}
+                routes={partnersRoutes}
                 navItemName="PARTNERS"
               />
             </Links>
             <Slashes>/</Slashes>
             <Links>
-            <Dropdown
-              options={dropdownOptionsContactUs}
-              navItemName="CONTACT US"
-            />
+              <Dropdown
+                options={dropdownOptionsContactUs}
+                routes={contactusRoutes}
+                navItemName="CONTACT US"
+              />
             </Links>
           </LinksContainer>
         </NavBarContainer>

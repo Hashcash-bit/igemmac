@@ -22,8 +22,8 @@ function App() {
       <Router>
         <Routes>
           {/* Use the element prop instead of the Component prop */}
-          <Route path="/" element={<ObjectivePages />} exact />
-          {/* <Route path="/" element={<Pages />} exact /> */}
+          <Route path="/OurMission" element={<ObjectivePages />} exact />
+          <Route path="/" element={<Pages />} exact />
           {/* <Route path="/Login" element={<Login />} exact /> */}
           {/* <Route path="/Signup" element={<SignUp />} exact /> */}
           {/* <Route path="*" element={<ErrorPage />} /> */}

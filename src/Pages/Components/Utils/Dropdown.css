@@ -9,6 +9,7 @@
   color: #4a5957;
   font-size: 12px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .dropdown-menu {
@@ -23,6 +24,7 @@
   border: 1px solid #ccc;
   z-index: 99;
   border-radius: 15px;
+  text-decoration: none;
 }
 
 .dropdown-item {
@@ -33,4 +35,8 @@
 .dropdown-item:hover {
   background-color: #ddd;
   border-radius: 15px;
+}
+.link-styles {
+  color: black;
+  text-decoration: none;
 }
