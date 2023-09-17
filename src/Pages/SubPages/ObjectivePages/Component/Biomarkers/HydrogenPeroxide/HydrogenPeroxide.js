@@ -63,7 +63,7 @@ export default function HydrogenPeroxide({ scrollToRef, objectiveRef }) {
             </TextInfoContainer>
           </LeftBottomSection>
           <RightBottomSection>
-            <TapeImage src={Tape} alt="tape" />
+            {/* <TapeImage src={Tape} alt="tape" /> */}
             <Image src={TemplateImage} alt="Template" />
           </RightBottomSection>
         </TopSection>
