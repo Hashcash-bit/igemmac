@@ -15,6 +15,7 @@ import {
 // Importing the External Components
 import Pages from "./Pages/Pages";
 import ObjectivePages from "./Pages/SubPages/ObjectivePages/ObjectivePages";
+import OverviewPages from "./Pages/SubPages/OverviewPages/OverviewPages";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Router>
         <Routes>
           {/* Use the element prop instead of the Component prop */}
+          <Route path="/BioNews" element={<OverviewPages />} exact />
           <Route path="/OurMission" element={<ObjectivePages />} exact />
           <Route path="/" element={<Pages />} exact />
           {/* <Route path="/Login" element={<Login />} exact /> */}
