@@ -69,8 +69,31 @@ export const OptionDisplay = styled.div`
   justify-content: space-around;
   margin-top: 25px;
   margin-bottom: 25px;
-`;
 
+  @media screen and (max-width: 1035px) {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+  }
+
+  @media screen and (max-width: 625px) {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+  }
+
+  @media screen and (max-width: 470px) {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+  }
+`;
 export const Options = styled.div`
   background-color: #dda7a2;
   color: white;
