@@ -27,7 +27,9 @@ export const TextInfoContainer = styled.div`
 
 export const TextInfo = styled.div``;
 
-export const RightBottomSection = styled.div``;
+export const RightBottomSection = styled.div`
+  background-color: #efd2bf;
+`;
 
 export const Image = styled.img`
   height: 400px;

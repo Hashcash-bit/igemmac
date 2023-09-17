@@ -29,7 +29,16 @@ export default function ObjectivePages() {
     window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
 
   return (
-    <div style={{ overflowX: "hidden", overflowY: "auto" }}>
+    <div
+      style={{
+        overflowX: "hidden",
+        overflowY: "hidden",
+        display: "flex",
+        flexDirection: "column",
+        gap: "100px",
+        height: "100%",
+      }}
+    >
       <PictureArea>
         <img src={TemplateImage} />
       </PictureArea>
