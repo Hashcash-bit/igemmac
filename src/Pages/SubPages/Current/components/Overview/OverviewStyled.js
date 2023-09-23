@@ -1,12 +1,10 @@
 import { styled } from 'styled-components';
 
 const OverviewMainDiv = styled.div`
-  overflow-x: hidden;
-  overflow-y: hidden;
   display: flex;
-  flex-direction: column;
-  gap: 100px;
-  height: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
 `;
 
 const OverviewTextContainer = styled.div`
@@ -14,6 +12,20 @@ const OverviewTextContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 5% 0;
+  height: 80vh;
+  width: 50%;
+`;
+
+const OverviewTitle = styled.h1`
+  font-size: 50px;
+  font-weight: bold;
+  color: #971a35;
+`;
+
+const OverviewParagraph = styled.p`
+  font-size: 20px;
+  text-align: center;
 `;
 
 const OverviewGridContainer = styled.div`
@@ -24,8 +36,34 @@ const OverviewGridContainer = styled.div`
     'top-left top-right'
     'mid-left mid-right'
     'bottom-left bottom-right';
+  gap: 5%;
+  margin: 0 5% 0;
   height: 80vh;
-  width: auto;
+  width: 50%;
 `;
 
-export { OverviewMainDiv, OverviewTextContainer, OverviewGridContainer };
+const OverviewGridItem = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dda7a2;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.15s ease-in-out;
+
+  &:hover {
+    background-color: #971a35;
+    cursor: pointer;
+  }
+`;
+
+export {
+  OverviewMainDiv,
+  OverviewTextContainer,
+  OverviewTitle,
+  OverviewParagraph,
+  OverviewGridContainer,
+  OverviewGridItem,
+};
