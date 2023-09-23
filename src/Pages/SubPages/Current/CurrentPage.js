@@ -1,11 +1,20 @@
-import React, { useRef } from "react";
+import React from 'react';
+
+// component imports
+import { MainDiv } from './components/MainDiv';
+import { PictureArea } from './components/PictureArea';
+
+// media imports
+import PrincePhilip from '../Img/philip.jpg';
 
 const CurrentPage = () => {
   return (
-    <div>
-      <h1>Current Page</h1>
-    </div>
-  )
-}
+    <MainDiv>
+      <PictureArea>
+        <img src={PrincePhilip} alt="old hag" />
+      </PictureArea>
+    </MainDiv>
+  );
+};
 
 export default CurrentPage;

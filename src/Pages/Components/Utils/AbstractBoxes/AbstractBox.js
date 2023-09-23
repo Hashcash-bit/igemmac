@@ -1,10 +1,10 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const AbstractBox = ({ type }) => {
   return (
     <BoxWrapper>
-      {type === "quote" && (
+      {type === 'quote' && (
         <QuoteBox>
           <QuoteText>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -15,7 +15,7 @@ const AbstractBox = ({ type }) => {
           </LearnMoreButton>
         </QuoteBox>
       )}
-      {type === "image" && (
+      {type === 'image' && (
         <ImageBox>
           <Image src="your-image-url.jpg" alt="Abstract Box" />
           <BoxText>
@@ -25,7 +25,7 @@ const AbstractBox = ({ type }) => {
           <RoundedButton>Read More</RoundedButton>
         </ImageBox>
       )}
-      {type === "video" && (
+      {type === 'video' && (
         <VideoBox>
           {/* Embed your video here */}
           <VideoEmbed src="your-video-url.mp4" />

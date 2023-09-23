@@ -1,5 +1,5 @@
 //Styled components
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   font-family: Jost;
@@ -110,7 +110,7 @@ export const BoxContainer = styled.div`
 `;
 
 export const MethodologyDropdown = styled.div`
-  display: ${({ show }) => (show ? "block" : "none")};
+  display: ${({ show }) => (show ? 'block' : 'none')};
   position: absolute;
   top: 100%; /* Position the dropdown below the box */
   left: 0;

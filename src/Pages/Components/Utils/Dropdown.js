@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import "./Dropdown.css";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Dropdown.css';
 
 // react icons
-import { AiFillCaretDown } from "react-icons/ai";
-import { DropDownButton } from "./DropDownStyles";
+import { AiFillCaretDown } from 'react-icons/ai';
+import { DropDownButton } from './DropDownStyles';
 
 const Dropdown = ({ options, navItemName, routes }) => {
   const [isOpen, setIsOpen] = useState(false);

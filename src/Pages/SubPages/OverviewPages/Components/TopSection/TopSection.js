@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import {
   BackdropButton,
@@ -6,19 +6,19 @@ import {
   IndividualDividers,
   LikkleBlurb,
   TitleContainer,
-} from "./TopSectionStyles";
+} from './TopSectionStyles';
 
 export default function TopSection() {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "max-content",
-        width: "100%",
-        gap: "20px",
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 'max-content',
+        width: '100%',
+        gap: '20px',
       }}
     >
       <TitleContainer>Overview</TitleContainer>

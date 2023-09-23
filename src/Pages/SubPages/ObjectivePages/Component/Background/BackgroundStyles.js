@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import { styled } from 'styled-components';
 
 export const BottomSection = styled.div`
   display: flex;
@@ -10,7 +10,7 @@ export const BottomSection = styled.div`
 export const LeftBottomSection = styled.div`
   display: flex;
   flex-direction: column;
-  font-family: "futura", sans-serif;
+  font-family: 'futura', sans-serif;
   gap: 50px;
 `;
 

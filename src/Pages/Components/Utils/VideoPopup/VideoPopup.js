@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components";
-import Modal from "react-modal";
-import YouTube from "react-youtube";
+import React from 'react';
+import styled from 'styled-components';
+import Modal from 'react-modal';
+import YouTube from 'react-youtube';
 
 // Styled Components
 const VideoModalContainer = styled.div`
@@ -36,20 +36,20 @@ const VideoPopup = ({ videoId, isOpen, onClose }) => {
       contentLabel="Video Popup"
       style={{
         overlay: {
-          backgroundColor: "rgba(0, 0, 0, 0.5)",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
+          backgroundColor: 'rgba(0, 0, 0, 0.5)',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
           zIndex: 5,
         },
         content: {
-          border: "none",
-          background: "none",
+          border: 'none',
+          background: 'none',
           padding: 0,
-          top: "unset",
-          left: "unset",
-          right: "unset",
-          bottom: "unset",
+          top: 'unset',
+          left: 'unset',
+          right: 'unset',
+          bottom: 'unset',
         },
       }}
     >

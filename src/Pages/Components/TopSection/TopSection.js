@@ -1,5 +1,5 @@
 //Default imports
-import React from "react";
+import React from 'react';
 
 // Importing the styled components
 import {
@@ -25,69 +25,69 @@ import {
   SecondCircle,
   HeartImage,
   SubRightSection,
-} from "./TopSectionStyles";
+} from './TopSectionStyles';
 
 //Logo
-import iGEMLogo from "../img/mgempic.png";
-import HeartIMG from "../img/mgemlogo.png";
+import iGEMLogo from '../img/mgempic.png';
+import HeartIMG from '../img/mgemlogo.png';
 
 //Icons
 
 //Dropdown
-import Dropdown from "../Utils/Dropdown";
+import Dropdown from '../Utils/Dropdown';
 
 export default function TopSection() {
   // About Functionality
-  const dropdownOptionsAbout = ["Our Team", "Our Mission", "Join Us"]; // Option for About Dropdown
-  const aboutRoutes = ["/OurTeam", "/OurMission", "/JoinUs"];
+  const dropdownOptionsAbout = ['Our Team', 'Our Mission', 'Join Us']; // Option for About Dropdown
+  const aboutRoutes = ['/OurTeam', '/OurMission', '/JoinUs'];
 
   // Initiatives Functionality
   const dropdownOptionsInitiatives = [
-    "STEMcast",
-    "Conference",
-    "Biolab Tutorials",
-    "McMaster Courses",
+    'STEMcast',
+    'Conference',
+    'Biolab Tutorials',
+    'McMaster Courses',
   ]; // Option for Initiatives Dropdown
   const initiativesRoutes = [
-    "/STEMcast",
-    "/Conference",
-    "/BiolabTutorials",
-    "/McMasterCourses",
+    '/STEMcast',
+    '/Conference',
+    '/BiolabTutorials',
+    '/McMasterCourses',
   ];
 
   // Projects Functionality
   const dropdownOptionsProjects = [
-    "Current",
-    "2022",
-    "2021",
-    "2020",
-    "2019",
-    "2018",
+    'Current',
+    '2022',
+    '2021',
+    '2020',
+    '2019',
+    '2018',
   ]; // Option for Projects Dropdown
   const projectsRoutes = [
-    "/Current",
-    "/2022",
-    "/2021",
-    "/2020",
-    "/2019",
-    "/2018",
+    '/Current',
+    '/2022',
+    '/2021',
+    '/2020',
+    '/2019',
+    '/2018',
   ];
 
   // News Functionality
-  const dropdownOptionsNews = ["BioNews", "Genetic News", "Fuck Franky"]; // Option for News Dropdown
-  const newsRoutes = ["/BioNews", "/GeneticNews", "FuckFranky"];
+  const dropdownOptionsNews = ['BioNews', 'Genetic News', 'Fuck Franky']; // Option for News Dropdown
+  const newsRoutes = ['/BioNews', '/GeneticNews', 'FuckFranky'];
 
   // Partners Functionality
   const dropdownOptionsPartners = [
-    "Sponsors",
-    "Collaborators",
-    "Partner With Us",
+    'Sponsors',
+    'Collaborators',
+    'Partner With Us',
   ]; // Option for Partners Dropdown
-  const partnersRoutes = ["/Sponsors", "/Collaborators", "/PartnerWithUs"];
+  const partnersRoutes = ['/Sponsors', '/Collaborators', '/PartnerWithUs'];
 
   // ContactUs Fucntionality
-  const dropdownOptionsContactUs = ["Project 1", "Project 2", "Project 3"]; // Option for Contact Us Dropdown
-  const contactusRoutes = ["/Project1", "/Project2", "/Project3"];
+  const dropdownOptionsContactUs = ['Project 1', 'Project 2', 'Project 3']; // Option for Contact Us Dropdown
+  const contactusRoutes = ['/Project1', '/Project2', '/Project3'];
 
   return (
     <Container>
@@ -106,7 +106,7 @@ export default function TopSection() {
             </Links>
             <Slashes>/</Slashes>
             <Links>
-              {" "}
+              {' '}
               <Dropdown
                 options={dropdownOptionsInitiatives}
                 routes={initiativesRoutes}
@@ -115,7 +115,7 @@ export default function TopSection() {
             </Links>
             <Slashes>/</Slashes>
             <Links>
-              {" "}
+              {' '}
               <Dropdown
                 options={dropdownOptionsProjects}
                 routes={projectsRoutes}
@@ -124,7 +124,7 @@ export default function TopSection() {
             </Links>
             <Slashes>/</Slashes>
             <Links>
-              {" "}
+              {' '}
               <Dropdown
                 options={dropdownOptionsNews}
                 routes={newsRoutes}
@@ -133,7 +133,7 @@ export default function TopSection() {
             </Links>
             <Slashes>/</Slashes>
             <Links>
-              {" "}
+              {' '}
               <Dropdown
                 options={dropdownOptionsPartners}
                 routes={partnersRoutes}

@@ -1,11 +1,11 @@
 //Importing Routing
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 //Importing the Styled Components
-import styled from "styled-components";
+import styled from 'styled-components';
 
 //Icons
-import { BiX } from "react-icons/bi";
+import { BiX } from 'react-icons/bi';
 
 export const Container = styled.div`
   font-family: Montserrat-Alt1;

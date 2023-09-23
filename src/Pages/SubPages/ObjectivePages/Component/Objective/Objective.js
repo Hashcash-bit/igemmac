@@ -1,5 +1,5 @@
-import React, { useRef } from "react";
-import TopBar from "../TopBar/TopBar";
+import React, { useRef } from 'react';
+import TopBar from '../TopBar/TopBar';
 import {
   TopSection,
   Image,
@@ -15,10 +15,10 @@ import {
   Text,
   OptionDisplay,
   Options,
-} from "./ObjectiveStyles";
+} from './ObjectiveStyles';
 
-import TemplateImage from "../../../Img/pfp.jpg";
-import Tape from "../../../Img/tap.png";
+import TemplateImage from '../../../Img/pfp.jpg';
+import Tape from '../../../Img/tap.png';
 
 const Objective = React.forwardRef(
   (
@@ -30,16 +30,16 @@ const Objective = React.forwardRef(
       tetrahydrofolateRef,
       tetrathionateRef,
     },
-    ref
+    ref,
   ) => {
     return (
       <div
         ref={ref}
         style={{
-          height: "100vh",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-between",
+          height: '100vh',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'space-between',
         }}
       >
         <TopBar />
@@ -79,7 +79,7 @@ const Objective = React.forwardRef(
         </BottomSection>
       </div>
     );
-  }
+  },
 );
 
 export default Objective;

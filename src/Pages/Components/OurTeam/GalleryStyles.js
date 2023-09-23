@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   font-family: Jost;
@@ -97,7 +97,7 @@ export const FilterBar = styled.div`
 export const FilterOption = styled.div`
   color: black;
   border: ${({ active }) =>
-    active ? "2px solid black" : "2px solid transparent"};
+    active ? '2px solid black' : '2px solid transparent'};
   padding: 10px 20px;
   border-radius: 0px;
   cursor: pointer;
@@ -106,7 +106,7 @@ export const FilterOption = styled.div`
   transition: ease-in-out 0.2s;
 
   &:hover {
-    // background-color: ${({ active }) => (active ? "#f95d9b" : "#555")};
+    // background-color: ${({ active }) => (active ? '#f95d9b' : '#555')};
     border: 2px solid black;
   }
 

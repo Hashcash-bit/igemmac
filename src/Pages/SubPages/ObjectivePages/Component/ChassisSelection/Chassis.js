@@ -1,21 +1,21 @@
-import React from "react";
+import React from 'react';
 
-import TopBar from "../TopBar/TopBar";
+import TopBar from '../TopBar/TopBar';
 
-import { TopSection, Image, Title, BottomSection } from "./ChassisStyles";
+import { TopSection, Image, Title, BottomSection } from './ChassisStyles';
 
 export default function Chassis() {
   return (
     <div
       style={{
-        height: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "start",
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'start',
       }}
     >
       <TopBar />
-      <div style={{ display: "flex", flexDirection: "column", gap: "150px" }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '150px' }}>
         <TopSection>
           <Title>Chassis Selection</Title>
         </TopSection>

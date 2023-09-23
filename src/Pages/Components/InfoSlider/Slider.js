@@ -1,5 +1,5 @@
 // Default Deps
-import React from "react";
+import React from 'react';
 
 //Styled Components
 import {
@@ -10,10 +10,10 @@ import {
   SliderContainer,
   StaticText,
   HiddenWA,
-} from "./SliderStyles";
+} from './SliderStyles';
 
 //Importing Words
-import words from "../Utils/Words Slider/Words";
+import words from '../Utils/Words Slider/Words';
 
 const Slider = () => {
   // Create an array of words to slide

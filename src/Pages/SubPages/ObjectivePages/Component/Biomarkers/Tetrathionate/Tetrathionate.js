@@ -1,5 +1,5 @@
-import React, { useRef } from "react";
-import TopBar from "../../TopBar/TopBar";
+import React, { useRef } from 'react';
+import TopBar from '../../TopBar/TopBar';
 import {
   TopSection,
   Image,
@@ -18,28 +18,28 @@ import {
   TextContainer,
   ButtonContainer,
   ButtonPadding,
-} from "./TetrathionateStyles";
+} from './TetrathionateStyles';
 
-import TemplateImage from "../../../../Img/pfp.jpg";
-import Tape from "../../../../Img/tap.png";
+import TemplateImage from '../../../../Img/pfp.jpg';
+import Tape from '../../../../Img/tap.png';
 
 export default function Tetrathionate({ scrollToRef, objectiveRef }) {
   return (
     <div
       style={{
-        height: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-between",
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
       }}
     >
       <TopBar />
       <div
         style={{
-          height: "100%",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-around",
+          height: '100%',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'space-around',
         }}
       >
         <TopArea>
@@ -47,10 +47,10 @@ export default function Tetrathionate({ scrollToRef, objectiveRef }) {
             <TextContainer
               style={{
                 backgroundImage:
-                  "https://upload.wikimedia.org/wikipedia/commons/c/ca/Butyrate.svg",
+                  'https://upload.wikimedia.org/wikipedia/commons/c/ca/Butyrate.svg',
               }}
             >
-              <div style={{ backgroundColor: "#efd2bf", opacity: "0.85" }}>
+              <div style={{ backgroundColor: '#efd2bf', opacity: '0.85' }}>
                 <Text>Biomaker 3</Text>
                 <Title>HYDROGEN PEROXIDE</Title>
               </div>
