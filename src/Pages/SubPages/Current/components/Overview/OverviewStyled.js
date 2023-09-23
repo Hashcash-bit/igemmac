@@ -50,7 +50,7 @@ const OverviewGridItem = styled.div`
   background-color: #dda7a2;
   color: white;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 2vi;
   transition: 0.15s ease-in-out;
 
   &:hover {

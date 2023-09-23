@@ -8,8 +8,10 @@ import {
   SectionLayout,
   SectionHeader,
   SectionBody,
-  SectionFooter,
+  SectionBodyParagraph,
+  SectionBodyImage,
 } from './components/Section/SectionStyled';
+import SectionFooterComponent from './components/Section/SectionFooter';
 
 // media imports
 import PrincePhilip from '../Img/philip.jpg';
@@ -42,8 +44,144 @@ const CurrentPage = () => {
         referencesRef={referencesRef}
       />
 
-      <SectionLayout>
+      <SectionLayout ref={equationsRef}>
         <SectionHeader>Equations</SectionHeader>
+        <SectionBody>
+          <SectionBodyParagraph>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            lobortis viverra mi, vitae lacinia sapien ornare sit amet. Aenean ac
+            lorem gravida, imperdiet tellus vel, iaculis sem. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Curabitur ultricies pharetra
+            turpis. Curabitur nec ligula porta, rutrum nibh quis, euismod massa.
+            Aliquam dignissim augue non porta volutpat. Aenean vehicula non
+            tortor non sagittis. Nunc euismod quam id erat sodales, vitae
+            molestie arcu pellentesque. In feugiat neque in magna blandit
+            vulputate. Duis tincidunt tortor sed mi sollicitudin consequat.
+            Aliquam vitae augue dui. Pellentesque ac tristique turpis, a
+            pulvinar nunc.
+          </SectionBodyParagraph>
+        </SectionBody>
+        <SectionFooterComponent
+          scrollToRef={scrollToRef}
+          overviewRef={overviewRef}
+        />
+      </SectionLayout>
+
+      <SectionLayout ref={constantsRef}>
+        <SectionHeader>Constants</SectionHeader>
+        <SectionBody>
+          <SectionBodyParagraph>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            lobortis viverra mi, vitae lacinia sapien ornare sit amet. Aenean ac
+            lorem gravida, imperdiet tellus vel, iaculis sem. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Curabitur ultricies pharetra
+            turpis. Curabitur nec ligula porta, rutrum nibh quis, euismod massa.
+            Aliquam dignissim augue non porta volutpat. Aenean vehicula non
+            tortor non sagittis. Nunc euismod quam id erat sodales, vitae
+            molestie arcu pellentesque. In feugiat neque in magna blandit
+            vulputate. Duis tincidunt tortor sed mi sollicitudin consequat.
+            Aliquam vitae augue dui. Pellentesque ac tristique turpis, a
+            pulvinar nunc.
+          </SectionBodyParagraph>
+        </SectionBody>
+        <SectionFooterComponent
+          scrollToRef={scrollToRef}
+          overviewRef={overviewRef}
+        />
+      </SectionLayout>
+
+      <SectionLayout ref={modelRef}>
+        <SectionHeader>Model</SectionHeader>
+        <SectionBody>
+          <SectionBodyParagraph>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            lobortis viverra mi, vitae lacinia sapien ornare sit amet. Aenean ac
+            lorem gravida, imperdiet tellus vel, iaculis sem. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Curabitur ultricies pharetra
+            turpis. Curabitur nec ligula porta, rutrum nibh quis, euismod massa.
+            Aliquam dignissim augue non porta volutpat. Aenean vehicula non
+            tortor non sagittis. Nunc euismod quam id erat sodales, vitae
+            molestie arcu pellentesque. In feugiat neque in magna blandit
+            vulputate. Duis tincidunt tortor sed mi sollicitudin consequat.
+            Aliquam vitae augue dui. Pellentesque ac tristique turpis, a
+            pulvinar nunc.
+          </SectionBodyParagraph>
+          <SectionBodyImage src={PrincePhilip} alt="old hag" />
+        </SectionBody>
+        <SectionFooterComponent
+          scrollToRef={scrollToRef}
+          overviewRef={overviewRef}
+        />
+      </SectionLayout>
+
+      <SectionLayout ref={resultsRef}>
+        <SectionHeader>Results</SectionHeader>
+        <SectionBody>
+          <SectionBodyParagraph>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            lobortis viverra mi, vitae lacinia sapien ornare sit amet. Aenean ac
+            lorem gravida, imperdiet tellus vel, iaculis sem. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Curabitur ultricies pharetra
+            turpis. Curabitur nec ligula porta, rutrum nibh quis, euismod massa.
+            Aliquam dignissim augue non porta volutpat. Aenean vehicula non
+            tortor non sagittis. Nunc euismod quam id erat sodales, vitae
+            molestie arcu pellentesque. In feugiat neque in magna blandit
+            vulputate. Duis tincidunt tortor sed mi sollicitudin consequat.
+            Aliquam vitae augue dui. Pellentesque ac tristique turpis, a
+            pulvinar nunc.
+          </SectionBodyParagraph>
+          <SectionBodyImage src={PrincePhilip} alt="old hag" />
+        </SectionBody>
+        <SectionFooterComponent
+          scrollToRef={scrollToRef}
+          overviewRef={overviewRef}
+        />
+      </SectionLayout>
+
+      <SectionLayout ref={limitationsRef}>
+        <SectionHeader>Limitations</SectionHeader>
+        <SectionBody>
+          <SectionBodyParagraph>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            lobortis viverra mi, vitae lacinia sapien ornare sit amet. Aenean ac
+            lorem gravida, imperdiet tellus vel, iaculis sem. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Curabitur ultricies pharetra
+            turpis. Curabitur nec ligula porta, rutrum nibh quis, euismod massa.
+            Aliquam dignissim augue non porta volutpat. Aenean vehicula non
+            tortor non sagittis. Nunc euismod quam id erat sodales, vitae
+            molestie arcu pellentesque. In feugiat neque in magna blandit
+            vulputate. Duis tincidunt tortor sed mi sollicitudin consequat.
+            Aliquam vitae augue dui. Pellentesque ac tristique turpis, a
+            pulvinar nunc.
+          </SectionBodyParagraph>
+        </SectionBody>
+        <SectionFooterComponent
+          scrollToRef={scrollToRef}
+          overviewRef={overviewRef}
+        />
+      </SectionLayout>
+
+      <SectionLayout ref={referencesRef}>
+        <SectionHeader>References</SectionHeader>
+        <SectionBody>
+          <SectionBodyParagraph>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            lobortis viverra mi, vitae lacinia sapien ornare sit amet. Aenean ac
+            lorem gravida, imperdiet tellus vel, iaculis sem. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Curabitur ultricies pharetra
+            turpis. Curabitur nec ligula porta, rutrum nibh quis, euismod massa.
+            Aliquam dignissim augue non porta volutpat. Aenean vehicula non
+            tortor non sagittis. Nunc euismod quam id erat sodales, vitae
+            molestie arcu pellentesque. In feugiat neque in magna blandit
+            vulputate. Duis tincidunt tortor sed mi sollicitudin consequat.
+            Aliquam vitae augue dui. Pellentesque ac tristique turpis, a
+            pulvinar nunc.
+          </SectionBodyParagraph>
+        </SectionBody>
+        <SectionFooterComponent
+          scrollToRef={scrollToRef}
+          overviewRef={overviewRef}
+        />
       </SectionLayout>
     </MainDiv>
   );
