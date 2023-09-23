@@ -74,8 +74,18 @@ export default function TopSection() {
   ];
 
   // News Functionality
-  const dropdownOptionsNews = ['BioNews', 'Genetic News', 'Fuck Franky']; // Option for News Dropdown
-  const newsRoutes = ['/BioNews', '/GeneticNews', 'FuckFranky'];
+  const dropdownOptionsNews = [
+    'BioNews',
+    'Policy Report',
+    'Entreprenuership',
+    'IHR & Womens Rights',
+  ]; // Option for News Dropdown
+  const newsRoutes = [
+    '/BioNews',
+    '/PolicyReport',
+    '/Entreprenuership',
+    '/IHR&WomensRights',
+  ];
 
   // Partners Functionality
   const dropdownOptionsPartners = [

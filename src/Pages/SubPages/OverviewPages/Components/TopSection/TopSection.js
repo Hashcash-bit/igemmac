@@ -24,7 +24,7 @@ export default function TopSection() {
       <TitleContainer>Overview</TitleContainer>
       <ButtonInfoContainer>
         <IndividualDividers>
-          <BackdropButton>Button1</BackdropButton>
+          <BackdropButton to="/PolicyReport">Policy Report</BackdropButton>
           <LikkleBlurb>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             pretium tortor sit amet dignissim interdum. Etiam vitae malesuada
@@ -35,7 +35,9 @@ export default function TopSection() {
           </LikkleBlurb>
         </IndividualDividers>
         <IndividualDividers>
-          <BackdropButton>Button2</BackdropButton>
+          <BackdropButton to="/Entreprenuership">
+            Entreprenuership
+          </BackdropButton>
           <LikkleBlurb>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             pretium tortor sit amet dignissim interdum. Etiam vitae malesuada
@@ -46,7 +48,9 @@ export default function TopSection() {
           </LikkleBlurb>
         </IndividualDividers>
         <IndividualDividers>
-          <BackdropButton>Button3</BackdropButton>
+          <BackdropButton to="/IHR&WomensRights">
+            IHR & Womens Rights
+          </BackdropButton>
           <LikkleBlurb>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             pretium tortor sit amet dignissim interdum. Etiam vitae malesuada
