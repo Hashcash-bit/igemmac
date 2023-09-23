@@ -1,8 +1,8 @@
 //Styled Components
-import styled from "styled-components";
+import styled from 'styled-components';
 
 //Routing
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export const SubsContainer = styled.div`
   width: 100%;

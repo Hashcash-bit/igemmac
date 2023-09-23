@@ -1,5 +1,5 @@
 //Default React Imports
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 //Styled Components
 import {
@@ -23,18 +23,18 @@ import {
   Plus,
   Image,
   LearnMRB,
-} from "./LearnMoreStyles";
-import styled from "styled-components";
+} from './LearnMoreStyles';
+import styled from 'styled-components';
 
 //React Icons
-import { AiOutlineArrowRight } from "react-icons/ai";
-import { BsFillPlayBtnFill } from "react-icons/bs";
+import { AiOutlineArrowRight } from 'react-icons/ai';
+import { BsFillPlayBtnFill } from 'react-icons/bs';
 
 //Pill
-import Pill from "../img/Pill.svg";
+import Pill from '../img/Pill.svg';
 
 //Popup Video
-import VideoPopup from "../Utils/VideoPopup/VideoPopup";
+import VideoPopup from '../Utils/VideoPopup/VideoPopup';
 
 export default function LearnMore() {
   const [isVideoPopupOpen, setIsVideoPopupOpen] = useState(false);
@@ -50,7 +50,7 @@ export default function LearnMore() {
     <>
       <MiddleGhostBox>
         <MiddleBox onClick={openVideoPopup}>
-          {" "}
+          {' '}
           <BsFillPlayBtnFill />
         </MiddleBox>
       </MiddleGhostBox>

@@ -1,5 +1,5 @@
-import React from "react";
-import TopBar from "../TopBar/TopBar";
+import React from 'react';
+import TopBar from '../TopBar/TopBar';
 import {
   BottomSection,
   Image,
@@ -9,14 +9,14 @@ import {
   TextInfo,
   TextInfoContainer,
   Title,
-} from "./BackgroundStyles";
+} from './BackgroundStyles';
 
-import TemplateImage from "../../../Img/pfp.jpg";
-import Tape from "../../../Img/tap.png";
+import TemplateImage from '../../../Img/pfp.jpg';
+import Tape from '../../../Img/tap.png';
 
 export default function Background() {
   return (
-    <div style={{ height: "100vh" }}>
+    <div style={{ height: '100vh' }}>
       <TopBar />
       <BottomSection>
         <LeftBottomSection>

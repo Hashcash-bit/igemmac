@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import styled from "styled-components";
+import React, { useState } from 'react';
+import styled from 'styled-components';
 
 //Images
-import Image1 from "../img/1658410385342.jpg";
-import Image2 from "../img/gallery1.jpg";
-import Image3 from "../img/—Pngtree—3d dna helix sequence element_5340349.png";
+import Image1 from '../img/1658410385342.jpg';
+import Image2 from '../img/gallery1.jpg';
+import Image3 from '../img/—Pngtree—3d dna helix sequence element_5340349.png';
 import {
   Box,
   BoxContainer,
@@ -20,45 +20,45 @@ import {
   MethodologyWrapper,
   SubTitle,
   Title,
-} from "./MethodologyStyles";
+} from './MethodologyStyles';
 
 // Sample methodology data (you can replace this with your own data)
 const methodologyData = [
   {
     id: 1,
-    title: "GENOMICS",
+    title: 'GENOMICS',
     image: Image3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo eget lectus congue iaculis.",
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo eget lectus congue iaculis.',
   },
   {
     id: 2,
-    title: "GENOMICS",
+    title: 'GENOMICS',
     image: Image3,
-    text: "Phasellus sit amet nibh at elit auctor aliquet a id orci.",
+    text: 'Phasellus sit amet nibh at elit auctor aliquet a id orci.',
   },
   {
     id: 3,
-    title: "GENOMICS",
+    title: 'GENOMICS',
     image: Image3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo eget lectus congue iaculis.",
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo eget lectus congue iaculis.',
   },
   {
     id: 4,
-    title: "GENOMICS",
+    title: 'GENOMICS',
     image: Image3,
-    text: "Phasellus sit amet nibh at elit auctor aliquet a id orci.",
+    text: 'Phasellus sit amet nibh at elit auctor aliquet a id orci.',
   },
   {
     id: 5,
-    title: "GENOMICS",
+    title: 'GENOMICS',
     image: Image3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo eget lectus congue iaculis.",
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo eget lectus congue iaculis.',
   },
   {
     id: 6,
-    title: "GENOMICS",
+    title: 'GENOMICS',
     image: Image3,
-    text: "Phasellus sit amet nibh at elit auctor aliquet a id orci.",
+    text: 'Phasellus sit amet nibh at elit auctor aliquet a id orci.',
   },
   // Add more methodology data with unique information
 ];

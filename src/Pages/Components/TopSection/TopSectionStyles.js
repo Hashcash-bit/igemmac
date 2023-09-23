@@ -1,8 +1,8 @@
 //Importing Routing
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 //Importing the Styled Components
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   font-family: Jost;
@@ -154,7 +154,10 @@ export const BigText = styled.div`
   line-height: 160px;
   width: min-content;
   height: min-content;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+  text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
     1px 1px 0 #fff;
   z-index: 2;
 

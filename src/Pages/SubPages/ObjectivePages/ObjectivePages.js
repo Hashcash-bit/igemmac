@@ -1,21 +1,21 @@
 //Default react imports
-import React, { useRef } from "react";
+import React, { useRef } from 'react';
 
 // The Styled component imports
-import { PictureArea } from "./ObjectivePagesStyled";
+import { PictureArea } from './ObjectivePagesStyled';
 
 // The Component imports
-import Background from "./Component/Background/Background";
+import Background from './Component/Background/Background';
 
 // The image imports
-import TemplateImage from "../Img/pfp.jpg";
-import Objective from "./Component/Objective/Objective";
-import Chassis from "./Component/ChassisSelection/Chassis";
-import Butyrate from "./Component/Biomarkers/Butyrate/Butyrate";
-import Indole from "./Component/Biomarkers/Indole/Indole";
-import HydrogenPeroxide from "./Component/Biomarkers/HydrogenPeroxide/HydrogenPeroxide";
-import Tetrahydrofolate from "./Component/Biomarkers/Tetrahydrofolate/Tetrahydrofolate";
-import Tetrathionate from "./Component/Biomarkers/Tetrathionate/Tetrathionate";
+import TemplateImage from '../Img/pfp.jpg';
+import Objective from './Component/Objective/Objective';
+import Chassis from './Component/ChassisSelection/Chassis';
+import Butyrate from './Component/Biomarkers/Butyrate/Butyrate';
+import Indole from './Component/Biomarkers/Indole/Indole';
+import HydrogenPeroxide from './Component/Biomarkers/HydrogenPeroxide/HydrogenPeroxide';
+import Tetrahydrofolate from './Component/Biomarkers/Tetrahydrofolate/Tetrahydrofolate';
+import Tetrathionate from './Component/Biomarkers/Tetrathionate/Tetrathionate';
 
 export default function ObjectivePages() {
   const objectiveRef = useRef(null);
@@ -26,17 +26,17 @@ export default function ObjectivePages() {
   const tetrathionateRef = useRef(null);
 
   const scrollToRef = (ref) =>
-    window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
+    window.scrollTo({ top: ref.current.offsetTop, behavior: 'smooth' });
 
   return (
     <div
       style={{
-        overflowX: "hidden",
-        overflowY: "hidden",
-        display: "flex",
-        flexDirection: "column",
-        gap: "100px",
-        height: "100%",
+        overflowX: 'hidden',
+        overflowY: 'hidden',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '100px',
+        height: '100%',
       }}
     >
       <PictureArea>

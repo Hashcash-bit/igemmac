@@ -1,5 +1,5 @@
 // Default React Imports
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 //Styled Components
 import {
@@ -27,18 +27,18 @@ import {
   PartnerBox,
   InitiativesBox,
   ContactBox,
-} from "./NavbarStyled";
+} from './NavbarStyled';
 
 //Logo
-import iGEMLogo from "../img/Logo.svg";
-import HeartIMG from "../img/Heart.svg";
+import iGEMLogo from '../img/Logo.svg';
+import HeartIMG from '../img/Heart.svg';
 
 //Icons
-import { BiMenu } from "react-icons/bi";
+import { BiMenu } from 'react-icons/bi';
 
 //Dropdown
-import Dropdown from "../Utils/Dropdown";
-import TopSection from "./TopSection";
+import Dropdown from '../Utils/Dropdown';
+import TopSection from './TopSection';
 
 export default function Navbar() {
   //Hidden Navbar Toggle
@@ -52,28 +52,28 @@ export default function Navbar() {
     setToggleMenu(false);
   };
 
-  const dropdownOptionsAbout = ["Our Team", "Our Mission", "Join Us"];
+  const dropdownOptionsAbout = ['Our Team', 'Our Mission', 'Join Us'];
   const dropdownOptionsInitiatives = [
-    "STEMcast",
-    "Conference",
-    "Biolab Tutorials",
-    "McMaster Courses",
+    'STEMcast',
+    'Conference',
+    'Biolab Tutorials',
+    'McMaster Courses',
   ];
   const dropdownOptionsProjects = [
-    "Current",
-    "2022",
-    "2021",
-    "2020",
-    "2019",
-    "2018",
+    'Current',
+    '2022',
+    '2021',
+    '2020',
+    '2019',
+    '2018',
   ];
-  const dropdownOptionsNews = ["BioNews", "Genetic News", "Fuck Franky"];
+  const dropdownOptionsNews = ['BioNews', 'Genetic News', 'Fuck Franky'];
   const dropdownOptionsPartners = [
-    "Sponsors",
-    "Collaborators",
-    "Partner With Us",
+    'Sponsors',
+    'Collaborators',
+    'Partner With Us',
   ];
-  const dropdownOptionsContactUs = ["Project 1", "Project 2", "Project 3"];
+  const dropdownOptionsContactUs = ['Project 1', 'Project 2', 'Project 3'];
   return (
     <>
       <Container>
@@ -89,7 +89,7 @@ export default function Navbar() {
               </Links>
               <Slashes>/</Slashes>
               <Links>
-                {" "}
+                {' '}
                 <Dropdown
                   options={dropdownOptionsInitiatives}
                   navItemName="INITIATIVES"
@@ -97,7 +97,7 @@ export default function Navbar() {
               </Links>
               <Slashes>/</Slashes>
               <Links>
-                {" "}
+                {' '}
                 <Dropdown
                   options={dropdownOptionsProjects}
                   navItemName="PROJECTS"
@@ -105,12 +105,12 @@ export default function Navbar() {
               </Links>
               <Slashes>/</Slashes>
               <Links>
-                {" "}
+                {' '}
                 <Dropdown options={dropdownOptionsNews} navItemName="NEWS" />
               </Links>
               <Slashes>/</Slashes>
               <Links>
-                {" "}
+                {' '}
                 <Dropdown
                   options={dropdownOptionsPartners}
                   navItemName="PARTNERS"

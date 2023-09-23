@@ -1,6 +1,6 @@
 //Styled Components
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 export const Container = styled.div`
   font-family: Jost;
@@ -127,7 +127,7 @@ export const LearnMRB = styled(Link)`
 `;
 
 export const MiddleGhostBox = styled.div`
-  background-color: ;
+  background-color:;
   position: relative;
   top: -10px;
   left: 500px;

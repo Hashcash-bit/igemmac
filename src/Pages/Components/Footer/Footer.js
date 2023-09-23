@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 //Logo Import
-import Logo from "../img/Logo.svg";
-import Heart from "../img/Heart.svg";
+import Logo from '../img/Logo.svg';
+import Heart from '../img/Heart.svg';
 import {
   ActualLogo,
   FooterBox,
@@ -26,15 +26,15 @@ import {
   TextContainer,
   CopyRightBox,
   NameLink,
-} from "./FooterStyles";
+} from './FooterStyles';
 
 const Footer = () => {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState('');
 
   const handleSubscribe = () => {
     // Handle the subscription logic here
     console.log(`Subscribed with email: ${email}`);
-    setEmail("");
+    setEmail('');
   };
 
   const handleEmailChange = (e) => {
@@ -44,11 +44,11 @@ const Footer = () => {
   return (
     <div
       style={{
-        marginTop: "50px",
-        display: "flex",
-        flexDirection: "column",
-        gap: "30px",
-        cursor: "default",
+        marginTop: '50px',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '30px',
+        cursor: 'default',
       }}
     >
       <SubsContainer>
@@ -131,7 +131,10 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} iGEM McMaster. Designed &
             Programmed by
           </div>
-          <NameLink href="https://hashirimam.me" target="_blank">Hashir Imam</NameLink>.
+          <NameLink href="https://hashirimam.me" target="_blank">
+            Hashir Imam
+          </NameLink>
+          .
         </CopyRightBox>
       </FooterContainer>
     </div>
