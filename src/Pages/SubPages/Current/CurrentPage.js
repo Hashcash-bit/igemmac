@@ -4,6 +4,12 @@ import React, { useRef } from 'react';
 import { MainDiv } from './components/MainDiv';
 import { PictureArea } from './components/PictureArea';
 import Overview from './components/Overview/Overview';
+import {
+  SectionLayout,
+  SectionHeader,
+  SectionBody,
+  SectionFooter,
+} from './components/Section/SectionStyled';
 
 // media imports
 import PrincePhilip from '../Img/philip.jpg';
@@ -35,6 +41,10 @@ const CurrentPage = () => {
         limitationsRef={limitationsRef}
         referencesRef={referencesRef}
       />
+
+      <SectionLayout>
+        <SectionHeader>Equations</SectionHeader>
+      </SectionLayout>
     </MainDiv>
   );
 };
