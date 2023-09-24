@@ -10,7 +10,6 @@ export default function OverviewPages() {
         overflowY: 'auto',
         alignItems: 'center',
         justifyContent: 'center',
-        height: '100vh',
       }}
     >
       <TopSection />
