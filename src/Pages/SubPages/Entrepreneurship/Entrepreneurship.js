@@ -25,10 +25,6 @@ const Title = styled.h1`
 `;
 
 export default function Entrepreneurship() {
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
   return (
     <div>
       <Banner>
