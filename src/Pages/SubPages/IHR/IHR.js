@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import TopSection from '../../Components/TopSection/TopSection';
 
 const Banner = styled.div`
   background: url('https://thepointsguy.global.ssl.fastly.net/us/originals/2023/03/Really-Cool.jpeg?width=1920')
@@ -63,6 +64,7 @@ function MyPage() {
         backgroundColor: "#dda7a2"
       }}
     >
+      <TopSection />
       <Banner>
         <Title>IHR & Womens Rights</Title>
       </Banner>
