@@ -19,6 +19,7 @@ import OverviewPages from './Pages/SubPages/OverviewPages/OverviewPages';
 import CurrentPage from './Pages/SubPages/Current/CurrentPage';
 import PR from './Pages/SubPages/PolicyReport/PR';
 import Entrepreneurship from './Pages/SubPages/Entrepreneurship/Entrepreneurship';
+import IHR from './Pages/SubPages/IHR/IHR';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             element={<Entrepreneurship />}
             exact
           />
+          <Route path="/IHR&WomensRights" element={<IHR />} exact />
           {/* <Route path="*" element={<ErrorPage />} /> */}
         </Routes>
       </Router>
