@@ -18,6 +18,7 @@ import ObjectivePages from './Pages/SubPages/ObjectivePages/ObjectivePages';
 import OverviewPages from './Pages/SubPages/OverviewPages/OverviewPages';
 import CurrentPage from './Pages/SubPages/Current/CurrentPage';
 import PR from './Pages/SubPages/PolicyReport/PR';
+import Entrepreneurship from './Pages/SubPages/Entrepreneurship/Entrepreneurship';
 
 function App() {
   return (
@@ -30,6 +31,11 @@ function App() {
           <Route path="/" element={<Pages />} exact />
           <Route path="/Current" element={<CurrentPage />} exact />
           <Route path="/PolicyReport" element={<PR />} exact />
+          <Route
+            path="/Entrepreneurship"
+            element={<Entrepreneurship />}
+            exact
+          />
           {/* <Route path="*" element={<ErrorPage />} /> */}
         </Routes>
       </Router>

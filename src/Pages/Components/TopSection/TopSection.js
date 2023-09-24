@@ -77,13 +77,13 @@ export default function TopSection() {
   const dropdownOptionsNews = [
     'BioNews',
     'Policy Report',
-    'Entreprenuership',
+    'Entrepreneurship',
     'IHR & Womens Rights',
   ]; // Option for News Dropdown
   const newsRoutes = [
     '/BioNews',
     '/PolicyReport',
-    '/Entreprenuership',
+    '/Entrepreneurship',
     '/IHR&WomensRights',
   ];
 
