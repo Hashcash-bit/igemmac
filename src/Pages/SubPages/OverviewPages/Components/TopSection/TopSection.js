@@ -35,8 +35,8 @@ export default function TopSection() {
           </LikkleBlurb>
         </IndividualDividers>
         <IndividualDividers>
-          <BackdropButton to="/Entreprenuership">
-            Entreprenuership
+          <BackdropButton to="/Entrepreneurship">
+            Entrepreneurship
           </BackdropButton>
           <LikkleBlurb>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import SamplePDF from './sample.pdf';
+import SubNavbar from '../Components/SubNavbar/SubNavbar';
 
 const Container = styled.div`
   height: 600px;
@@ -26,7 +27,16 @@ const Title = styled.h1`
 
 export default function Entrepreneurship() {
   return (
-    <div>
+    <div
+      style={{
+        backgroundColor: '#dda7a2',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'start',
+        gap: '20px',
+      }}
+    >
+      <SubNavbar />
       <Banner>
         <Title>Entrepreneurship</Title>
       </Banner>

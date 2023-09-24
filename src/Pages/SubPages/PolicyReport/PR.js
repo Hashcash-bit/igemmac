@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './PR.css';
+import SubNavbar from '../Components/SubNavbar/SubNavbar';
 
 const Banner = styled.div`
   background: url('https://thepointsguy.global.ssl.fastly.net/us/originals/2023/03/Really-Cool.jpeg?width=1920')
@@ -58,6 +59,7 @@ const Tab = styled.button`
 const Content = styled.div`
   padding: 20px;
   display: flex;
+  background-color: #dda7a2;
 `;
 
 const ContentDivider = styled.div`
@@ -95,9 +97,11 @@ function PR() {
         flexDirection: 'column',
         justifyContent: 'start',
         width: '100%',
-        height: '100vh',
+        // height: '100vh',
+        backgroundColor: '#dda7a2',
       }}
     >
+      <SubNavbar />
       <Banner>
         <Title>Policy Report</Title>
       </Banner>

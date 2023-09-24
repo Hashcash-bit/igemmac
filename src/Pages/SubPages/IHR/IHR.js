@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import TopSection from '../../Components/TopSection/TopSection';
+import SubNavbar from '../Components/SubNavbar/SubNavbar';
 
 const Banner = styled.div`
   background: url('https://thepointsguy.global.ssl.fastly.net/us/originals/2023/03/Really-Cool.jpeg?width=1920')
@@ -61,10 +62,10 @@ function MyPage() {
         display: 'flex',
         flexDirection: 'column',
         gap: '40px',
-        backgroundColor: "#dda7a2"
+        backgroundColor: '#dda7a2',
       }}
     >
-      <TopSection />
+      <SubNavbar />
       <Banner>
         <Title>IHR & Womens Rights</Title>
       </Banner>
