@@ -3,40 +3,26 @@ import React from 'react';
 
 // Importing the styled components
 import {
-  BigText,
   Container,
   Box,
-  HeroContainer,
-  InfoText,
-  LMButton,
-  LeftSection,
   Links,
   LinksContainer,
-  Logo,
   LogoArea,
   NavBarContainer,
-  RightSection,
   Slashes,
-  SmallText,
   Heart,
-  LeftInformationContainer,
-  HeartImageContainer,
-  FirstCircle,
-  SecondCircle,
-  HeartImage,
-  SubRightSection,
-} from './TopSectionStyles';
+} from './SubNavbarStyles';
 
 //Logo
-import iGEMLogo from '../img/mgempic.png';
-import HeartIMG from '../img/mgemlogo.png';
+import iGEMLogo from '../../../Components/img/mgempic.png';
+import HeartIMG from '../../../Components/img/mgemlogo.png'
 
 //Icons
 
 //Dropdown
-import Dropdown from '../Utils/Dropdown';
+import Dropdown from '../../../Components/Utils/Dropdown';
 
-export default function TopSection() {
+export default function SubNavbar() {
   // About Functionality
   const dropdownOptionsAbout = ['Our Team', 'Our Mission', 'Join Us']; // Option for About Dropdown
   const aboutRoutes = ['/OurTeam', '/OurMission', '/JoinUs'];
@@ -160,29 +146,6 @@ export default function TopSection() {
             </Links>
           </LinksContainer>
         </NavBarContainer>
-        <HeroContainer>
-          <LeftSection>
-            <LeftInformationContainer>
-              <BigText>INTRODUCING iGEM MCMASTER</BigText>
-              <SmallText>/ EST 2023</SmallText>
-            </LeftInformationContainer>
-            <HeartImageContainer>
-              <FirstCircle>
-                <SecondCircle>
-                  <HeartImage src={HeartIMG} />
-                </SecondCircle>
-              </FirstCircle>
-            </HeartImageContainer>
-          </LeftSection>
-          <RightSection>
-            <SubRightSection>
-              <InfoText>
-                Follow along as we trek the vast field of genetics
-              </InfoText>
-              <LMButton>Learn More</LMButton>
-            </SubRightSection>
-          </RightSection>
-        </HeroContainer>
       </Box>
     </Container>
   );

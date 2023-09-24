@@ -17,6 +17,9 @@ import Pages from './Pages/Pages';
 import ObjectivePages from './Pages/SubPages/ObjectivePages/ObjectivePages';
 import OverviewPages from './Pages/SubPages/OverviewPages/OverviewPages';
 import CurrentPage from './Pages/SubPages/Current/CurrentPage';
+import PR from './Pages/SubPages/PolicyReport/PR';
+import Entrepreneurship from './Pages/SubPages/Entrepreneurship/Entrepreneurship';
+import IHR from './Pages/SubPages/IHR/IHR';
 
 function App() {
   return (
@@ -28,8 +31,13 @@ function App() {
           <Route path="/OurMission" element={<ObjectivePages />} exact />
           <Route path="/" element={<Pages />} exact />
           <Route path="/Current" element={<CurrentPage />} exact />
-          {/* <Route path="/Login" element={<Login />} exact /> */}
-          {/* <Route path="/Signup" element={<SignUp />} exact /> */}
+          <Route path="/PolicyReport" element={<PR />} exact />
+          <Route
+            path="/Entrepreneurship"
+            element={<Entrepreneurship />}
+            exact
+          />
+          <Route path="/IHR&WomensRights" element={<IHR />} exact />
           {/* <Route path="*" element={<ErrorPage />} /> */}
         </Routes>
       </Router>
