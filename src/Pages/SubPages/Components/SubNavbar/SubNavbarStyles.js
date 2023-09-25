@@ -10,6 +10,9 @@ export const Container = styled.div`
   width: 100%;
   justify-content: center;
   cursor: default;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
 `;
 
 export const Box = styled.div`
@@ -17,13 +20,8 @@ export const Box = styled.div`
   background-color: #dda7a2;
   display: flex;
   flex-direction: column;
-  width: 98%;
+  width: 100%;
   border-radius: 0px;
-  margin-top: 15px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  gap: 40px;
   justify-content: center;
   align-items: center;
 //   border: 4px solid #7a003c;
@@ -99,7 +97,6 @@ export const LeftSection = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 30px;
 
   @media screen and (max-width: 415px) {
     justify-content: center;
