@@ -12,6 +12,7 @@ import {
   SectionBodyImage,
 } from './components/Section/SectionStyled';
 import SectionFooterComponent from './components/Section/SectionFooter';
+import SubNavbar from '../Components/SubNavbar/SubNavbar'
 
 // media imports
 import PrincePhilip from '../Img/philip.jpg';
@@ -30,6 +31,8 @@ const CurrentPage = () => {
 
   return (
     <MainDiv>
+      <SubNavbar />
+
       <PictureArea>
         <img src={PrincePhilip} alt="old hag" />
       </PictureArea>
