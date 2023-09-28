@@ -6,6 +6,7 @@ import { PictureArea } from './ObjectivePagesStyled';
 
 // The Component imports
 import Background from './Component/Background/Background';
+import SubNavbar from '../Components/SubNavbar/SubNavbar';
 
 // The image imports
 import TemplateImage from '../Img/pfp.jpg';
@@ -39,6 +40,7 @@ export default function ObjectivePages() {
         height: '100%',
       }}
     >
+      <SubNavbar />
       <PictureArea>
         <img src={TemplateImage} />
       </PictureArea>
