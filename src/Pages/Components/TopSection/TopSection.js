@@ -38,50 +38,44 @@ import Dropdown from '../Utils/Dropdown';
 
 export default function TopSection() {
   // About Functionality
-  const dropdownOptionsAbout = ['Our Team', 'Our Mission', 'Join Us']; // Option for About Dropdown
-  const aboutRoutes = ['/OurTeam', '/OurMission', '/JoinUs'];
+  const dropdownOptionsAbout = ['Our Team', 'Description', 'Attributions']; // Option for About Dropdown
+  const aboutRoutes = ['/OurTeam', '/description', '/attributions'];
 
   // Initiatives Functionality
   const dropdownOptionsInitiatives = [
-    'STEMcast',
-    'Conference',
-    'Biolab Tutorials',
-    'McMaster Courses',
+    'Design',
+    'Engineering',
+    'Results',
+    'Parts and Notebook',
+    'Contributions'
   ]; // Option for Initiatives Dropdown
   const initiativesRoutes = [
-    '/STEMcast',
-    '/Conference',
-    '/BiolabTutorials',
-    '/McMasterCourses',
+    '/design',
+    '/engineering',
+    '/results',
+    '/notebook',
+    '/contributions'
   ];
 
   // Projects Functionality
   const dropdownOptionsProjects = [
-    'Current',
-    '2022',
-    '2021',
-    '2020',
-    '2019',
-    '2018',
+    'Kinetic Model',
+    'Normalization Model'
   ]; // Option for Projects Dropdown
   const projectsRoutes = [
-    '/Current',
-    '/2022',
-    '/2021',
-    '/2020',
-    '/2019',
-    '/2018',
+    '/kineticmodel',
+    '/normalizationmodel'
   ];
 
   // News Functionality
   const dropdownOptionsNews = [
-    'BioNews',
+    'Overview',
     'Policy Report',
     'Entrepreneurship',
     'IHR & Womens Rights',
   ]; // Option for News Dropdown
   const newsRoutes = [
-    '/BioNews',
+    '/human-practices',
     '/PolicyReport',
     '/Entrepreneurship',
     '/IHR&WomensRights',
@@ -120,7 +114,7 @@ export default function TopSection() {
               <Dropdown
                 options={dropdownOptionsInitiatives}
                 routes={initiativesRoutes}
-                navItemName="INITIATIVES"
+                navItemName="WET LAB"
               />
             </Links>
             <Slashes>/</Slashes>
@@ -129,7 +123,7 @@ export default function TopSection() {
               <Dropdown
                 options={dropdownOptionsProjects}
                 routes={projectsRoutes}
-                navItemName="PROJECTS"
+                navItemName="DRY LAB"
               />
             </Links>
             <Slashes>/</Slashes>
@@ -138,7 +132,7 @@ export default function TopSection() {
               <Dropdown
                 options={dropdownOptionsNews}
                 routes={newsRoutes}
-                navItemName="NEWS"
+                navItemName="HUMAN PRACTICES"
               />
             </Links>
             <Slashes>/</Slashes>

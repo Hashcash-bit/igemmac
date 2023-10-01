@@ -1,5 +1,9 @@
 import { styled } from 'styled-components';
 
+export const Overview = styled.div`
+  margin-top: 500px;
+`
+
 export const TopSection = styled.div`
   display: flex;
   justify-content: space-around;

@@ -15,6 +15,7 @@ import {
   Text,
   OptionDisplay,
   Options,
+  Overview,
 } from './ObjectiveStyles';
 
 import TemplateImage from '../../../Img/pfp.jpg';
@@ -42,6 +43,7 @@ const Objective = React.forwardRef(
           justifyContent: 'space-between',
         }}
       >
+      <Overview>
         <TopBar />
         <TopSection>
           <LeftBottomSection>
@@ -77,6 +79,7 @@ const Objective = React.forwardRef(
             </Options>
           </OptionDisplay>
         </BottomSection>
+        </Overview>
       </div>
     );
   },

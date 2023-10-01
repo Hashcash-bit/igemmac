@@ -54,18 +54,14 @@ export default function Navbar() {
 
   const dropdownOptionsAbout = ['Our Team', 'Our Mission', 'Join Us'];
   const dropdownOptionsInitiatives = [
-    'STEMcast',
-    'Conference',
-    'Biolab Tutorials',
-    'McMaster Courses',
+    'DESIGN',
+    'ENGINEERING',
+    'RESULTS',
+    'PARTS AND NOTEBOOK'
   ];
   const dropdownOptionsProjects = [
-    'Current',
-    '2022',
-    '2021',
-    '2020',
-    '2019',
-    '2018',
+    'KINETIC MODEL',
+    'NORMALIZATION MODEL'
   ];
   const dropdownOptionsNews = ['BioNews', 'Genetic News', 'Fuck Franky'];
   const dropdownOptionsPartners = [
@@ -92,7 +88,7 @@ export default function Navbar() {
                 {' '}
                 <Dropdown
                   options={dropdownOptionsInitiatives}
-                  navItemName="INITIATIVES"
+                  navItemName="WET LAB"
                 />
               </Links>
               <Slashes>/</Slashes>

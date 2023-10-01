@@ -27,10 +27,10 @@ function App() {
       <Router>
         <Routes>
           {/* Use the element prop instead of the Component prop */}
-          <Route path="/BioNews" element={<OverviewPages />} exact />
-          <Route path="/OurMission" element={<ObjectivePages />} exact />
+          <Route path="/human-practices" element={<OverviewPages />} exact />
+          <Route path="/description" element={<ObjectivePages />} exact />
           <Route path="/" element={<Pages />} exact />
-          <Route path="/Current" element={<CurrentPage />} exact />
+          <Route path="/kineticmodel" element={<CurrentPage />} exact />
           <Route path="/PolicyReport" element={<PR />} exact />
           <Route
             path="/Entrepreneurship"

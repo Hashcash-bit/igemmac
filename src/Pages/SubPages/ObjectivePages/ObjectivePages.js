@@ -9,7 +9,7 @@ import Background from './Component/Background/Background';
 import SubNavbar from '../Components/SubNavbar/SubNavbar';
 
 // The image imports
-import TemplateImage from '../Img/pfp.jpg';
+import TemplateImage from './img/andrew.png';
 import Objective from './Component/Objective/Objective';
 import Chassis from './Component/ChassisSelection/Chassis';
 import Butyrate from './Component/Biomarkers/Butyrate/Butyrate';

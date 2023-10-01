@@ -11,6 +11,10 @@ export const Title = styled.div`
   font-size: 50px;
 `;
 
+export const Overview = styled.div`
+  margin-top: 500px;
+`;
+
 export const Image = styled.img`
   height: 500px;
 `;

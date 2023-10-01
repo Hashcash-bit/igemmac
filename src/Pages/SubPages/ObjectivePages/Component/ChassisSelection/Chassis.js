@@ -2,7 +2,7 @@ import React from 'react';
 
 import TopBar from '../TopBar/TopBar';
 
-import { TopSection, Image, Title, BottomSection } from './ChassisStyles';
+import { TopSection, Image, Title, BottomSection,Overview } from './ChassisStyles';
 
 export default function Chassis() {
   return (
@@ -14,6 +14,7 @@ export default function Chassis() {
         justifyContent: 'start',
       }}
     >
+    <Overview>
       <TopBar />
       <div style={{ display: 'flex', flexDirection: 'column', gap: '150px' }}>
         <TopSection>
@@ -25,7 +26,9 @@ export default function Chassis() {
             alt="Chassis"
           />
         </BottomSection>
+        
       </div>
+      </Overview>
     </div>
   );
 }
