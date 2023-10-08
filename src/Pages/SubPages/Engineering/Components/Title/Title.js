@@ -1,13 +1,21 @@
 import React from 'react';
 
+//Background Image
+import EngineeringImage from '../../../Img/EngineeringImage.png';
+
 export default function Title() {
   return (
     <div
       style={{
-        height: '100dvh',
-        backgroundImage: "require('../../../Img/EngineeringImage.png')",
+        height: '100vh',
+        backgroundImage:
+          'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(' +
+          EngineeringImage +
+          ')',
         objectFit: 'cover',
         backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
