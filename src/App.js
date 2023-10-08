@@ -20,6 +20,7 @@ import CurrentPage from './Pages/SubPages/Current/CurrentPage';
 import PR from './Pages/SubPages/PolicyReport/PR';
 import Entrepreneurship from './Pages/SubPages/Entrepreneurship/Entrepreneurship';
 import IHR from './Pages/SubPages/IHR/IHR';
+import Engineering from './Pages/SubPages/Engineering/Engineering';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/human-practices" element={<OverviewPages />} exact />
           <Route path="/description" element={<ObjectivePages />} exact />
           <Route path="/" element={<Pages />} exact />
+          <Route path="/Engineering" element={<Engineering />} exact />
           <Route path="/kineticmodel" element={<CurrentPage />} exact />
           <Route path="/PolicyReport" element={<PR />} exact />
           <Route
