@@ -12,7 +12,7 @@ export const Container = styled.div`
   cursor: default;
   position: fixed;
   top: 0;
-  z-index: 9999;
+  z-index: 9;
 `;
 
 export const Box = styled.div`
