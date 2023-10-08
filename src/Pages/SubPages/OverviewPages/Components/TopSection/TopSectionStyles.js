@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+export const Container = styled.div`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+`;
+
 export const TitleContainer = styled.div`
   font-size: 50px;
   font-weight: bold;

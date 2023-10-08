@@ -24,7 +24,7 @@ export const Box = styled.div`
   border-radius: 0px;
   justify-content: center;
   align-items: center;
-//   border: 4px solid #7a003c;
+  padding: 25px 0px;
 
   @media screen and (max-width: 500px) {
     padding-right: 0px;

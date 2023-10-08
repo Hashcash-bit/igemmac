@@ -34,6 +34,8 @@ export default function Entrepreneurship() {
         flexDirection: 'column',
         justifyContent: 'start',
         gap: '20px',
+        marginTop: '50px',
+        height: '100dvh',
       }}
     >
       <SubNavbar />

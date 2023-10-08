@@ -63,6 +63,7 @@ function MyPage() {
         flexDirection: 'column',
         gap: '40px',
         backgroundColor: '#dda7a2',
+        marginTop: '50px',
       }}
     >
       <SubNavbar />

@@ -90,121 +90,124 @@ function PR() {
   const prevTab = prevTabRef.current;
 
   return (
-    <div
-      style={{
-        gap: '50px',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'start',
-        width: '100%',
-        // height: '100vh',
-        backgroundColor: '#dda7a2',
-      }}
-    >
+    <div>
       <SubNavbar />
-      <Banner>
-        <Title>Policy Report</Title>
-      </Banner>
-      <TabContainer>
-        <Tab
-          active={activeTab === 1}
-          onClick={() => {
-            setActiveTab(1);
-            setDirection('right');
-          }}
-        >
-          Tab 1
-        </Tab>
-        <Tab
-          active={activeTab === 2}
-          onClick={() => {
-            setActiveTab(2);
-            setDirection('left');
-          }}
-        >
-          Tab 2
-        </Tab>
-        <Tab
-          active={activeTab === 3}
-          onClick={() => {
-            setActiveTab(3);
-            setDirection('left');
-          }}
-        >
-          Tab 3
-        </Tab>
-        <Tab
-          active={activeTab === 4}
-          onClick={() => {
-            setActiveTab(4);
-            setDirection('left');
-          }}
-        >
-          Tab 4
-        </Tab>
-        <Tab
-          active={activeTab === 5}
-          onClick={() => {
-            setActiveTab(5);
-            setDirection('left');
-          }}
-        >
-          Tab 5
-        </Tab>
-      </TabContainer>
-      <TransitionGroup className={`transition-group ${direction}`}>
-        <CSSTransition
-          key={activeTab}
-          timeout={{ enter: 300, exit: 300 }}
-          classNames={'slide'}
-        >
-          <section className="route-section">
-            <Content>
-              {activeTab === 1 ? (
-                <ContentDivider>
-                  <p>This is some content for Tab 1.</p>
-                  <Image
-                    src="url_to_your_image_for_tab_1"
-                    alt="description_of_image_1"
-                  />
-                </ContentDivider>
-              ) : activeTab === 2 ? (
-                <ContentDivider>
-                  <p>This is some content for Tab 2.</p>
-                  <Image
-                    src="url_to_your_image_for_tab_2"
-                    alt="description_of_image_2"
-                  />
-                </ContentDivider>
-              ) : activeTab === 3 ? (
-                <ContentDivider>
-                  <p>This is some content for Tab 3.</p>
-                  <Image
-                    src="url_to_your_image_for_tab_2"
-                    alt="description_of_image_2"
-                  />
-                </ContentDivider>
-              ) : activeTab === 4 ? (
-                <ContentDivider>
-                  <p>This is some content for Tab 4.</p>
-                  <Image
-                    src="https://thepointsguy.global.ssl.fastly.net/us/originals/2023/03/Really-Cool.jpeg?width=1920"
-                    alt="description_of_image_2"
-                  />
-                </ContentDivider>
-              ) : (
-                <ContentDivider>
-                  <p>This is some content for Tab 5.</p>
-                  <Image
-                    src="url_to_your_image_for_tab_2"
-                    alt="description_of_image_2"
-                  />
-                </ContentDivider>
-              )}
-            </Content>
-          </section>
-        </CSSTransition>
-      </TransitionGroup>
+      <div
+        style={{
+          gap: '50px',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'start',
+          width: '100%',
+          height: '100dvh',
+          backgroundColor: '#dda7a2',
+          marginTop: '50px',
+        }}
+      >
+        <Banner>
+          <Title>Policy Report</Title>
+        </Banner>
+        <TabContainer>
+          <Tab
+            active={activeTab === 1}
+            onClick={() => {
+              setActiveTab(1);
+              setDirection('right');
+            }}
+          >
+            Tab 1
+          </Tab>
+          <Tab
+            active={activeTab === 2}
+            onClick={() => {
+              setActiveTab(2);
+              setDirection('left');
+            }}
+          >
+            Tab 2
+          </Tab>
+          <Tab
+            active={activeTab === 3}
+            onClick={() => {
+              setActiveTab(3);
+              setDirection('left');
+            }}
+          >
+            Tab 3
+          </Tab>
+          <Tab
+            active={activeTab === 4}
+            onClick={() => {
+              setActiveTab(4);
+              setDirection('left');
+            }}
+          >
+            Tab 4
+          </Tab>
+          <Tab
+            active={activeTab === 5}
+            onClick={() => {
+              setActiveTab(5);
+              setDirection('left');
+            }}
+          >
+            Tab 5
+          </Tab>
+        </TabContainer>
+        <TransitionGroup className={`transition-group ${direction}`}>
+          <CSSTransition
+            key={activeTab}
+            timeout={{ enter: 300, exit: 300 }}
+            classNames={'slide'}
+          >
+            <section className="route-section">
+              <Content>
+                {activeTab === 1 ? (
+                  <ContentDivider>
+                    <p>This is some content for Tab 1.</p>
+                    <Image
+                      src="url_to_your_image_for_tab_1"
+                      alt="description_of_image_1"
+                    />
+                  </ContentDivider>
+                ) : activeTab === 2 ? (
+                  <ContentDivider>
+                    <p>This is some content for Tab 2.</p>
+                    <Image
+                      src="url_to_your_image_for_tab_2"
+                      alt="description_of_image_2"
+                    />
+                  </ContentDivider>
+                ) : activeTab === 3 ? (
+                  <ContentDivider>
+                    <p>This is some content for Tab 3.</p>
+                    <Image
+                      src="url_to_your_image_for_tab_2"
+                      alt="description_of_image_2"
+                    />
+                  </ContentDivider>
+                ) : activeTab === 4 ? (
+                  <ContentDivider>
+                    <p>This is some content for Tab 4.</p>
+                    <Image
+                      src="https://thepointsguy.global.ssl.fastly.net/us/originals/2023/03/Really-Cool.jpeg?width=1920"
+                      alt="description_of_image_2"
+                    />
+                  </ContentDivider>
+                ) : (
+                  <ContentDivider>
+                    <p>This is some content for Tab 5.</p>
+                    <Image
+                      src="url_to_your_image_for_tab_2"
+                      alt="description_of_image_2"
+                    />
+                  </ContentDivider>
+                )}
+              </Content>
+            </section>
+          </CSSTransition>
+        </TransitionGroup>
+      </div>
     </div>
   );
 }
