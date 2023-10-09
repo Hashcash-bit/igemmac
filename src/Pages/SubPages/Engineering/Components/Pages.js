@@ -8,6 +8,8 @@ import H2O2 from './Metabolites/H2O2/H2O2';
 import Tetrahydrofolate from './Metabolites/Tetrahydrofolate/Tetrahydrofolate';
 import Tetrathionate from './Metabolites/Tetrathionate/Tetrathionate';
 import Test from './Test/Test';
+import Learn from './Learn/Learn';
+import Button from './Button/Button';
 
 export default function Pages() {
   return (
@@ -21,6 +23,8 @@ export default function Pages() {
       <Tetrahydrofolate />
       <Tetrathionate />
       <Test />
+      <Learn />
+      <Button />
     </div>
   );
 }
