@@ -3,6 +3,7 @@ import Title from './Components/Title/Title';
 import Contributions from './Components/Contributions/Contributions';
 import Parts from './Components/Parts/Parts';
 import Calendar from './Components/Calendar/Calendar';
+import Results from './Components/Results/Results';
 
 export default function PartsNotebook() {
   return (
@@ -11,6 +12,7 @@ export default function PartsNotebook() {
       <Contributions />
       <Parts />
       <Calendar />
+      <Results />
     </div>
   );
 }
