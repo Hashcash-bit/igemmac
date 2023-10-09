@@ -20,6 +20,7 @@ export const HeaderContainer = styled.div`
 `;
 
 export const LeftArrow = styled.div`
+  cursor: pointer;
   font-size: 49.2px;
   font-weight: bold;
   color: #971a35;
@@ -32,6 +33,7 @@ export const MiddleTxt = styled.div`
 `;
 
 export const RightArrow = styled.div`
+  cursor: pointer;
   font-size: 49.2px;
   font-weight: bold;
   color: #971a35;
