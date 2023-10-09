@@ -21,6 +21,7 @@ import PR from './Pages/SubPages/PolicyReport/PR';
 import Entrepreneurship from './Pages/SubPages/Entrepreneurship/Entrepreneurship';
 import IHR from './Pages/SubPages/IHR/IHR';
 import Engineering from './Pages/SubPages/Engineering/Engineering';
+import PartsNotebook from './Pages/SubPages/PartsNotebook/PartsNotebook';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           {/* Use the element prop instead of the Component prop */}
           <Route path="/human-practices" element={<OverviewPages />} exact />
           <Route path="/description" element={<ObjectivePages />} exact />
+          <Route path="/notebook" element={<PartsNotebook />} exact />
           <Route path="/" element={<Pages />} exact />
           <Route path="/Engineering" element={<Engineering />} exact />
           <Route path="/kineticmodel" element={<CurrentPage />} exact />
