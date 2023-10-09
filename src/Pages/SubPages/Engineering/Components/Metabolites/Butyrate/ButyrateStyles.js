@@ -41,6 +41,17 @@ export const NavLink = styled.div`
   }
 `;
 
+export const NavLinkS = styled.div`
+  padding: 20px 30px;
+  border: 2px solid #971a35;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+  background-color: #971a35;
+`;
+
 export const NavigationImageContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -57,11 +68,19 @@ export const NavSubHeader = styled.div``;
 export const BottomSection = styled.div`
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
+  height: 100%;
 `;
 
-export const LeftSection = styled.div``;
+export const LeftSection = styled.div`
+  display: flex;
+  justify-content: start;
+  align-items: end;
+`;
 
-export const LeftImage = styled.img``;
+export const LeftImage = styled.img`
+  height: 380px;
+`;
 
 export const RightSection = styled.div`
   display: flex;

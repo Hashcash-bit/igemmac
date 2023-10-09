@@ -15,13 +15,14 @@ import {
   RightCast,
   RightButton,
   LeftImage,
-} from './MetabolitesStyles';
+  NavLinkS,
+} from './H2O2Styles';
 
-import IGEMLOGO from '../Img/mgemlogo.png';
-import NAVUIMG from '../Img/NavImg.png';
-import InfoImage from '../Img/BLImage.png';
+import IGEMLOGO from '../../../../Img/mgemlogo.png';
+import NAVUIMG from '../../../../Img/NavImg.png';
+import InfoImage from '../../../../Img/BLImage.png';
 
-export default function Metabolites() {
+export default function H2O2() {
   return (
     <div
       style={{
@@ -35,7 +36,7 @@ export default function Metabolites() {
           <Navigation>
             <NavLink>Butyrate</NavLink>
             <NavLink>Indole</NavLink>
-            <NavLink>H2O2</NavLink>
+            <NavLinkS>H2O2</NavLinkS>
             <NavLink>Tetrahydrofolate</NavLink>
             <NavLink>Tetrathionate</NavLink>
           </Navigation>
