@@ -19,6 +19,7 @@ import {
 import IGEMLOGO from '../../../../../Img/mgemlogo.png';
 
 import { BiSolidLeftArrow, BiSolidRightArrow } from 'react-icons/bi';
+import { Link } from 'react-scroll';
 
 export default function July() {
   return (
@@ -32,11 +33,15 @@ export default function July() {
           <TopBar src={IGEMLOGO} />
           <HeaderContainer>
             <LeftArrow>
-              <BiSolidLeftArrow /> -------------
+              <Link to="June" smooth={true} duration={500}>
+                <BiSolidLeftArrow /> -------------
+              </Link>
             </LeftArrow>
             <MiddleTxt>July 1 - July 7</MiddleTxt>
             <RightArrow>
-              ------------- <BiSolidRightArrow />
+              <Link to="August" smooth={true} duration={500}>
+                ------------- <BiSolidRightArrow />
+              </Link>
             </RightArrow>
           </HeaderContainer>
         </div>
