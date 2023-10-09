@@ -7,6 +7,7 @@ import Indole from './Metabolites/Indole/Indole';
 import H2O2 from './Metabolites/H2O2/H2O2';
 import Tetrahydrofolate from './Metabolites/Tetrahydrofolate/Tetrahydrofolate';
 import Tetrathionate from './Metabolites/Tetrathionate/Tetrathionate';
+import Test from './Test/Test';
 
 export default function Pages() {
   return (
@@ -19,6 +20,7 @@ export default function Pages() {
       <H2O2 />
       <Tetrahydrofolate />
       <Tetrathionate />
+      <Test />
     </div>
   );
 }
