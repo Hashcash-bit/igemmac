@@ -1,0 +1,22 @@
+image: node:latest
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - .next/cache/
+
+before_script:
+  - npm install
+
+pages:
+  script:
+    - npm run build
+    # - mv public _public
+    - mv out public
+    - rm -rf out
+  artifacts:
+    paths:
+      - public
+  only:
+    - main

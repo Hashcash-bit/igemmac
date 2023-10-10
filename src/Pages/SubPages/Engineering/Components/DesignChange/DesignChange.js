@@ -40,7 +40,7 @@ export default function DesignChange() {
         </TitleContainer>
         <BodyContainer>
           <TopBox onClick={() => setTopBoxModalIsOpen(true)}>
-            <TopText>Learn why we are just sensing butyrate</TopText>
+            <TopText>Click to learn why we are just sensing butyrate</TopText>
             <BottomText>Butyrate Sensing System</BottomText>
           </TopBox>
 
@@ -104,7 +104,7 @@ export default function DesignChange() {
           </Modal>
           <BottomBox onClick={() => setBottomBoxModalIsOpen(true)}>
             <TopText>
-              Learn why we are measuring fluorescence and not sgRNA and BE2
+              Click to learn why we are measuring fluorescence and not sgRNA and BE2
               induced mutations
             </TopText>
             <BottomText>Fluorescence Testing System</BottomText>

@@ -43,18 +43,14 @@ export default function TopSection() {
 
   // Initiatives Functionality
   const dropdownOptionsInitiatives = [
-    'Design',
     'Engineering',
     'Results',
-    'Parts and Notebook',
     'Contributions'
   ]; // Option for Initiatives Dropdown
   const initiativesRoutes = [
-    '/design',
     '/engineering',
     '/results',
-    '/notebook',
-    '/contributions'
+    '/contribution'
   ];
 
   // Projects Functionality
@@ -83,15 +79,11 @@ export default function TopSection() {
 
   // Partners Functionality
   const dropdownOptionsPartners = [
-    'Sponsors',
-    'Collaborators',
-    'Partner With Us',
+    'Special Prize 1',
+    'Special Prize 2',
+    'Special Prize 3',
   ]; // Option for Partners Dropdown
-  const partnersRoutes = ['/Sponsors', '/Collaborators', '/PartnerWithUs'];
-
-  // ContactUs Fucntionality
-  const dropdownOptionsContactUs = ['Project 1', 'Project 2', 'Project 3']; // Option for Contact Us Dropdown
-  const contactusRoutes = ['/Project1', '/Project2', '/Project3'];
+  const partnersRoutes = ['/sp1', '/sp2', '/sp3'];
 
   return (
     <Container>
@@ -141,15 +133,7 @@ export default function TopSection() {
               <Dropdown
                 options={dropdownOptionsPartners}
                 routes={partnersRoutes}
-                navItemName="PARTNERS"
-              />
-            </Links>
-            <Slashes>/</Slashes>
-            <Links>
-              <Dropdown
-                options={dropdownOptionsContactUs}
-                routes={contactusRoutes}
-                navItemName="CONTACT US"
+                navItemName="SPECIAL PRIZES"
               />
             </Links>
           </LinksContainer>
