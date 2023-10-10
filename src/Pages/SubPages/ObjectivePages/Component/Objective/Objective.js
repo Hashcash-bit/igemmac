@@ -40,45 +40,49 @@ const Objective = React.forwardRef(
           height: '100vh',
           display: 'flex',
           flexDirection: 'column',
+          backgroundColor: '#F5F5F5',
+
           justifyContent: 'space-between',
         }}
       >
-      <Overview>
-        <TopBar />
-        <TopSection>
-          <LeftBottomSection>
-            <Title>Objective</Title>
-            <TextInfoContainer>
-              <TextInfo>Some stupid text</TextInfo>
-            </TextInfoContainer>
-          </LeftBottomSection>
-          <RightBottomSection>
-            {/* <TapeImage src={Tape} alt="tape" /> */}
-            <Image src={TemplateImage} alt="Template" />
-          </RightBottomSection>
-        </TopSection>
-        <BottomSection>
-          <TopArea>
-            <ColoredArea>
-              <Text>
-                Object #1: Five sensing systems for Five biomarkers for MDD
-              </Text>
-            </ColoredArea>
-          </TopArea>
-          <OptionDisplay>
-            <Options onClick={() => scrollToRef(butyrateRef)}>Butyrate</Options>
-            <Options onClick={() => scrollToRef(indoleRef)}>Indole</Options>
-            <Options onClick={() => scrollToRef(hydrogenPeroxideRef)}>
-              Hydrogen Peroxide
-            </Options>
-            <Options onClick={() => scrollToRef(tetrahydrofolateRef)}>
-              Tetrahydrofoliate
-            </Options>
-            <Options onClick={() => scrollToRef(tetrathionateRef)}>
-              Tetrathionate
-            </Options>
-          </OptionDisplay>
-        </BottomSection>
+        <Overview>
+          <TopBar />
+          <TopSection>
+            <LeftBottomSection>
+              <Title>Objective</Title>
+              <TextInfoContainer>
+                <TextInfo>Some stupid text</TextInfo>
+              </TextInfoContainer>
+            </LeftBottomSection>
+            <RightBottomSection>
+              {/* <TapeImage src={Tape} alt="tape" /> */}
+              <Image src={TemplateImage} alt="Template" />
+            </RightBottomSection>
+          </TopSection>
+          <BottomSection>
+            <TopArea>
+              <ColoredArea>
+                <Text>
+                  Object #1: Five sensing systems for Five biomarkers for MDD
+                </Text>
+              </ColoredArea>
+            </TopArea>
+            <OptionDisplay>
+              <Options onClick={() => scrollToRef(butyrateRef)}>
+                Butyrate
+              </Options>
+              <Options onClick={() => scrollToRef(indoleRef)}>Indole</Options>
+              <Options onClick={() => scrollToRef(hydrogenPeroxideRef)}>
+                Hydrogen Peroxide
+              </Options>
+              <Options onClick={() => scrollToRef(tetrahydrofolateRef)}>
+                Tetrahydrofoliate
+              </Options>
+              <Options onClick={() => scrollToRef(tetrathionateRef)}>
+                Tetrathionate
+              </Options>
+            </OptionDisplay>
+          </BottomSection>
         </Overview>
       </div>
     );
