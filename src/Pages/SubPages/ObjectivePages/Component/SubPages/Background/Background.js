@@ -21,7 +21,6 @@ export default function Background() {
     <div
       style={{
         height: 'max-content',
-        backgroundColor: '#F5F5F5',
       }}
     >
       <Container>

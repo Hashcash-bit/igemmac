@@ -13,7 +13,6 @@ export default function Objective() {
     <div
       style={{
         height: 'max-content',
-        backgroundColor: '#F5F5F5',
       }}
     >
       <Container>
