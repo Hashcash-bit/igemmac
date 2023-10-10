@@ -63,17 +63,6 @@ export default function TopSection() {
               ex, consequat a lorem at.
             </LikkleBlurb>
           </IndividualDividers>
-          <IndividualDividers>
-            <BackdropButton>Button4</BackdropButton>
-            <LikkleBlurb>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              pretium tortor sit amet dignissim interdum. Etiam vitae malesuada
-              purus. Sed fringilla urna id nibh imperdiet laoreet. Praesent
-              vestibulum quis enim ac ullamcorper. Suspendisse massa quam,
-              sagittis euismod gravida eu, condimentum sit amet sem. Nunc arcu
-              ex, consequat a lorem at.
-            </LikkleBlurb>
-          </IndividualDividers>
         </ButtonInfoContainer>
       </Container>
     </div>

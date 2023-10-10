@@ -31,7 +31,7 @@ export default function Button() {
         display: 'flex',
       }}
     >
-      <ButtonContainer>Check out our results</ButtonContainer>
+    <ButtonContainer>Check out our results</ButtonContainer>
     </div>
   );
 }
