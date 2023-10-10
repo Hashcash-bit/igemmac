@@ -16,10 +16,6 @@ import {
   TopText,
 } from './TestStyles';
 
-import IGEMLOGO from '../../../Img/mgemlogo.png';
-import LeftImg from '../../../Img/TestVector.png';
-import InfoImage from '../../../Img/InfoImage.png';
-
 export default function Test() {
   return (
     <div
@@ -28,10 +24,10 @@ export default function Test() {
       }}
     >
       <Container>
-        <TopBar src={IGEMLOGO} />
+        <TopBar src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
         <BottomBox>
           <LeftBox>
-            <LeftImage src={LeftImg} />
+            <LeftImage src='https://static.igem.wiki/teams/4751/wiki/testvector.png' />
           </LeftBox>
           <RightBox>
             <TitleContainer>

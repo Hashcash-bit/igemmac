@@ -16,8 +16,6 @@ import {
   TroubleShooting,
 } from './JuneStyles';
 
-import IGEMLOGO from '../../../../../Img/mgemlogo.png';
-
 import { BiSolidLeftArrow, BiSolidRightArrow } from 'react-icons/bi';
 import { Link } from 'react-scroll';
 
@@ -30,7 +28,7 @@ export default function June() {
     >
       <Container>
         <div>
-          <TopBar src={IGEMLOGO} />
+          <TopBar src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
           <HeaderContainer>
           <LeftArrow>
               <Link to="May" smooth={true} duration={500}>

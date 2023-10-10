@@ -28,8 +28,7 @@ import {
 } from './TopSectionStyles';
 
 //Logo
-import iGEMLogo from '../img/mgempic.png';
-import HeartIMG from '../img/mgemlogo.png';
+
 
 //Icons
 
@@ -90,7 +89,7 @@ export default function TopSection() {
       <Box>
         <NavBarContainer>
           <LogoArea>
-            <Heart src={HeartIMG} />
+            <Heart src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
           </LogoArea>
           <LinksContainer>
             <Links>
@@ -147,7 +146,7 @@ export default function TopSection() {
             <HeartImageContainer>
               <FirstCircle>
                 <SecondCircle>
-                  <HeartImage src={HeartIMG} />
+                  <HeartImage src="https://static.igem.wiki/teams/4751/wiki/mgemlogo.png" />
                 </SecondCircle>
               </FirstCircle>
             </HeartImageContainer>

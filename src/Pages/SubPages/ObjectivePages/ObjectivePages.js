@@ -9,7 +9,6 @@ import Background from './Component/Background/Background';
 import SubNavbar from '../Components/SubNavbar/SubNavbar';
 
 // The image imports
-import TemplateImage from './img/andrew.png';
 import Objective from './Component/Objective/Objective';
 import Chassis from './Component/ChassisSelection/Chassis';
 import Butyrate from './Component/Biomarkers/Butyrate/Butyrate';
@@ -42,7 +41,7 @@ export default function ObjectivePages() {
     >
       <SubNavbar />
       <PictureArea>
-        <img src={TemplateImage} />
+        <img src='https://static.igem.wiki/teams/4751/wiki/andrew.png' />
       </PictureArea>
       <Background />
       <Objective

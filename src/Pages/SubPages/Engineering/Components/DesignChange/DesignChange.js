@@ -17,8 +17,6 @@ import {
   TopText,
 } from './DesignChangeStyles';
 
-import IGEMLOGO from '../../../Img/mgemlogo.png';
-
 import { RxCross2 } from 'react-icons/rx';
 
 Modal.setAppElement('#root'); // replace '#root' with the id of your app's root element
@@ -35,7 +33,7 @@ export default function DesignChange() {
     >
       <Container>
         <TitleContainer>
-          <TopBar src={IGEMLOGO} />
+          <TopBar src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
           <Titletxt>Design Changes For Project</Titletxt>
         </TitleContainer>
         <BodyContainer>
@@ -55,7 +53,7 @@ export default function DesignChange() {
           >
             <Container1>
               <TitleContainer>
-                <TopBar src={IGEMLOGO} />
+                <TopBar src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
 
                 <Titletxt>Design Changes For Project</Titletxt>
               </TitleContainer>
@@ -120,7 +118,7 @@ export default function DesignChange() {
           >
             <Container1>
               <TitleContainer>
-                <TopBar src={IGEMLOGO} />
+                <TopBar src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
                 <Titletxt>Design Changes For Project</Titletxt>
               </TitleContainer>
               <TextContainer>

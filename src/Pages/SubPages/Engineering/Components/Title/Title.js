@@ -1,7 +1,5 @@
 import React from 'react';
 
-//Background Image
-import EngineeringImage from '../../../Img/EngineeringImage.png';
 
 export default function Title() {
   return (
@@ -9,9 +7,7 @@ export default function Title() {
       style={{
         height: '100vh',
         backgroundImage:
-          'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(' +
-          EngineeringImage +
-          ')',
+          'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://static.igem.wiki/teams/4751/wiki/engineeringimage.png)',
         objectFit: 'cover',
         backgroundSize: 'cover',
         backgroundPosition: 'center',

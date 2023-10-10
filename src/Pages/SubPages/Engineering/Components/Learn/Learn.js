@@ -16,9 +16,6 @@ import {
   TopText,
 } from './LearnStyles';
 
-import IGEMLOGO from '../../../Img/mgemlogo.png';
-import LeftImg from '../../../Img/LearnVector.png';
-
 export default function Learn() {
   return (
     <div
@@ -27,10 +24,10 @@ export default function Learn() {
       }}
     >
       <Container>
-        <TopBar src={IGEMLOGO} />
+        <TopBar src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
         <BottomBox>
           <LeftBox>
-            <LeftImage src={LeftImg} />
+            <LeftImage src='https://static.igem.wiki/teams/4751/wiki/learnvector.png' />
           </LeftBox>
           <RightBox>
             <TitleContainer>

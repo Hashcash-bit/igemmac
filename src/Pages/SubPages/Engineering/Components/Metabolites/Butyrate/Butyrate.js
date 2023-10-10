@@ -30,7 +30,7 @@ export default function Butyrate() {
       }}
     >
       <Container>
-        <TopBar src={IGEMLOGO} />
+        <TopBar src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
         <MiddleSection>
           <NavHeader>Click Metabolites to view the different systems</NavHeader>
           <Navigation>
@@ -41,7 +41,7 @@ export default function Butyrate() {
             <NavLink>Tetrathionate</NavLink>
           </Navigation>
           <NavigationImageContainer>
-            <NavImage src={NAVUIMG} />
+            <NavImage src='https://static.igem.wiki/teams/4751/wiki/navimg.png' />
             <NavSubHeader>
               *Note YFP replace the sgRNA for real-life testing of system
             </NavSubHeader>
@@ -49,7 +49,7 @@ export default function Butyrate() {
         </MiddleSection>
         <BottomSection>
           <LeftSection>
-            <LeftImage src={InfoImage} />
+            <LeftImage src='https://static.igem.wiki/teams/4751/wiki/blimage.png' />
           </LeftSection>
           <RightSection>
             <RightCast>

@@ -13,10 +13,6 @@ import {
   TopBar,
 } from './BuildSystemStyles';
 
-import IGEMLOGO from '../../../Img/mgemlogo.png';
-import LeftImg from '../../../Img/Vector.png';
-import InfoImage from '../../../Img/InfoImage.png';
-
 export default function BuildSystem() {
   return (
     <div
@@ -25,10 +21,10 @@ export default function BuildSystem() {
       }}
     >
       <Container>
-        <TopBar src={IGEMLOGO} />
+        <TopBar src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
         <BottomBox>
           <LeftBox>
-            <LeftImage src={LeftImg} />
+            <LeftImage src='https://static.igem.wiki/teams/4751/wiki/vector.png' />
           </LeftBox>
           <RightBox>
             <TitleContainer>
@@ -36,7 +32,7 @@ export default function BuildSystem() {
               <SubTitleTxt>Construction of Sensing Plasmid</SubTitleTxt>
             </TitleContainer>
             <BodyContainer>
-              <RightImage src={InfoImage} />
+              <RightImage src='https://static.igem.wiki/teams/4751/wiki/infoimage.png' />
             </BodyContainer>
           </RightBox>
         </BottomBox>

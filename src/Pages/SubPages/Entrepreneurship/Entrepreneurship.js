@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import SamplePDF from './sample.pdf';
 import SubNavbar from '../Components/SubNavbar/SubNavbar';
 
 const Container = styled.div`
@@ -44,7 +43,7 @@ export default function Entrepreneurship() {
       </Banner>
       <Container>
         <iframe
-          src={SamplePDF}
+          src='https://static.igem.wiki/teams/4751/wiki/sample.pdf'
           width="80%"
           height="100%"
           title="PDF in an iFrame"

@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 
-//Logo Import
-import Logo from '../img/Logo.svg';
-import Heart from '../img/Heart.svg';
 import {
   ActualLogo,
   FooterBox,
@@ -51,27 +48,11 @@ const Footer = () => {
         cursor: 'default',
       }}
     >
-      <SubsContainer>
-        <SubsBox>
-          <LeftSB>
-            <LikkleTitle>Subscribe to our News Letter!</LikkleTitle>
-            <LikkleDes>
-              Follow along as we unwind the helixes of the genetical dilemma.
-              Stay up to date with the latest information.
-            </LikkleDes>
-          </LeftSB>
-          <RightSB>
-            <Input />
-            <SubButton>SUBSCRIBE</SubButton>
-          </RightSB>
-        </SubsBox>
-      </SubsContainer>
       <FooterContainer>
         <FooterBox>
           <LeftArea>
             <LogoContainer>
-              <HeartLogo src={Heart} />
-              <ActualLogo src={Logo} />
+              <ActualLogo src='https://static.igem.wiki/teams/4751/wiki/logo.svg' />
             </LogoContainer>
             <TextContainer>
               This is the official page of the iGEM chapter in McMaster
@@ -128,13 +109,8 @@ const Footer = () => {
         </FooterBox>
         <CopyRightBox>
           <div>
-            &copy; {new Date().getFullYear()} iGEM McMaster. Designed &
-            Programmed by
+            &copy; {new Date().getFullYear()} iGEM McMaster. Content on this site is licensed under a Creative Commons Attribution 4.0 International license.
           </div>
-          <NameLink href="https://hashirimam.me" target="_blank">
-            Hashir Imam
-          </NameLink>
-          .
         </CopyRightBox>
       </FooterContainer>
     </div>
