@@ -5,8 +5,11 @@ import React, { useRef } from 'react';
 import { PictureArea } from './ObjectivePagesStyled';
 
 // The Component imports
-import Background from './Component/Background/Background';
+import Background from './Component/SubPages/Background/Background';
 import SubNavbar from '../Components/SubNavbar/SubNavbar';
+
+// import Link and element from react scroll
+import { Link, Element } from 'react-scroll';
 
 // The image imports
 import Objective from './Component/Objective/Objective';
@@ -16,6 +19,8 @@ import Indole from './Component/Biomarkers/Indole/Indole';
 import HydrogenPeroxide from './Component/Biomarkers/HydrogenPeroxide/HydrogenPeroxide';
 import Tetrahydrofolate from './Component/Biomarkers/Tetrahydrofolate/Tetrahydrofolate';
 import Tetrathionate from './Component/Biomarkers/Tetrathionate/Tetrathionate';
+import Title from './Component/SubPages/Title/Title';
+import Pages from './Component/SubPages/Objective/Pages';
 
 export default function ObjectivePages() {
   const objectiveRef = useRef(null);
@@ -35,24 +40,14 @@ export default function ObjectivePages() {
         overflowY: 'hidden',
         display: 'flex',
         flexDirection: 'column',
-        gap: '100px',
+        // gap: '100px',
         height: '100%',
       }}
     >
       <SubNavbar />
-      <PictureArea>
-        <img src='https://static.igem.wiki/teams/4751/wiki/andrew.png' />
-      </PictureArea>
+      <Title />
       <Background />
-      <Objective
-        ref={objectiveRef}
-        scrollToRef={scrollToRef}
-        butyrateRef={butyrateRef}
-        indoleRef={indoleRef}
-        hydrogenPeroxideRef={hydrogenPeroxideRef}
-        tetrahydrofolateRef={tetrahydrofolateRef}
-        tetrathionateRef={tetrathionateRef}
-      />
+      <Pages />
       <Chassis />
       <div ref={butyrateRef}>
         <Butyrate scrollToRef={scrollToRef} objectiveRef={objectiveRef} />

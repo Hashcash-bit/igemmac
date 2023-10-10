@@ -1,5 +1,12 @@
 import React from 'react';
-import { BodyTextContainer, Container, SubTitleTxt, TextBlock, TitleTxt, TopBar } from './ContributionStyles';
+import {
+  BodyTextContainer,
+  Container,
+  SubTitleTxt,
+  TextBlock,
+  TitleTxt,
+  TopBar,
+} from './ContributionStyles';
 
 import IGEMLOGO from '../../../Img/mgemlogo.png';
 
