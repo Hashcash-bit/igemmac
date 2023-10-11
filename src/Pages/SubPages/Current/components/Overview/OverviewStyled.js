@@ -54,6 +54,7 @@ const OverviewGridItem = styled.div`
   font-weight: bold;
   font-size: 2vi;
   transition: 0.15s ease-in-out;
+  text-align: center;
 
   &:hover {
     background-color: #971a35;

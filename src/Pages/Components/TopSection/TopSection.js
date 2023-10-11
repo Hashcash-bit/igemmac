@@ -67,13 +67,15 @@ export default function TopSection() {
     'Overview',
     'Policy Report',
     'Entrepreneurship',
-    'IHR & Womens Rights',
+    'Integrated Human Practices',
+    'Womens Report'
   ]; // Option for News Dropdown
   const newsRoutes = [
     '/human-practices',
     '/PolicyReport',
     '/Entrepreneurship',
     '/IHR&WomensRights',
+    '/womensreport'
   ];
 
   return (
@@ -139,7 +141,6 @@ export default function TopSection() {
               <InfoText>
                 Follow along as we trek the vast field of genetics
               </InfoText>
-              <LMButton>Learn More</LMButton>
             </SubRightSection>
           </RightSection>
         </HeroContainer>

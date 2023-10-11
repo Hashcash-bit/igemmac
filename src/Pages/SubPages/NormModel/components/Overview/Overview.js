@@ -34,16 +34,10 @@ const Overview = React.forwardRef(
     return (
       <OverviewMainDiv ref={ref}>
         <OverviewTextContainer>
-          <OverviewTitle>Overview</OverviewTitle>
+          <OverviewTitle>A Post-hoc Normalization Model Corrects for 4-HPA-Concentration Confounding and Linearizes the Relationship Between Actual and Predicted Metabolite Concentration</OverviewTitle>
           <OverviewParagraph>
-          The main goal of the development of a kinetic model is to mathematically simulate the proposed base editing system to analyze its behavior in different environments, verifying that the system achieves AND-gate functionality, and thus, spatiotemporal specificity.
-
-          <br /><br />The model predicts how 4-HPA and metabolite concentrations induce environment-specific plasmid editing in the large intestine. From the sensing of 4-HPA and individual metabolites up to plasmid editing, the following major reactions were characterized in the model: 4-HPA-regulated BE2 and sgRNA1 production, metabolite-regulated sgRNA3 production, sgRNA and BE2 dimerization, BE2 and recording plasmid complexation, and base editing (Figure 1). 
-
-          <br /><br />To simplify the simulation of the base editing system: 1. only one bacterium was included in the model, and 2. the sensing and recording of only one metabolite, indole, was simulated as a placeholder for other metabolites of interest.
-
+          Based on our kinetic simulation, the relationship between metabolite concentration and base-editing is logarithmic, not linear (see Kinetic Model Figure 4A). Furthermore, variations in 4-HPA concentration would have a direct impact on base editing at the metabolite-associated recording site (see Kinetic Model Figure 4B). Thus, a normalization model was constructed to achieve two aims: 1) controlling the confounding effect of 4-HPA concentration when using base-editing ratios to more accurately infer metabolite concentrations, and 2) creating a linear relationship between actual and predicted indole concentrations in order to more accurately assess fold-changes in metabolite concentrations. Data from the kinetic simulation at 10 hours was used to determine the relationships and constants required for this model (Table 1). This normalized model is intended to be deployed after extracting and reading the biosensor output; it uses final base editing ratios for each site as inputs, and returns a relative metabolite level with arbitrary units that has been normalized for 4-HPA concentrations. 
           </OverviewParagraph>
-          <SectionBodyImage src='https://static.igem.wiki/teams/4751/wiki/figure-1.jpg' alt='simbiology diagram' />
         </OverviewTextContainer>
 
         <OverviewGridContainer>

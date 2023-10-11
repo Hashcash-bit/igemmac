@@ -24,6 +24,7 @@ import Engineering from './Pages/SubPages/Engineering/Engineering';
 import PartsNotebook from './Pages/SubPages/PartsNotebook/PartsNotebook';
 import ResultsPage from './Pages/SubPages/Results/ResultsPage';
 import NormModel from './Pages/SubPages/NormModel/NormModel';
+import WR from './Pages/SubPages/WR/WR';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           {/*<Route path="/description" element={<ObjectivePages />} exact />*/}
           <Route path="/contribution" element={<PartsNotebook />} exact />
           <Route path="/" element={<Pages />} exact />
+          <Route path="/womensreport" element={<WR />} exact />
           <Route path="/Engineering" element={<Engineering />} exact />
           <Route path="/kineticmodel" element={<CurrentPage />} exact />
           <Route path="/normalizationmodel" element={<NormModel />} exact />

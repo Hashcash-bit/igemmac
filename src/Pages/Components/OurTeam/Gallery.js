@@ -75,6 +75,7 @@ const Gallery = () => {
           <Title>MEET OUR TEAM</Title>
           <SubTitle>Here is the team that made all this possible</SubTitle>
         </ContainerTitle>
+        {/*
         <FilterBar>
           {jobOptions.map((option) => (
             <FilterOption
@@ -86,6 +87,7 @@ const Gallery = () => {
             </FilterOption>
           ))}
         </FilterBar>
+        */}
         <Box>
           <GalleryContainer>
           {/*<GalleryImages>
