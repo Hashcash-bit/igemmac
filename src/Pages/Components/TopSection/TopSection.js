@@ -71,10 +71,10 @@ export default function TopSection() {
     'Womens Report'
   ]; // Option for News Dropdown
   const newsRoutes = [
-    '/human-practices',
+    '/overview',
     '/PolicyReport',
-    '/Entrepreneurship',
-    '/IHR&WomensRights',
+    '/entrepreneurship',
+    '/human-practices',
     '/womensreport'
   ];
 
@@ -117,7 +117,7 @@ export default function TopSection() {
               <Dropdown
                 options={dropdownOptionsNews}
                 routes={newsRoutes}
-                navItemName="HUMAN PRACTICES"
+                navItemName="OVERVIEW OF HUMAN PRACTICES"
               />
             </Links>
           </LinksContainer>

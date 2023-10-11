@@ -70,7 +70,7 @@ export default function Parts() {
   return (
     <div
       style={{
-        height: '100dvh',
+        height: '80dvh',
       }}
     >
       <Container>
@@ -98,9 +98,6 @@ export default function Parts() {
             </tbody>
           </Table>
         </BodyTextContainer>
-        <ButtonContainer>
-          <Button>Check out our protocol</Button>
-        </ButtonContainer>
       </Container>
     </div>
   );

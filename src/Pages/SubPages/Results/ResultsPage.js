@@ -10,10 +10,11 @@ import {
   SectionBody,
   SectionBodyParagraph,
   SectionBodyImage,
+  SectioniFrame,
 } from './components/Section/SectionStyled';
 import SectionFooterComponent from './components/Section/SectionFooter';
-import SubNavbar from '../Components/SubNavbar/SubNavbar'
-import Footer from '../../Components/Footer/Footer'
+import SubNavbar from '../Components/SubNavbar/SubNavbar';
+import Footer from '../../Components/Footer/Footer';
 
 const ResultsPage = () => {
   const overviewRef = useRef(null);
@@ -130,6 +131,7 @@ const ResultsPage = () => {
         <SectionHeader>Sequence Alignment</SectionHeader>
         <SectionBody>
           <SectionBodyParagraph>
+          
           The entire gene was not sequenced due to using only one forward primer; however, for the parts that were sequenced 100% of it matched with the ordered gene sequence with no mutations introduced.
 
           <br /><br /><u><b>Breakdown of genes sequenced: </b></u>
@@ -137,6 +139,16 @@ const ResultsPage = () => {
           Pcha gene: 100% sequenced, 100% Match
           pLEE1 promoter: 68% sequenced, 100% match
           YFP: 0% sequenced, NA
+
+          <br /><br />
+          <SectioniFrame>
+          <iframe
+            src='https://static.igem.wiki/teams/4751/wiki/sequence.pdf'
+            width="80%"
+            height="600px"
+            title="PDF in an iFrame"
+          />
+          </SectioniFrame>
           </SectionBodyParagraph>
         </SectionBody>
         <SectionFooterComponent

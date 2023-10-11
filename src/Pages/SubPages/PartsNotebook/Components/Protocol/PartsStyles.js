@@ -6,6 +6,8 @@ export const Container = styled.div`
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
 `;
 
 export const TopBar = styled.img`
@@ -45,9 +47,11 @@ export const Cell = styled.td`
 `;
 
 export const ButtonContainer = styled.div`
-  height: 1000px;
+  height: 600px;
   width:80%;
   text-align: center;
+  margin: auto;
+  margin-top: 50px;
 `;
 
 export const Button = styled(Link)`

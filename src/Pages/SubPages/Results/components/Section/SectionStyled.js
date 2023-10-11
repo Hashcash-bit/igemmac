@@ -6,6 +6,7 @@ const SectionLayout = styled.div`
   flex-direction: column;
   justify-content: space-around;
   gap: 50px;
+  margin-top: 250px;
 `;
 
 const SectionHeader = styled.h2`
@@ -28,6 +29,10 @@ const SectionBody = styled.div`
 const SectionBodyParagraph = styled.p`
   font-size: 20px;
   text-align: left;
+`;
+
+const SectioniFrame = styled.div`
+  margin: auto;
 `;
 
 const SectionBodyImage = styled.img`
@@ -65,4 +70,5 @@ export {
   SectionBodyImage,
   SectionFooter,
   SectionFooterButton,
+  SectioniFrame,
 };

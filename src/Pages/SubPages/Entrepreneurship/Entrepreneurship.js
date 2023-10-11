@@ -11,13 +11,12 @@ const Container = styled.div`
 `;
 
 const Banner = styled.div`
-  background: url('https://thepointsguy.global.ssl.fastly.net/us/originals/2023/03/Really-Cool.jpeg?width=1920')
-    no-repeat center center;
-  background-size: cover;
+  
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 `;
 
 const Title = styled.h1`
@@ -44,9 +43,9 @@ export default function Entrepreneurship() {
       </Banner>
       <Container>
         <iframe
-          src='https://static.igem.wiki/teams/4751/wiki/sample.pdf'
+          src='https://static.igem.wiki/teams/4751/wiki/market-report.pdf'
           width="80%"
-          height="100%"
+          height="600px"
           title="PDF in an iFrame"
         />
       </Container>

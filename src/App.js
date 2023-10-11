@@ -32,7 +32,7 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           {/* Use the element prop instead of the Component prop */}
-          <Route path="/human-practices" element={<OverviewPages />} exact />
+          <Route path="/human-practices" element={<IHR />} exact />
           {/*<Route path="/description" element={<ObjectivePages />} exact />*/}
           <Route path="/contribution" element={<PartsNotebook />} exact />
           <Route path="/" element={<Pages />} exact />
@@ -47,7 +47,7 @@ function App() {
             element={<Entrepreneurship />}
             exact
           />
-          <Route path="/IHR&WomensRights" element={<IHR />} exact />
+          <Route path="/overview" element={<OverviewPages />} exact />
           {/* <Route path="*" element={<ErrorPage />} /> */}
         </Routes>
       </Router>

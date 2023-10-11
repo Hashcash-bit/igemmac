@@ -56,10 +56,10 @@ export default function SubNavbar() {
     'Womens Report'
   ]; // Option for News Dropdown
   const newsRoutes = [
-    '/human-practices',
+    '/overview',
     '/PolicyReport',
-    '/Entrepreneurship',
-    '/IHR&WomensRights',
+    '/entrepreneurship',
+    '/human-practices',
     '/womensreport'
   ];
 
@@ -102,7 +102,7 @@ export default function SubNavbar() {
               <Dropdown
                 options={dropdownOptionsNews}
                 routes={newsRoutes}
-                navItemName="HUMAN PRACTICES"
+                navItemName="OVERVIEW OF HUMAN PRACTICES"
               />
             </Links>
           </LinksContainer>
