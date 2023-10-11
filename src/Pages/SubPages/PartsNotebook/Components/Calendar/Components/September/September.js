@@ -35,7 +35,7 @@ export default function September() {
                 <BiSolidLeftArrow /> -------------
               </Link>
             </LeftArrow>
-            <MiddleTxt>September 1</MiddleTxt>
+            <MiddleTxt>September</MiddleTxt>
             <RightArrow>
               <Link to="May" smooth={true} duration={500}>
                 ------------- <BiSolidRightArrow />
@@ -44,25 +44,16 @@ export default function September() {
           </HeaderContainer>
         </div>
         <ObjectiveContainer>
-          Objective: Lorem ipsim dolor sit amet, consectetur adipiscing elit.
+          Our Lab Notebook for September
         </ObjectiveContainer>
         <BodyTextContainer>
           <Textcontainer>
-            <LeftBox>
-              <Summary>
-                <strong>Summary: </strong>lorem ipsim dolor sit amet,
-                consectetur adipiscing
-              </Summary>
-              <Result>
-                <strong>Result: </strong>lorem ipsim dolor sit amet, consectetur
-                adipiscing
-              </Result>
-              <TroubleShooting>
-                <strong>Troubleshooting: </strong>lorem ipsim dolor sit amet,
-                consectetur adipiscing
-              </TroubleShooting>
-            </LeftBox>
-            <RightBox>Weekly Result</RightBox>
+          <iframe
+          src='https://static.igem.wiki/teams/4751/wiki/mcmaster-canada-notebook-september-2023.pdf'
+          width="80%"
+          height="600px"
+          title="PDF in an iFrame"
+        />
           </Textcontainer>
         </BodyTextContainer>
       </Container>

@@ -40,24 +40,26 @@ export default function SubNavbar() {
   // Projects Functionality
   const dropdownOptionsProjects = [
     'Kinetic Model',
-    'Normalization Model'
+    'Normalization Model',
+    'Safety'
   ]; // Option for Projects Dropdown
   const projectsRoutes = [
     '/kineticmodel',
-    '/normalizationmodel'
+    '/normalizationmodel',
+    '/safety'
   ];
 
   // News Functionality
   const dropdownOptionsNews = [
     'Overview',
-    'Policy Report',
+    'Treatment Report',
     'Entrepreneurship',
     'Integrated Human Practices',
     'Womens Report'
   ]; // Option for News Dropdown
   const newsRoutes = [
     '/overview',
-    '/PolicyReport',
+    '/treatment-report',
     '/entrepreneurship',
     '/human-practices',
     '/womensreport'

@@ -9,7 +9,12 @@ import { Link, Element } from 'react-scroll';
 
 export default function Calendar() {
   return (
-    <div>
+    <div
+      style={{
+        marginBottom: '500px'
+      }}
+    
+    >
       <Element name= "May">
         <May />
       </Element>
@@ -25,7 +30,7 @@ export default function Calendar() {
       <Element name='September'>
         <September />
       </Element>
-      
+
     </div>
   );
 }

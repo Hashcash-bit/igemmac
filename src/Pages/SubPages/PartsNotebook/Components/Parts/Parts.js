@@ -13,57 +13,89 @@ import {
 
 export default function Parts() {
   const rows = 7;
-  const cols = 5;
+  const cols = 6;
+
+  const tableHeader = [
+    'Parts Name',
+    'Type',
+    'Description',
+    'Components',
+    'New/Existing',
+    'Length (Base Pair)',
+  ]
 
   const tableData = [
     [
-      'Row 1, Col 1',
-      'Row 1, Col 2',
-      'Row 1, Col 3',
-      'Row 1, Col 4',
-      'Row 1, Col 5',
+      'BBa_K4751000',
+      'Vector Plasmid',
+      'pUC118',
+      'LacZa, AmpR',
+      'New',
+      '1501'
     ],
     [
-      'Row 2, Col 1',
-      'Row 2, Col 2',
-      'Row 2, Col 3',
-      'Row 2, Col 4',
-      'Row 2, Col 5',
+      'BBa_K4751001',
+      'Plasmid',
+      'Recording Plasmid',
+      'EGFP. AmpR',
+      'New',
+      '4004',
     ],
     [
-      'Row 3, Col 1',
-      'Row 3, Col 2',
-      'Row 3, Col 3',
-      'Row 3, Col 4',
-      'Row 3, Col 5',
+      'BBa_K4751002',
+      'Composite',
+      'Lab Butyrate Sensing System',
+      'pPchA-PchA-LEE1-YFP, AmpR',
+      'New',
+      '4634',
     ],
     [
-      'Row 4, Col 1',
-      'Row 4, Col 2',
-      'Row 4, Col 3',
-      'Row 4, Col 4',
-      'Row 4, Col 5',
+      'BBa_K4751003',
+      'Composite',
+      'Memory Recording Butyrate Sensing System',
+      'Bba_J23101-hpaA, pBC-BE2-sgRNA1, pPchA-PchA-LEE1-sgRNA3, AmpR',
+      'New',
+      ''
     ],
     [
-      'Row 5, Col 1',
-      'Row 5, Col 2',
-      'Row 5, Col 3',
-      'Row 5, Col 4',
-      'Row 5, Col 5',
+      'BBa_K4751004',
+      'Composite',
+      'Memory Recording Indole Sensing System',
+      'Bba_J23101-hpaA, pBC-BE2-sgRNA1',
+      'New',
+      '',
     ],
     [
-      'Row 6, Col 1',
-      'Row 6, Col 2',
-      'Row 6, Col 3',
-      'Row 6, Col 4',
-      'Row 6, Col 5',
+      'BBa_K4751005',
+      'Composite',
+      'Memory Recording Tetrathionate Sensing System',
+      'Bba_J23101-hpaA, pBC-BE2-sgRNA1',
+      'New',
+      '',
     ],
     [
-      'Row 7, Col 1',
-      'Row 7, Col 2',
-      'Row 7, Col 3',
-      'Row 7, Col 4',
-      'Row 7, Col 5',
+      'BBa_K4751006',
+      'Composite',
+      'Memory Recording Tetrahydrofolate Sensing System',
+      'Bba_J23101-hpaA, pBC-BE2-sgRNA1',
+      'New',
+      '',
+    ],
+    [
+      'BBa_K4751007',
+      'Composite',
+      'Memory Recording Hydrogen Peroxide Sensing System',
+      'Bba_J23101-hpaA, pBC-BE2-sgRNA1',
+      'New',
+      '',
+    ],
+    [
+      'BBa_K3078101',
+      'Composite',
+      'HPA-4 Sensing System ',
+      'Bba_J23101-hpaA, pBC-BE2-sgRNA1',
+      'Existing',
+      '2527',
     ],
   ];
 
@@ -83,7 +115,7 @@ export default function Parts() {
             <thead>
               <HeaderRow>
                 {Array.from({ length: cols }, (_, i) => (
-                  <Cell key={i}>Header {i + 1}</Cell>
+                  <Cell key={i}>{tableHeader[i]}</Cell>
                 ))}
               </HeaderRow>
             </thead>

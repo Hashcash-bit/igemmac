@@ -35,7 +35,7 @@ export default function June() {
                 <BiSolidLeftArrow /> -------------
               </Link>
             </LeftArrow>
-            <MiddleTxt>June 1 - June 7</MiddleTxt>
+            <MiddleTxt>June</MiddleTxt>
             <RightArrow>
               <Link to="July" smooth={true} duration={500}>
                 ------------- <BiSolidRightArrow />
@@ -44,25 +44,16 @@ export default function June() {
           </HeaderContainer>
         </div>
         <ObjectiveContainer>
-          Objective: Lorem ipsim dolor sit amet, consectetur adipiscing elit.
+          Our Lab Notebook for June
         </ObjectiveContainer>
         <BodyTextContainer>
           <Textcontainer>
-            <LeftBox>
-              <Summary>
-                <strong>Summary: </strong>lorem ipsim dolor sit amet,
-                consectetur adipiscing
-              </Summary>
-              <Result>
-                <strong>Result: </strong>lorem ipsim dolor sit amet, consectetur
-                adipiscing
-              </Result>
-              <TroubleShooting>
-                <strong>Troubleshooting: </strong>lorem ipsim dolor sit amet,
-                consectetur adipiscing
-              </TroubleShooting>
-            </LeftBox>
-            <RightBox>Weekly Result</RightBox>
+          <iframe
+          src='https://static.igem.wiki/teams/4751/wiki/mcmaster-canada-notebook-june-2023.pdf'
+          width="80%"
+          height="600px"
+          title="PDF in an iFrame"
+        />
           </Textcontainer>
         </BodyTextContainer>
       </Container>
