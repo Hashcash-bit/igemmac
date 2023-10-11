@@ -180,9 +180,11 @@ export default function Objective2() {
             </div>
           </div>
           <br />
-          <div style={{
-            display: 'flex',
-          }}>
+          <div
+            style={{
+              display: 'flex',
+            }}
+          >
             <div></div>
             <div></div>
           </div>
