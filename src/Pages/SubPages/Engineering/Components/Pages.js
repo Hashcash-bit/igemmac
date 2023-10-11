@@ -29,7 +29,6 @@ export default function Pages() {
       <Build2 />
       <Test />
       <Learn />
-      <Button />
     </div>
   );
 }

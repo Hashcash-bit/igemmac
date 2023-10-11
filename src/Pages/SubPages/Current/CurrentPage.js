@@ -13,6 +13,7 @@ import {
 } from './components/Section/SectionStyled';
 import SectionFooterComponent from './components/Section/SectionFooter';
 import SubNavbar from '../Components/SubNavbar/SubNavbar'
+import Footer from '../../Components/Footer/Footer'
 
 const CurrentPage = () => {
   const overviewRef = useRef(null);
@@ -206,6 +207,7 @@ Third, the base editing ratios predicted by the model are limited by time. As no
           overviewRef={overviewRef}
         />
       </SectionLayout>
+      <Footer />
     </MainDiv>
   );
 };

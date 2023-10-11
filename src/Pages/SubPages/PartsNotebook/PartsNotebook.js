@@ -3,8 +3,8 @@ import Title from './Components/Title/Title';
 import Contributions from './Components/Contributions/Contributions';
 import Parts from './Components/Parts/Parts';
 import Calendar from './Components/Calendar/Calendar';
-import Results from './Components/Results/Results';
 import SubNavbar from '../Components/SubNavbar/SubNavbar';
+import Footer from '../../Components/Footer/Footer'
 
 
 export default function PartsNotebook() {
@@ -15,7 +15,7 @@ export default function PartsNotebook() {
       <Contributions />
       <Parts />
       <Calendar />
-      <Results />
+      <Footer />
     </div>
   );
 }

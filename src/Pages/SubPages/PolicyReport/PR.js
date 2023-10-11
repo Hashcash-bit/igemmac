@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './PR.css';
 import SubNavbar from '../Components/SubNavbar/SubNavbar';
+import Footer from '../../Components/Footer/Footer'
 
 const Banner = styled.div`
   background: url('https://thepointsguy.global.ssl.fastly.net/us/originals/2023/03/Really-Cool.jpeg?width=1920')
@@ -207,6 +208,7 @@ function PR() {
             </section>
           </CSSTransition>
         </TransitionGroup>
+        <Footer />
       </div>
     </div>
   );

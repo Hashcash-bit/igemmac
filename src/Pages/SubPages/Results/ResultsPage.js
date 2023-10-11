@@ -13,6 +13,7 @@ import {
 } from './components/Section/SectionStyled';
 import SectionFooterComponent from './components/Section/SectionFooter';
 import SubNavbar from '../Components/SubNavbar/SubNavbar'
+import Footer from '../../Components/Footer/Footer'
 
 const ResultsPage = () => {
   const overviewRef = useRef(null);
@@ -143,6 +144,7 @@ const ResultsPage = () => {
           overviewRef={overviewRef}
         />
       </SectionLayout>
+      <Footer />
     </MainDiv>
   );
 };

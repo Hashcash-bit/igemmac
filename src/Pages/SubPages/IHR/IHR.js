@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import TopSection from '../../Components/TopSection/TopSection';
 import SubNavbar from '../Components/SubNavbar/SubNavbar';
+import Footer from '../../Components/Footer/Footer'
 
 const Banner = styled.div`
   background: url('https://thepointsguy.global.ssl.fastly.net/us/originals/2023/03/Really-Cool.jpeg?width=1920')
@@ -219,6 +220,7 @@ function MyPage() {
           </Section>
         </Content>
       </Container>
+      <Footer />
     </div>
   );
 }

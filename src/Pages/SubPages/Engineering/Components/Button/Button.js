@@ -37,7 +37,7 @@ export default function Button() {
         display: 'flex',
       }}
     >
-    <ButtonContainer onClick={handleClick}>Check out our results</ButtonContainer>
+    
     </div>
   );
 }

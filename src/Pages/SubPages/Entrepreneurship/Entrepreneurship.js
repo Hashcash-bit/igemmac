@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import SubNavbar from '../Components/SubNavbar/SubNavbar';
+import Footer from '../../Components/Footer/Footer'
 
 const Container = styled.div`
   height: 600px;
@@ -49,6 +50,7 @@ export default function Entrepreneurship() {
           title="PDF in an iFrame"
         />
       </Container>
+      <Footer />
     </div>
   );
 }

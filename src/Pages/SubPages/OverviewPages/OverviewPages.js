@@ -1,6 +1,7 @@
 import React from 'react';
 import TopSection from './Components/TopSection/TopSection';
 import SubNavbar from '../Components/SubNavbar/SubNavbar';
+import Footer from '../../Components/Footer/Footer'
 
 export default function OverviewPages() {
   return (
@@ -17,6 +18,7 @@ export default function OverviewPages() {
     >
       <SubNavbar />
       <TopSection />
+      <Footer />
     </div>
   );
 }
