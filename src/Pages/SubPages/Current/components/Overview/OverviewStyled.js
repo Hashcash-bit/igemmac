@@ -5,6 +5,8 @@ const OverviewMainDiv = styled.div`
   flex-direction: row;
   justify-content: space-around;
   gap: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 `;
 
 const OverviewTextContainer = styled.div`

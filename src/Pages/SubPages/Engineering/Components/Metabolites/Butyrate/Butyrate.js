@@ -18,10 +18,6 @@ import {
   NavLinkS,
 } from './ButyrateStyles';
 
-import IGEMLOGO from '../../../../Img/mgemlogo.png';
-import NAVUIMG from '../../../../Img/NavImg.png';
-import InfoImage from '../../../../Img/BLImage.png';
-
 export default function Butyrate() {
   return (
     <div

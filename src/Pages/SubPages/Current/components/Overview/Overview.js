@@ -10,6 +10,14 @@ import {
   OverviewGridItem,
 } from './OverviewStyled';
 
+import {
+  SectionLayout,
+  SectionHeader,
+  SectionBody,
+  SectionBodyParagraph,
+  SectionBodyImage,
+} from '../Section/SectionStyled';
+
 const Overview = React.forwardRef(
   (
     {
@@ -28,15 +36,14 @@ const Overview = React.forwardRef(
         <OverviewTextContainer>
           <OverviewTitle>Overview</OverviewTitle>
           <OverviewParagraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            suscipit suscipit tortor quis facilisis. Integer vitae massa erat.
-            Suspendisse sed ex diam. Sed sapien dolor, tempus ac nisl eget,
-            luctus rutrum nulla. Ut fermentum quis massa quis congue. In vel
-            lacinia nibh. Nunc nec egestas libero. Nullam congue, magna sit amet
-            fringilla malesuada, tortor dolor aliquam nisl, dapibus pellentesque
-            erat nisi eget lorem. Donec feugiat scelerisque nisl, et finibus
-            mauris.
+          The main goal of the development of a kinetic model is to mathematically simulate the proposed base editing system to analyze its behavior in different environments, verifying that the system achieves AND-gate functionality, and thus, spatiotemporal specificity.
+
+          <br /><br />The model predicts how 4-HPA and metabolite concentrations induce environment-specific plasmid editing in the large intestine. From the sensing of 4-HPA and individual metabolites up to plasmid editing, the following major reactions were characterized in the model: 4-HPA-regulated BE2 and sgRNA1 production, metabolite-regulated sgRNA3 production, sgRNA and BE2 dimerization, BE2 and recording plasmid complexation, and base editing (Figure 1). 
+
+          <br /><br />To simplify the simulation of the base editing system: 1. only one bacterium was included in the model, and 2. the sensing and recording of only one metabolite, indole, was simulated as a placeholder for other metabolites of interest.
+
           </OverviewParagraph>
+          <SectionBodyImage src='https://static.igem.wiki/teams/4751/wiki/figure-1.jpg' alt='simbiology diagram' />
         </OverviewTextContainer>
 
         <OverviewGridContainer>
@@ -46,30 +53,12 @@ const Overview = React.forwardRef(
             }}
             onClick={() => scrollToRef(equationsRef)}
           >
-            Equations
+            Equations and Constants
           </OverviewGridItem>
 
           <OverviewGridItem
             style={{
               gridArea: 'mid-left',
-            }}
-            onClick={() => scrollToRef(constantsRef)}
-          >
-            Constants
-          </OverviewGridItem>
-
-          <OverviewGridItem
-            style={{
-              gridArea: 'bottom-left',
-            }}
-            onClick={() => scrollToRef(modelRef)}
-          >
-            Model
-          </OverviewGridItem>
-
-          <OverviewGridItem
-            style={{
-              gridArea: 'top-right',
             }}
             onClick={() => scrollToRef(resultsRef)}
           >
@@ -78,7 +67,7 @@ const Overview = React.forwardRef(
 
           <OverviewGridItem
             style={{
-              gridArea: 'mid-right',
+              gridArea: 'top-right',
             }}
             onClick={() => scrollToRef(limitationsRef)}
           >
@@ -87,7 +76,7 @@ const Overview = React.forwardRef(
 
           <OverviewGridItem
             style={{
-              gridArea: 'bottom-right',
+              gridArea: 'mid-right',
             }}
             onClick={() => scrollToRef(referencesRef)}
           >

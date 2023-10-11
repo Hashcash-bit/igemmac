@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
-// Sample gallery images
-import Image1 from '../img/gallery1.jpg';
-import Image2 from '../img/1658410385342.jpg';
-// Add more images as needed
-
 // Styled Components
 import {
   Box,
@@ -23,9 +18,6 @@ import {
   Title,
 } from './GalleryStyles';
 
-// Vectors
-import Team from '../img/Team.svg';
-import Grid from '../img/Grid.png';
 
 // List of job options
 const jobOptions = [

@@ -14,15 +14,6 @@ import {
 import SectionFooterComponent from './components/Section/SectionFooter';
 import SubNavbar from '../Components/SubNavbar/SubNavbar'
 
-// media imports
-import PrincePhilip from '../Img/philip.jpg';
-import PlateGrowth from '../Img/plategrowth.png';
-import Enzyme from '../Img/enzyme.png';
-import Ligation from '../Img/ligation.png';
-import Pcr from '../Img/pcr.png';
-import Transformation from '../Img/transformation.png';
-import Title from '../Img/resultstitle.png';
-
 const ResultsPage = () => {
   const overviewRef = useRef(null);
   const equationsRef = useRef(null);
@@ -40,7 +31,7 @@ const ResultsPage = () => {
       <SubNavbar />
 
       <PictureArea>
-        <img src={Title} alt="titleimg" />
+        <img src='https://static.igem.wiki/teams/4751/wiki/resultstitle.png' alt="titleimg" />
       </PictureArea>
       <Overview
         ref={overviewRef}
@@ -59,7 +50,7 @@ const ResultsPage = () => {
           <SectionBodyParagraph>
           pUC118 was quadrant streaked on LB agar plates (6.25g LB broth/L and 3.75g Agar/L) treated with Ampicillin to reach final concentration of (100 ng/uL). Growth was observed in the pUC118 plate, with visible single isolated colonies.
           </SectionBodyParagraph>
-          <SectionBodyImage src={PlateGrowth} alt="plate growth" />
+          <SectionBodyImage src='https://static.igem.wiki/teams/4751/wiki/plategrowth.png' alt="plate growth" />
         </SectionBody>
         <SectionFooterComponent
           scrollToRef={scrollToRef}
@@ -76,7 +67,7 @@ const ResultsPage = () => {
           <br /><br />Butyrate sensing system expected length: 1.5kb
           Observed length: Between 1 and 2 kb, approximately 1.5kb
           </SectionBodyParagraph>
-          <SectionBodyImage src={Pcr} alt="pcr amp" />
+          <SectionBodyImage src='https://static.igem.wiki/teams/4751/wiki/pcr.png' alt="pcr amp" />
         </SectionBody>
         <SectionFooterComponent
           scrollToRef={scrollToRef}
@@ -94,7 +85,7 @@ const ResultsPage = () => {
           pUC118 linearized (BamHI or HindII): less supercoil and band above no cut control
           pIC118 double cut: One band that is above than no cut control
           </SectionBodyParagraph>
-          <SectionBodyImage src={Enzyme} alt="enzyme digest" />
+          <SectionBodyImage src='https://static.igem.wiki/teams/4751/wiki/enzyme.png' alt="enzyme digest" />
         </SectionBody>
         <SectionFooterComponent
           scrollToRef={scrollToRef}
@@ -112,7 +103,7 @@ const ResultsPage = () => {
           pUC118 Lig Control: 
           pUC118 Lig Butyrate:
           </SectionBodyParagraph>
-          <SectionBodyImage src={Ligation} alt="ligation" />
+          <SectionBodyImage src='https://static.igem.wiki/teams/4751/wiki/ligation.png' alt="ligation" />
         </SectionBody>
         <SectionFooterComponent
           scrollToRef={scrollToRef}
@@ -126,7 +117,7 @@ const ResultsPage = () => {
           <SectionBodyParagraph>
           This plate depicts transformation in DH5a chemically competent cells, grown in IPTG, X-Gal, and Ampicillin treated plates. Blue-white colony screening allows for the separation of transformed and non-transformed bacteria. The recombinant, transformed colonies of interest are observed in white, while non-transformed colonies are seen in blue.
           </SectionBodyParagraph>
-          <SectionBodyImage src={Transformation} alt="transformation" />
+          <SectionBodyImage src='https://static.igem.wiki/teams/4751/wiki/transformation.png' alt="transformation" />
         </SectionBody>
         <SectionFooterComponent
           scrollToRef={scrollToRef}

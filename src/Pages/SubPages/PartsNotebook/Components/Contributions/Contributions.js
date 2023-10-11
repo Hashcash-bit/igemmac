@@ -8,8 +8,6 @@ import {
   TopBar,
 } from './ContributionStyles';
 
-import IGEMLOGO from '../../../Img/mgemlogo.png';
-
 export default function Contributions() {
   return (
     <div
@@ -18,7 +16,7 @@ export default function Contributions() {
       }}
     >
       <Container>
-        <TopBar src={IGEMLOGO} />
+        <TopBar src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
         <TitleTxt>Contributions</TitleTxt>
         <BodyTextContainer>
           <SubTitleTxt>LITERATURE REVIEW</SubTitleTxt>

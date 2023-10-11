@@ -11,8 +11,6 @@ import {
   TopBar,
 } from './PartsStyles';
 
-import IGEMLOGO from '../../../Img/mgemlogo.png';
-
 export default function Parts() {
   const rows = 7;
   const cols = 5;
@@ -77,7 +75,7 @@ export default function Parts() {
     >
       <Container>
         <div>
-          <TopBar src={IGEMLOGO} />
+          <TopBar src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
           <TitleTxt>Parts</TitleTxt>
         </div>
         <BodyTextContainer>

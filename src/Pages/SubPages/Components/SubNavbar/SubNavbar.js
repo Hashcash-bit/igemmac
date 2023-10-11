@@ -14,8 +14,6 @@ import {
 } from './SubNavbarStyles';
 
 //Logo
-import iGEMLogo from '../../../Components/img/mgempic.png';
-import HeartIMG from '../../../Components/img/mgemlogo.png'
 
 //Icons
 
@@ -77,7 +75,7 @@ export default function SubNavbar() {
       <Box>
         <NavBarContainer>
           <LogoArea>
-            <Heart src={HeartIMG} />
+            <Heart src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
           </LogoArea>
           <LinksContainer>
             <Links>
