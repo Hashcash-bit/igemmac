@@ -1,66 +1,75 @@
-import { styled } from 'styled-components';
+import styled from 'styled-components';
 
-export const BottomSection = styled.div`
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+`;
+
+export const TopBar = styled.img`
+  width: 50px;
+`;
+
+export const TitleTxt = styled.div`
+  font-size: 49.2px;
+  font-weight: bold;
+  color: #971a35;
+  padding-left: 100px;
+`;
+
+export const BodyTextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 20px 200px;
+  gap: 20px;
+`;
+
+export const SubTitleTxt = styled.div`
+  font-size: 28px;
+  font-weight: bold;
+  color: #971a35;
+`;
+
+export const SubTitleTxt1 = styled.div`
+  font-size: 22px;
+  font-weight: 400;
+  color: #971a35;
+`;
+
+export const TextBlock = styled.div`
+  font-size: 14px;
+  font-weight: 500;
+  color: #971a35;
+  //   width: 60%;
+`;
+
+export const TextBlock1 = styled.div`
+  font-size: 14px;
+  font-weight: 500;
+  color: #971a35;
+  width: 60%;
+`;
+
+export const TextBlock2 = styled.div`
+  font-size: 14px;
+  font-weight: 500;
+  color: #971a35;
+  width: 70%;
+`;
+
+export const ImgTxtContainer = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80%;
-  margin-top: 50px;
 `;
 
-export const MainTitle = styled.div`
-  text-align: center;
+export const LeftContainer = styled.img`
+  height: 300px;
+`;
+
+export const RightContainer = styled.div`
+  width: 40%;
+  font-size: 14px;
+  font-weight: 500;
   color: #971a35;
-  font-weight: bold;
-  font-size: 50px;
-`
-
-export const LeftBottomSection = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
-
-
-
-export const Title = styled.div`
-  color: #971a35;
-  font-weight: bold;
-  font-size: 25px;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-`;
-
-export const TextInfoContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
-
-export const TextInfo = styled.div``;
-
-export const TextInfo1 = styled.div`
-  width: 60%;
-  text-align: center;
-  margin: 0 auto;
-`;
-
-export const TextInfo2 = styled.div`
-  width: 60%;
-  text-align: center;
-  margin: 0 auto;
-`;
-
-export const RightBottomSection = styled.div`
-  margin-right: 50px;
-`;
-
-export const Image = styled.img`
-  height: 500px;
-`;
-
-export const TapeImage = styled.img`
-  height: 200px;
-  position: absolute;
-  left: 1150px;
-  top: 108vh;
 `;

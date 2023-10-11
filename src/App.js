@@ -14,7 +14,7 @@ import {
 
 // Importing the External Components
 import Pages from './Pages/Pages';
-//import ObjectivePages from './Pages/SubPages/ObjectivePages/ObjectivePages';
+import ObjectivePages from './Pages/SubPages/ObjectivePages/ObjectivePages';
 import OverviewPages from './Pages/SubPages/OverviewPages/OverviewPages';
 import CurrentPage from './Pages/SubPages/Current/CurrentPage';
 import PR from './Pages/SubPages/PolicyReport/PR';
@@ -33,7 +33,7 @@ function App() {
         <Routes>
           {/* Use the element prop instead of the Component prop */}
           <Route path="/human-practices" element={<IHR />} exact />
-          {/*<Route path="/description" element={<ObjectivePages />} exact />*/}
+          <Route path="/description" element={<ObjectivePages />} exact />
           <Route path="/contribution" element={<PartsNotebook />} exact />
           <Route path="/" element={<Pages />} exact />
           <Route path="/womensreport" element={<WR />} exact />
