@@ -16,7 +16,7 @@ export default function Objective1() {
       }}
     >
       <Container>
-        <TopBar src="https://media.canva.com/1/image-resize/1/200_200_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9QaXR3WS9NQUZ0S1dQaXR3WS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAIhBGDh2zZ4q1jEuDCYZ7z3imyeRudUXfpKHXhGnWaan&exp=1697062394&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAAMuJG6me7JUK_5UL5-9KEJrso3lf-eI4emgPi3TJY_sn" />
+        <TopBar src="https://static.igem.wiki/teams/4751/wiki/mgemlogo.png" />
         <div
           style={{
             justifyContent: 'end',
@@ -218,7 +218,7 @@ export default function Objective1() {
               (Komor et al., 2016; Tang and Liu, 2018; Luo et al., 2020).
             </div>
             <br />
-            <img src="https://media.canva.com/1/image-resize/1/800_151_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS80QWoyRS9NQUZ2ckc0QWoyRS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAPDlJKb9bFigDALjdVRBo6SVpY6-T-NoepwFKVyEl4Gs&exp=1697060768&x-canva-quality=screen&csig=AAAAAAAAAAAAAAAAAAAAAA_Rp9P5cKTKyG3h-lGtysTr4ulTH6ZBdw-dak5CwkcS" />
+            <img src="https://static.igem.wiki/teams/4751/wiki/design2.png" />
             <br />
             <div
               style={{
@@ -242,9 +242,9 @@ export default function Objective1() {
               interest will induce the expression of sgRNA (Figure 3B&C).
             </div>
             <br />
-            <img src="https://media.canva.com/1/image-resize/1/800_133_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9SVFpJZy9NQUZ2ckJSVFpJZy8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAOKsdxRqNrzSxWo8-V_q2XbV2FT8Z08tEFYyyz9ZR0nA&exp=1697064062&x-canva-quality=screen&csig=AAAAAAAAAAAAAAAAAAAAAHy3rwLxssMM5H4eu2G_bLrCNtFGsFwrPK53IpSaEWZd" />
+            <img src="https://static.igem.wiki/teams/4751/wiki/design3.png" />
             <br />
-            <img src="https://media.canva.com/1/image-resize/1/800_246_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS94LTk1OC9NQUZ2ckF4LTk1OC8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAKBWQbNCOBEvDMPp7eqwKDBGBb7OXxB3mpTO0HthHL1H&exp=1697062698&x-canva-quality=screen&csig=AAAAAAAAAAAAAAAAAAAAAAvYFlDcxpHjA-nWtiW9_X-JI2tqQiSDmYrlM-VTYak2" />
+            <img src="https://static.igem.wiki/teams/4751/wiki/design4.png" />
             <br />
             <div
               style={{

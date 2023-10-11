@@ -16,7 +16,7 @@ export default function Objective() {
       }}
     >
       <Container>
-        <TopBar src="https://media.canva.com/1/image-resize/1/200_200_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9QaXR3WS9NQUZ0S1dQaXR3WS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAIhBGDh2zZ4q1jEuDCYZ7z3imyeRudUXfpKHXhGnWaan&exp=1697062394&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAAMuJG6me7JUK_5UL5-9KEJrso3lf-eI4emgPi3TJY_sn" />
+        <TopBar src="https://static.igem.wiki/teams/4751/wiki/mgemlogo.png" />
         <TitleTxt>Objective</TitleTxt>
         <BodyTextContainer>
           <div

@@ -6,7 +6,7 @@ export default function Title() {
       style={{
         height: '100vh',
         backgroundImage:
-          'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://media.canva.com/1/image-resize/1/600_800_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS8tRG8zcy9NQUZ2dnUtRG8zcy8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAFban_vUDA2xfVTVq518PDaEscMe8yBP1jxBXioVuCyN&exp=1696974983&x-canva-quality=screen&csig=AAAAAAAAAAAAAAAAAAAAAGfYkn56hQ1Vmz0ob6W8w8bTGxmc-rH0QVpHiLrTKcAX)',
+          'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://static.igem.wiki/teams/4751/wiki/andrew.png)',
         objectFit: 'cover',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
