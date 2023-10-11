@@ -37,9 +37,7 @@ export default function Objective2() {
           </div>
         </div>
         <BodyTextContainer>
-          <TitleTxt>
-            CRISPR-mediated Recording to Encode Metabolite Concentration
-          </TitleTxt>
+          <TitleTxt>CHASSIS SELECTION</TitleTxt>
           <div
             style={{
               display: 'flex',
@@ -50,89 +48,68 @@ export default function Objective2() {
           >
             <div
               style={{
-                writingMode: 'vertical-lr',
-                transform: 'rotate(180deg)',
-                display: 'flex',
-                justifyContent: 'end',
-                padding: '15px',
-                height: 'fit-content',
-                fontSize: '20px',
-                border: '2px solid #971A35',
-              }}
-            >
-              HISTORY
-            </div>
-            <div
-              style={{
                 fontSize: '14px',
                 width: '60%',
               }}
             >
-              SCRIBE (Synthetic Cellular Recorders Integrating Biological
-              Events), a strategy developed by Farzadfard and Lu (2014),
-              generates intracellularly expressed single-stranded DNA (ssDNA) in
-              response to various regulatory signals. The ssDNAs are recombined
-              into genomic DNA at specific loci by coexpressed recombinases,
-              resulting in precise point mutations which accumulate as a
-              function of signal magnitude and duration. However, due to its
-              limited recombination rate, SCRIBE requires actively dividing
-              cells to achieve population-memory; the platform is more suitable
-              for recording across collective genomes of cellular populations,
-              rather than editing at the single-cell level (Farzadfard and Lu,
-              2014).
-              <br />
-              <br />
-              To overcome this dependence on large cell populations, Tang and
-              Liu (2018) developed two CRISPR-mediated analog multi-event
-              recording apparatus (CAMERA) systems, enabling analog recording
-              within each cell. The systems use the CRISPR-Cas9 nuclease and
-              Cas9-derived base editors, which are expressed on writing plasmids
-              in response to stimuli of interest, to generate permanent DNA
-              sequence modifications at guide RNA-specific loci on recording
-              plasmids (Tang and Liu, 2018). Both systems achieved stable
-              recording of the amplitude or duration of various signals; this
-              can be extended to record multiple metabolite concentrations
-              through assignment of associated mutations to unique locations on
-              the plasmid. The ratio of edited to unedited DNA on these
-              recording plasmids were shown to accurately record the duration
-              and intensity of both chemical and light-based stimuli.
-              <br />
-              <br />
-              The DNA-based Ordered Memory and Iteration Network Operator
-              (DOMINO) is another genetic based recording platform that uses
-              CRISPR base-editing technology to manipulate DNA in response to
-              signals of interest (Farzadfard et al., 2019). By linking the
-              guide RNA and the Cas9 complex to separate inducible promoters,
-              the system can be controlled by an operational signal and another
-              independent input, thereby forming a DOMINO operator that can only
-              generate mutations when both inducers are present
+              As our biosensor utilizes a molecular recording mechanism that is
+              genetically designed and engineered into bacteria, selecting an
+              appropriately advantageous bacteria is crucial. Within the gut,
+              many commensal bacteria exist in varying abundances, which can be
+              influenced by external factors such as diet, antibiotic use, age,
+              and lifestyle. In adults, three main bacterial phyla dominate
+              microbiota diversity: Firmicutes, Bacteroidetes, and
+              Actinobacteria. However, most intestinal bacteria are deemed
+              unculturable or difficult to culture, due to a lack of functional
+              information and characterization.
             </div>
+          </div>
+          <br />
+          <div
+            style={{
+              display: 'flex',
+              width: '100%',
+              justifyContent: 'center',
+            }}
+          >
             <div
               style={{
                 display: 'flex',
-                justifyContent: 'end',
-                alignItems: 'end',
+                border: '4px solid #971A35',
+                width: '60%',
+                justifyContent: 'space-around',
+                alignItems: 'center',
               }}
             >
+              <img src="https://media.canva.com/1/image-resize/1/235_205_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS90T3dGRS9NQUZ2d290T3dGRS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAJXfpypfeMxqL3Jq15SXXoGD9THa48eg4NSuPDZ2u_Pg&exp=1696994058&x-canva-quality=screen_3x&csig=AAAAAAAAAAAAAAAAAAAAAE1fljrCe518mO4YCV5_lLH53F2_fyQwTjD8kYe-X0ix" />
               <div
                 style={{
-                  writingMode: 'vertical-lr',
-                  padding: '15px',
-                  fontSize: '20px',
-                  border: '2px solid #971A35',
-                  height: 'fit-content',
+                  fontSize: '14px',
+                  width: '60%',
                 }}
               >
-                CAMERA & DOMINO
+                In adults, three main bacterial phyla dominate microbiota
+                diversity: Firmicutes, Bacteroidetes, and Actinobacteria.
+                However, most intestinal bacteria are deemed unculturable or
+                difficult to culture, due to a lack of functional information
+                and characterization.
               </div>
             </div>
           </div>
           <br />
-          <TitleTxt>Applicability to Ingestible Biosensor Design</TitleTxt>
+          <div
+            style={{
+              fontSize: '28px',
+              fontWeight: '400',
+              paddingLeft: '15%',
+              color: '#971A35',
+            }}
+          >
+            K12 STRAIN E. COLI: DH5A
+          </div>
           <div
             style={{
               display: 'flex',
-              justifyContent: 'center',
               gap: '20px',
               marginTop: '20px',
               alignItems: 'center',
@@ -140,22 +117,9 @@ export default function Objective2() {
           >
             <div
               style={{
-                writingMode: 'vertical-lr',
-                transform: 'rotate(180deg)',
-                display: 'flex',
-                justifyContent: 'end',
-                padding: '15px',
-                height: 'fit-content',
-                fontSize: '20px',
-                border: '2px solid #971A35',
-              }}
-            >
-              BENEFITS
-            </div>
-            <div
-              style={{
                 fontSize: '14px',
                 width: '60%',
+                paddingLeft: '15%',
               }}
             >
               The use of these genetic recording methods holds great potential
@@ -173,24 +137,55 @@ export default function Objective2() {
               Therefore, base editing ratios remain stable after cell death and
               are passed down through bacterial generations.
             </div>
+          </div>
+          <br />
+          <div
+            style={{
+              fontSize: '28px',
+              fontWeight: '400',
+              paddingLeft: '15%',
+              color: '#971A35',
+            }}
+          >
+            SAFETY CONCERN AND CONSIDERATIONS
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              gap: '20px',
+              marginTop: '20px',
+              alignItems: 'center',
+            }}
+          >
             <div
               style={{
-                display: 'flex',
-                justifyContent: 'end',
-                alignItems: 'end',
+                fontSize: '14px',
+                width: '60%',
+                paddingLeft: '15%',
               }}
             >
-              <div
-                style={{
-                  writingMode: 'vertical-lr',
-                  padding: '15px',
-                  fontSize: '20px',
-                  height: 'fit-content',
-                }}
-              ></div>
+              A reasonable safety concern lies in the potential exposure and
+              contamination of our engineered bacteria to the gut environment,
+              should our biosensor be defective. Many intestinal illnesses occur
+              due to pathogenic E. coli having hair-like appendages known as
+              pili or fimbriae which are used to attach to and invade intestinal
+              cells. However, since its isolation in 1922, laboratory K-12
+              strains are unable to synthesize their O antigen, no longer carry
+              the F plasmid or bacteriophage λ, and have lost the ability to
+              produce many surface-associated structures. Thus, in the rare
+              chance that the barrier between the capsule and lumen is breached,
+              these bacteria cannot survive in the lumen, and also no longer
+              have the ability to attach to intestinal cells, effectively
+              decreasing their chance of survival or proliferation.
             </div>
           </div>
           <br />
+          <div style={{
+            display: 'flex',
+          }}>
+            <div></div>
+            <div></div>
+          </div>
           <TitleTxt>Our Design</TitleTxt>
           <div
             style={{
