@@ -18,9 +18,6 @@ import {
   SectionBodyImage,
 } from '../Section/SectionStyled';
 
-//media imports
-import Workflow from '../../../Img/workflow.png';
-
 const Overview = React.forwardRef(
   (
     {
@@ -39,7 +36,7 @@ const Overview = React.forwardRef(
         <OverviewTextContainer>
           <OverviewTitle>Workflow</OverviewTitle>
           <OverviewParagraph>
-            <SectionBodyImage src={Workflow} alt="plate growth" />
+            <SectionBodyImage src='https://static.igem.wiki/teams/4751/wiki/workflow.png' alt="plate growth" />
           </OverviewParagraph>
         </OverviewTextContainer>
 

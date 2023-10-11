@@ -30,8 +30,6 @@ import {
 } from './NavbarStyled';
 
 //Logo
-import iGEMLogo from '../img/Logo.svg';
-import HeartIMG from '../img/Heart.svg';
 
 //Icons
 import { BiMenu } from 'react-icons/bi';
@@ -76,8 +74,7 @@ export default function Navbar() {
         <Box>
           <NavBarContainer>
             <LogoArea>
-              <Heart src={HeartIMG} />
-              <Logo src={iGEMLogo} />
+              <Logo src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
             </LogoArea>
             <LinksContainer>
               <Links>

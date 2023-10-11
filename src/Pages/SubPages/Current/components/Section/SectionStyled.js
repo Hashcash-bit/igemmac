@@ -6,6 +6,8 @@ const SectionLayout = styled.div`
   flex-direction: column;
   justify-content: space-around;
   gap: 50px;
+  margin-top: 900px;
+  margin-bottom: 300px;
 `;
 
 const SectionHeader = styled.h2`
