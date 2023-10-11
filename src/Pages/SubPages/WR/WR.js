@@ -220,6 +220,44 @@ function WR() {
 
             </p>
           </Section>
+          <Section id="section10">
+            <h2>References</h2>
+            <p>
+            <br /><br />Albert, PR. (2015). Why is depression more prevalent in women? J Psychiatry Neurosci. 2015 Jul;40(4):219-21. doi: 10.1503/jpn.150205. PMID: 26107348; PMCID: PMC4478054.
+            <br /><br />American Psychiatric Association. (2022). Diagnostic and Statistical Manual of Mental Disorders. doi:10.1176/appi.books.9780890425596
+            <br /><br />Beydoun, HA., Beydoun, MA., Kaufman, JS., Lo, B., Zonderman, AB. (2012). Intimate partner violence against adult women and its association with major depressive disorder, depressive symptoms and postpartum depression: a systematic review and meta-analysis. Soc Sci Med. 75(6):959-75. doi: 10.1016/j.socscimed.2012.04.025. 
+            <br /><br />Biro, FM., Greenspan, LC., Galvez, MP. Puberty in girls of the 21st century. J Pediatr Adolesc Gynecol. 25(5):289-94. doi: 10.1016/j.jpag.2012.05.009.
+            <br /><br />Bloch, M., Schmidt P., Danaceau, RN., Murphy, J., Nieman, L., Rubinow, DR. (2000). Effects of Gonadal Steroids in Women With a History of Postpartum Depression. The American Journal of Psychiatry.
+            <br /><br />Breehl, L., Caban, O. (2023). Physiology, Puberty. StatPearls Publishing.
+            <br /><br />Call, JB., Shafer, K. (2018). Gendered Manifestations of Depression and Help Seeking Among Men. Am J Mens Health. doi: 10.1177/1557988315623993.
+            <br /><br />Chen, J.J., Zheng, P., Liu, YY., Zhong, XG., Wang, HY., Guo, YJ., & Xie, P. (2018). Sex differences in gut microbiota in patients with major depressive disorder. Neuropsychiatric disease and treatment, 14, 647–655. https://doi.org/10.2147/NDT.S159322
+            <br /><br />Euesden, J., Danese, A., Lewis, C. M., Maughan, B. (2017). A bidirectional relationship between depression and the autoimmune disorders - New perspectives from the National Child Development Study. PloS one, 12(3), e0173015. https://doi.org/10.1371/journal.pone.0173015
+            <br /><br />Floyd BJ. Problems in accurate medical diagnosis of depression in female patients. Social Science & Medicine (1982). 1997 Feb;44(3):403-412. DOI: 10.1016/s0277-9536(96)00159-1. PMID: 9004374.
+            <br /><br />Government of Canada. (2022). About Family Violence. Government of Canada. https://www.justice.gc.ca/eng/cj-jp/fv-vf/about-apropos.html
+            <br /><br />Government of Canada. (2019). National Inquiry into Missing and Murdered Indigenous Women and Girls. Government of Canada. https://www.rcaanc-cirnac.gc.ca/eng/1448633299414/1534526479029
+            <br /><br />Heidinger L. (2022). Violent Victimization and Perceptions of safety. Experiences of First Nations, Metis and Inuit women in Canada. Statistics Canada. https://www150.statcan.gc.ca/n1/pub/85-002-x/2022001/article/00004-eng.html
+            <br /><br />Kim, YS., Unno, T., Kim, BY., Park MS. (2020). Sex Differences in Gut Microbiota. World J Mens Health. 48-60. doi: 10.5534/wjmh.190009.
+            <br /><br />Laing, RD. (1964). The Divided Self. An Existential Study in Sanity and Madness.
+            <br /><br />Martínez-Hernáez, A., Carceller-Maicas, N., DiGiacomo, SM., Ariste, S. (2016). Social support and gender differences in coping with depression among emerging adults: a mixed-methods study. Child Adolesc Psychiatry Ment Health. doi: 10.1186/s13034-015-0088-x. 
+            <br /><br />Maya Duseberry. Women are more likely to wait longer for a health diagnosis and to be told it’s ‘all in their heads’. (2018). That can be lethal: diagnostic errors cause 40,000-80,000 deaths in the US alone. BBC. https://www.bbc.com/future/article/20180523-how-gender-bias-affects-your-healthcare
+            <br /><br />McGee, JS., Huttenhower, C. Of mice and men and women: Sexual dimorphism of the gut microbiome. (2021). Int J Womens Dermatol. doi: 10.1016/j.ijwd.2021.10.007.
+            <br /><br />Nelson, C., Lawford, K.M., Otterman, V., & Darling, EK. (2018). Mental health indicators among pregnant Aboriginal women in Canada: results from the Maternity Experiences Survey. Indicateurs de santé mentale chez les femmes autochtones enceintes au Canada : résultats de l’Enquête sur l’expérience de la maternité. Health promotion and chronic disease prevention in Canada : research, policy and practice, 38(7-8), 269–276. https://doi.org/10.24095/hpcdp.38.7/8.01
+
+            <br /><br />Niccols, A., Dell, C. A., & Clarke, S. (2010). Treatment Issues for Aboriginal Mothers with Substance Use Problems and Their Children. International journal of mental health and addiction, 8(2), 320–335. https://doi.org/10.1007/s11469-009-9255-8
+
+            <br /><br />Owais, S., Faltyn, M., Johnson, AVD., Gabel, C., Downey, B., Kates, N., & Van Lieshout, R. J. (2020). The Perinatal Mental Health of Indigenous Women: A Systematic Review and Meta-Analysis. Canadian journal of psychiatry. Revue canadienne de psychiatrie, 65(3), 149–163. https://doi.org/10.1177/0706743719877029
+            <br /><br />Payne, JL., Maguire, J. 2019. Pathophysiological mechanisms implicated in postpartum depression. Front Neuroendocrinol. 165-180. doi: 10.1016/j.yfrne.2018.12.001.
+            <br /><br />Salk, RH., Hyde, JS., Abramson, LY. Gender differences in depression in representative national samples: Meta-analyses of diagnoses and symptoms. (2017) Psychol Bull. 143(8):783-822. doi: 10.1037/bul0000102.
+            <br /><br />Sharma, N., Chakrabarti, S., Grover S. (2016). Gender differences in caregiving among family - caregivers of people with mental illnesses. World J Psychiatry. doi: 10.5498/wjp.v6.i1.7. https://www.ncbi.nlm.nih.gov/books/NBK534827/\
+            <br /><br />Sramek, JJ., Murphy, MF., Cutler, NR. (2016). Sex differences in the psychopharmacological treatment of depression. Dialogues Clin Neurosci. 447-457. doi: 10.31887/DCNS.2016.18.4/ncutler.
+            <br /><br />Stewart, R., Wright, B., Smith, L., Roberts, S., & Russell, N. (2021). Gendered stereotypes and norms: A systematic review of interventions designed to shift attitudes and behaviour. Heliyon, 7(4), e06660. https://doi.org/10.1016/j.heliyon.2021.e06660
+            <br /><br />Tasca C., Rapetti M., Carta M., Fadda B. (2012). Women And Hysteria In The History Of Mental Health. Pract Epidemiol Ment Health. 2012;8:110-9. doi: 10.2174/1745017901208010110.
+            <br /><br />US Department of Health and Human Services. Opioid and Substance Abuse. Government of the United States. https://www.hhs.gov/guidance/document/opiod-misuse-and-substance-abuse
+            <br /><br />World Health Organization. 2023. 2023 Theme: Unleashing the power of gender equality: Uplifting the voices of women and girls to unlock our world’s infinite possibilities. United Nations. https://www.un.org/en/observances/world-population-day
+            <br /><br />Wu, H. J., & Wu, E. (2012). The role of gut microbiota in immune homeostasis and autoimmunity. Gut microbes, 3(1), 4–14. https://doi.org/10.4161/gmic.19320
+
+            </p>
+          </Section>
         </Content>
       </Container>
       <Footer />

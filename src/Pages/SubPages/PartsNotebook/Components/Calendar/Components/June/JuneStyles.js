@@ -6,6 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   height: 100%;
   gap: 100px;
+  margin-top: 400px;
 `;
 
 export const TopBar = styled.img`
