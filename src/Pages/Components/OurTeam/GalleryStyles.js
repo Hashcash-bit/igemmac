@@ -39,6 +39,7 @@ export const ContainerTitle = styled.div`
   gap: 20px;
   margin-top: 35px;
   overflow: hidden;
+  margin-bottom: 40px;
 `;
 
 export const Title = styled.div`
@@ -140,7 +141,7 @@ export const GalleryImages = styled.div`
   white-space: nowrap;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 800px;
 
   &::-webkit-scrollbar {
     width: 5px;
@@ -192,7 +193,7 @@ export const ImageContainer = styled.div`
 
 export const GalleryImage = styled.img`
   width: 100%;
-  height: 150px; /* Fixed height for all images */
+  height: 100%; /* Fixed height for all images */
   object-fit: cover;
   border-radius: 0px;
 `;
@@ -202,6 +203,12 @@ export const PersonName = styled.div`
   font-weight: bold;
   margin-top: 10px;
   color: #333;
+`;
+
+export const PersonJob = styled.div`
+  font-size: 14px;
+  margin-top: 10px;
+  color: #808080;
 `;
 
 export const NoImageText = styled.div`

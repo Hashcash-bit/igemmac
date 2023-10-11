@@ -28,7 +28,7 @@ import NormModel from './Pages/SubPages/NormModel/NormModel';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           {/* Use the element prop instead of the Component prop */}
           <Route path="/human-practices" element={<OverviewPages />} exact />
