@@ -32,18 +32,14 @@ export default function Learn() {
           <RightBox>
             <TitleContainer>
               <TitleTxt>Learn</TitleTxt>
-              <SubTitleTxt>Discussion of Results</SubTitleTxt>
             </TitleContainer>
             <BodyContainer>
               <TopText>
-              Our team learned from this experiment that our design is ready to be tested using varying concentrations of Butyrate to test its sensing capacity.
+              Our team learned that we can use novel primers to generate and introduce new restriction cut sites to old our old gene sequence (BBa_K4442001). To validate the success we continued to clone the new gene block into vector plasmid pUC118.
               </TopText>
               <MiddleText>
-              Due to time constraints, our testing of our sensing system will be completed after wiki freeze. The results will be documented on this wiki during wiki thaw. 
+              The benefits of removing the HRPV gene is that we hope to limit the production burden of producing multiple proteins to optimize growth and sensing of our system. 
               </MiddleText>
-              <BottomText>
-              Testing Protocols can be found on the Experiment and Result Section of the Wiki
-              </BottomText>
             </BodyContainer>
           </RightBox>
         </BottomBox>

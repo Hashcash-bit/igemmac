@@ -10,18 +10,23 @@ import Tetrathionate from './Metabolites/Tetrathionate/Tetrathionate';
 import Test from './Test/Test';
 import Learn from './Learn/Learn';
 import Button from './Button/Button';
+import Design1 from './Design1/Design1';
+import Build1 from './Build1/Build1';
+import Test1 from './Test1/Test1';
+import Design2 from './Design2/Design2';
+import Build2 from './Build2/Build2';
 
 export default function Pages() {
   return (
     <div>
       <Title />
       <DesignChange />
+      <Design1 />
+      <Build1 />
+      <Test1 />
+      <Design2 />
       <BuildSystem />
-      <Butyrate />
-      <Indole />
-      <H2O2 />
-      <Tetrahydrofolate />
-      <Tetrathionate />
+      <Build2 />
       <Test />
       <Learn />
       <Button />

@@ -14,9 +14,10 @@ import {
   TitleTxt,
   TopBar,
   TopText,
-} from './TestStyles';
+  NavImage,
+} from './LearnStyles';
 
-export default function Test() {
+export default function Build1() {
   return (
     <div
       style={{
@@ -27,20 +28,19 @@ export default function Test() {
         <TopBar src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
         <BottomBox>
           <LeftBox>
-            <LeftImage src='https://static.igem.wiki/teams/4751/wiki/testvector.png' />
+            <LeftImage src='https://static.igem.wiki/teams/4751/wiki/vector.png' />
           </LeftBox>
           <RightBox>
             <TitleContainer>
-              <TitleTxt>Test</TitleTxt>
-              <SubTitleTxt>Butyrate Sensing Systems</SubTitleTxt>
+              <TitleTxt>Build: Butyrate Sensing System</TitleTxt>
             </TitleContainer>
             <BodyContainer>
               <TopText>
-              To test whether we have successfully PCR amplified our gene block and cloned it into our vector. We conducted a Sanger Sequence to validate the our system identity within DH5a E. coli chassis. 
+              By cloning pPchA-PchA-PLEE1-YFP through restriction enzyme digest using BamHI and HindIII cut sites. Using Benchling designs our theoretical constructed plasmid is 4634 bp  
+
+<br /><br />*PBO is pUC118-Butyrate Construct  
               </TopText>
-              <MiddleText>
-              The Sanger Sequence should that  compared to our benchling design there was a 100% alignment of our cloned sensing system with <b>0 mutation</b> introduced.
-              </MiddleText>
+              <LeftImage src='https://static.igem.wiki/teams/4751/wiki/buildenzyme.png' />
             </BodyContainer>
           </RightBox>
         </BottomBox>

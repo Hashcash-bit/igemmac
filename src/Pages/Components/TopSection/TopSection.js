@@ -37,8 +37,8 @@ import Dropdown from '../Utils/Dropdown';
 
 export default function TopSection() {
   // About Functionality
-  const dropdownOptionsAbout = ['Our Team', 'Description', 'Attributions']; // Option for About Dropdown
-  const aboutRoutes = ['/OurTeam', '/description', '/attributions'];
+  const dropdownOptionsAbout = ['Description', 'Attributions']; // Option for About Dropdown
+  const aboutRoutes = ['/description', '/attributions'];
 
   // Initiatives Functionality
   const dropdownOptionsInitiatives = [
@@ -76,20 +76,12 @@ export default function TopSection() {
     '/IHR&WomensRights',
   ];
 
-  // Partners Functionality
-  const dropdownOptionsPartners = [
-    'Special Prize 1',
-    'Special Prize 2',
-    'Special Prize 3',
-  ]; // Option for Partners Dropdown
-  const partnersRoutes = ['/sp1', '/sp2', '/sp3'];
-
   return (
     <Container>
       <Box>
         <NavBarContainer>
           <LogoArea>
-            <Heart src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
+            <Links route='/'><Heart src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' /></Links>
           </LogoArea>
           <LinksContainer>
             <Links>
@@ -124,15 +116,6 @@ export default function TopSection() {
                 options={dropdownOptionsNews}
                 routes={newsRoutes}
                 navItemName="HUMAN PRACTICES"
-              />
-            </Links>
-            <Slashes>/</Slashes>
-            <Links>
-              {' '}
-              <Dropdown
-                options={dropdownOptionsPartners}
-                routes={partnersRoutes}
-                navItemName="SPECIAL PRIZES"
               />
             </Links>
           </LinksContainer>

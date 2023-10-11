@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { useNavigate } from "react-router-dom";
 
 const ButtonContainer = styled(Link)`
   text-decoration: none;
@@ -21,6 +22,11 @@ const ButtonContainer = styled(Link)`
 `;
 
 export default function Button() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+      navigate("/results");
+  }
   return (
     <div
       style={{
@@ -31,7 +37,7 @@ export default function Button() {
         display: 'flex',
       }}
     >
-    <ButtonContainer>Check out our results</ButtonContainer>
+    <ButtonContainer onClick={handleClick}>Check out our results</ButtonContainer>
     </div>
   );
 }

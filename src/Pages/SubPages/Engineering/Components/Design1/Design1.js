@@ -14,9 +14,10 @@ import {
   TitleTxt,
   TopBar,
   TopText,
+  NavImage,
 } from './LearnStyles';
 
-export default function Learn() {
+export default function Design1() {
   return (
     <div
       style={{
@@ -27,23 +28,20 @@ export default function Learn() {
         <TopBar src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
         <BottomBox>
           <LeftBox>
-            <LeftImage src='https://static.igem.wiki/teams/4751/wiki/learnvector.png' />
+            <LeftImage src='https://static.igem.wiki/teams/4751/wiki/designvector.png' />
           </LeftBox>
           <RightBox>
             <TitleContainer>
-              <TitleTxt>Learn</TitleTxt>
-              <SubTitleTxt>Discussion of Results</SubTitleTxt>
+              <TitleTxt>Gene Block Design</TitleTxt>
+              <NavImage src='https://static.igem.wiki/teams/4751/wiki/navimg.png' />
             </TitleContainer>
             <BodyContainer>
               <TopText>
-              Our team learned from this experiment that our design is ready to be tested using varying concentrations of Butyrate to test its sensing capacity.
+              As McMaster_Canada 2023 project is an improvement from our 2022 design. To save the need to order from IDT we re-used the gene part: BBa_K4442001
               </TopText>
               <MiddleText>
-              Due to time constraints, our testing of our sensing system will be completed after wiki freeze. The results will be documented on this wiki during wiki thaw. 
+              It is important to note that BBa_K4442001 consisted of an added HRPV gene downstream of the reporter gene which is no longer being used in our system. 
               </MiddleText>
-              <BottomText>
-              Testing Protocols can be found on the Experiment and Result Section of the Wiki
-              </BottomText>
             </BodyContainer>
           </RightBox>
         </BottomBox>

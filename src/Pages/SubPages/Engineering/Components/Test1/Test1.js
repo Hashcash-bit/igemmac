@@ -14,9 +14,10 @@ import {
   TitleTxt,
   TopBar,
   TopText,
-} from './TestStyles';
+  NavImage,
+} from './LearnStyles';
 
-export default function Test() {
+export default function Test1() {
   return (
     <div
       style={{
@@ -31,16 +32,14 @@ export default function Test() {
           </LeftBox>
           <RightBox>
             <TitleContainer>
-              <TitleTxt>Test</TitleTxt>
-              <SubTitleTxt>Butyrate Sensing Systems</SubTitleTxt>
+              <TitleTxt>Gene Block Test</TitleTxt>
+              <SubTitleTxt>PCR amplification of gene block</SubTitleTxt>
             </TitleContainer>
             <BodyContainer>
+            <NavImage src='https://static.igem.wiki/teams/4751/wiki/genetest.png' />
               <TopText>
-              To test whether we have successfully PCR amplified our gene block and cloned it into our vector. We conducted a Sanger Sequence to validate the our system identity within DH5a E. coli chassis. 
+              Successful amplification of truncated butyrate sensing system using old gene block  
               </TopText>
-              <MiddleText>
-              The Sanger Sequence should that  compared to our benchling design there was a 100% alignment of our cloned sensing system with <b>0 mutation</b> introduced.
-              </MiddleText>
             </BodyContainer>
           </RightBox>
         </BottomBox>

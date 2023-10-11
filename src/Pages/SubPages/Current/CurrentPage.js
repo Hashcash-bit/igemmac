@@ -167,17 +167,22 @@ Third, the base editing ratios predicted by the model are limited by time. As no
         <SectionHeader>References</SectionHeader>
         <SectionBody>
           <SectionBodyParagraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            lobortis viverra mi, vitae lacinia sapien ornare sit amet. Aenean ac
-            lorem gravida, imperdiet tellus vel, iaculis sem. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Curabitur ultricies pharetra
-            turpis. Curabitur nec ligula porta, rutrum nibh quis, euismod massa.
-            Aliquam dignissim augue non porta volutpat. Aenean vehicula non
-            tortor non sagittis. Nunc euismod quam id erat sodales, vitae
-            molestie arcu pellentesque. In feugiat neque in magna blandit
-            vulputate. Duis tincidunt tortor sed mi sollicitudin consequat.
-            Aliquam vitae augue dui. Pellentesque ac tristique turpis, a
-            pulvinar nunc.
+          <br /><br />Bakshi, S., Siryaporn, A., Goulian, M., and Weisshaar, J. C. (2012). Superresolution imaging of ribosomes and RNA polymerase in live Escherichia coli cells. Mol. Microbiol. 85, 21–38. doi: 10.1111/j.1365-2958.2012.08081.x.
+          <br /><br />Borkowski, O., Ceroni, F., Stan, G.-B., and Ellis, T. (2016). Overloaded and stressed: whole-cell considerations for bacterial synthetic biology. Curr. Opin. Microbiol. 33, 123–130. doi: 10.1016/j.mib.2016.07.009.
+          <br /><br />Bremer, H., and Dennis, P. P. (2008). Modulation of Chemical Composition and Other Parameters of the Cell at Different Exponential Growth Rates. EcoSal Plus 3, 10.1128/ecosal.5.2.3. doi: 10.1128/ecosal.5.2.3.
+          <br /><br />Darkoh, C., Chappell, C., Gonzales, C., and Okhuysen, P. (2015). A rapid and specific method for the detection of indole in complex biological samples. Appl. Environ. Microbiol. 81, 8093–8097. doi: 10.1128/AEM.02787-15.
+          <br /><br />Dierckx, S., Van Puyvelde, S., Venken, L., Eberle, W. and Vanderleyden, J. (2015). Design and construction of a whole cell bacterial 4-hydroxyphenylacetic acid and 2-phenylacetic acid bioassay. Front. Bioeng. Biotechnol. 3, 88. doi: 10.3389/fbioe.2015.00088
+          <br /><br />Hall, R. S., Fedorov, A. A., Xu, C., Fedorov, E. V., Almo, S. C., and Raushel, F. M. (2011). The Three-Dimensional Structure and Catalytic Mechanism of Cytosine Deaminase. Biochemistry 50, 5077–5085. doi: 10.1021/bi200483k.
+          <br /><br />Komor, A. C., Kim, Y. B., Packer, M. S., Zuris, J. A., and Liu, D. R. (2016). Programmable editing of a target base in genomic DNA without double-stranded DNA cleavage. Nature 533, 420–424. doi: 10.1038/nature17946.
+          <br /><br />Krzysztoń, R., Woschée, D., Reiser, A., Schwake, G., Strey, H. H., and Rädler, J. O. (2019). Single-cell kinetics of siRNA-mediated mRNA degradation. Nanomedicine Nanotechnol. Biol. Med. 21, 102077. doi: 10.1016/j.nano.2019.102077.
+          <br /><br />Matulis, P., Kutraite, I., Augustiniene, E., Valanciene, E., Jonuskiene, I., and Malys, N. (2022). Development and Characterization of Indole-Responsive Whole-Cell Biosensor Based on the Inducible Gene Expression System from Pseudomonas putida KT2440. Int J Mol Sci 23, 4649. doi: 10.3390/IJMS23094649/S1.
+          <br /><br />Meier, K.H., Trouillon, J., Li, H., Lang, M., Fuhrer, T., Zamboni, N., et al. (2023). Metabolic landscape of the male mouse gut identifies different niches determined by microbial activities. Nature metabolism, pp.1-13. doi: 10.1038/s42255-023-00802-1
+          <br /><br />Outten, C. E., and O’Halloran,  and T. V. (2001). Femtomolar Sensitivity of Metalloregulatory Proteins Controlling Zinc Homeostasis. Science 292, 2488–2492. doi: 10.1126/science.1060331.
+          <br /><br />Raper, A. T., Stephenson, A. A., and Suo, Z. (2018). Functional Insights Revealed by the Kinetic Mechanism of CRISPR/Cas9. J. Am. Chem. Soc. 140, 2971–2984. doi: 10.1021/jacs.7b13047.
+          <br /><br />Tang, W., and Liu, D. R. (2018). Rewritable multi-event analog recording in bacterial and mammalian cells. Science 360, eaap8992. doi: 10.1126/science.aap8992.
+          <br /><br />Tobias, A., and Sadiq, N. M. (2023). “Physiology, Gastrointestinal Nervous Control,” in StatPearls (Treasure Island (FL): StatPearls Publishing). Available at: http://www.ncbi.nlm.nih.gov/books/NBK545268/ [Accessed August 1, 2023].
+          <br /><br />Yu, J., Xiao, J., Ren, X., Lao, K., and Xie, X. S. (2006). Probing Gene Expression in Live Cells, One Protein Molecule at a Time. Science 311, 1600–1603. doi: 10.1126/science.1119623.
+
           </SectionBodyParagraph>
         </SectionBody>
         <SectionFooterComponent
@@ -190,7 +195,7 @@ Third, the base editing ratios predicted by the model are limited by time. As no
         <SectionHeader>All Tables and Figures</SectionHeader>
         <SectionBody>
         <iframe
-          src='https://static.igem.wiki/teams/4751/wiki/sample.pdf'
+          src='https://static.igem.wiki/teams/4751/wiki/kinetic-model-wiki-figures-tables-google-docs.pdf'
           width="100%"
           height="500px"
           title="PDF in an iFrame"

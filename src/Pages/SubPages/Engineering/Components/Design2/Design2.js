@@ -14,9 +14,10 @@ import {
   TitleTxt,
   TopBar,
   TopText,
+  NavImage,
 } from './LearnStyles';
 
-export default function Learn() {
+export default function Design2() {
   return (
     <div
       style={{
@@ -27,23 +28,20 @@ export default function Learn() {
         <TopBar src='https://static.igem.wiki/teams/4751/wiki/mgemlogo.png' />
         <BottomBox>
           <LeftBox>
-            <LeftImage src='https://static.igem.wiki/teams/4751/wiki/learnvector.png' />
+            <LeftImage src='https://static.igem.wiki/teams/4751/wiki/designvector.png' />
           </LeftBox>
           <RightBox>
             <TitleContainer>
-              <TitleTxt>Learn</TitleTxt>
-              <SubTitleTxt>Discussion of Results</SubTitleTxt>
+              <TitleTxt>Design: Butyrate Sensing System</TitleTxt>
+              <NavImage src='https://static.igem.wiki/teams/4751/wiki/designgene.png' />
             </TitleContainer>
             <BodyContainer>
               <TopText>
-              Our team learned from this experiment that our design is ready to be tested using varying concentrations of Butyrate to test its sensing capacity.
+              With our new gene block flanked with the restriction enzymes (BamHI and HindIII). Our new design consists of cloning the following gene into pUC118 (high copy) vector. 
               </TopText>
               <MiddleText>
-              Due to time constraints, our testing of our sensing system will be completed after wiki freeze. The results will be documented on this wiki during wiki thaw. 
+              <LeftImage src='https://static.igem.wiki/teams/4751/wiki/puc118.png' />
               </MiddleText>
-              <BottomText>
-              Testing Protocols can be found on the Experiment and Result Section of the Wiki
-              </BottomText>
             </BodyContainer>
           </RightBox>
         </BottomBox>

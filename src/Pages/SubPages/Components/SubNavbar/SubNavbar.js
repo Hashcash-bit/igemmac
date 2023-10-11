@@ -22,14 +22,13 @@ import Dropdown from '../../../Components/Utils/Dropdown';
 
 export default function SubNavbar() {
   // About Functionality
-  const dropdownOptionsAbout = ['Our Team', 'Description', 'Attributions']; // Option for About Dropdown
-  const aboutRoutes = ['/OurTeam', '/description', '/attributions'];
+  const dropdownOptionsAbout = ['Description', 'Attributions']; // Option for About Dropdown
+  const aboutRoutes = ['/description', '/attributions'];
 
   // Initiatives Functionality
   const dropdownOptionsInitiatives = [
     'Engineering',
     'Results',
-    'Parts and Notebook',
     'Contributions'
   ]; // Option for Initiatives Dropdown
   const initiativesRoutes = [
@@ -61,14 +60,6 @@ export default function SubNavbar() {
     '/Entrepreneurship',
     '/IHR&WomensRights',
   ];
-
-  // Partners Functionality
-  const dropdownOptionsPartners = [
-    'Special Prize 1',
-    'Special Prize 2',
-    'Special Prize 3',
-  ]; // Option for Partners Dropdown
-  const partnersRoutes = ['/sp1', '/sp2', '/sp3'];
 
   return (
     <Container>
@@ -110,15 +101,6 @@ export default function SubNavbar() {
                 options={dropdownOptionsNews}
                 routes={newsRoutes}
                 navItemName="HUMAN PRACTICES"
-              />
-            </Links>
-            <Slashes>/</Slashes>
-            <Links>
-              {' '}
-              <Dropdown
-                options={dropdownOptionsPartners}
-                routes={partnersRoutes}
-                navItemName="SPECIAL PRIZES"
               />
             </Links>
           </LinksContainer>
