@@ -20,6 +20,7 @@ import BioMarker2 from './Component/BioMarker2/BioMarker2';
 import BioMarker3 from './Component/BioMarker3/BioMarker3';
 import BioMarker4 from './Component/BioMarker4/BioMarker4';
 import BioMarker5 from './Component/BioMarker5/BioMarker5';
+import References from './Component/References/References';
 
 export default function ObjectivePages() {
   return (
@@ -44,6 +45,7 @@ export default function ObjectivePages() {
       <BioMarker3 />
       <BioMarker4 />
       <BioMarker5 />
+      <References />
     </div>
   );
 }
