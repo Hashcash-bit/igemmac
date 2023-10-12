@@ -16,7 +16,7 @@ export default function Objective2() {
       }}
     >
       <Container>
-        <TopBar src="https://media.canva.com/1/image-resize/1/200_200_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9QaXR3WS9NQUZ0S1dQaXR3WS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAIhBGDh2zZ4q1jEuDCYZ7z3imyeRudUXfpKHXhGnWaan&exp=1697062394&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAAMuJG6me7JUK_5UL5-9KEJrso3lf-eI4emgPi3TJY_sn" />
+        <TopBar src="https://static.igem.wiki/teams/4751/wiki/mgemlogo.png" />
         <div
           style={{
             justifyContent: 'end',
@@ -81,7 +81,7 @@ export default function Objective2() {
                 alignItems: 'center',
               }}
             >
-              <img src="https://media.canva.com/1/image-resize/1/235_205_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS90T3dGRS9NQUZ2d290T3dGRS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAI4vpyxil2RaHwLE8nWXO55Fan-PS9dzguFuEFmhR8bt&exp=1697062458&x-canva-quality=screen&csig=AAAAAAAAAAAAAAAAAAAAADHanBVqzHOvM8OmCbRoOeWZVNmBIKUoG9GqjboZAlYh" />
+              <img src="https://static.igem.wiki/teams/4751/wiki/design5.png" />
               <div
                 style={{
                   fontSize: '14px',

@@ -14,7 +14,7 @@ export default function BioMarker4() {
       }}
     >
       <Container>
-        <TopBar src="https://media.canva.com/1/image-resize/1/200_200_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9QaXR3WS9NQUZ0S1dQaXR3WS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAIhBGDh2zZ4q1jEuDCYZ7z3imyeRudUXfpKHXhGnWaan&exp=1697062394&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAAMuJG6me7JUK_5UL5-9KEJrso3lf-eI4emgPi3TJY_sn" />
+        <TopBar src="https://static.igem.wiki/teams/4751/wiki/mgemlogo.png" />
         <div
           style={{
             justifyContent: 'end',
@@ -211,7 +211,7 @@ export default function BioMarker4() {
               ABSENSE OF THF
             </div>
             <img
-              src="https://media.canva.com/1/image-resize/1/828_362_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS8tTzBzMC9NQUZ3NmwtTzBzMC8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAI2RSVfKHsXwchZPuDo5E3RNiz8bNm-BgtFEt5OK8nZ1&exp=1697085490&x-canva-quality=screen_3x&csig=AAAAAAAAAAAAAAAAAAAAAPyL_QKb21WrxX9yDqBpP3MLZGT6ux4qUDpsLzXRl5xM"
+              src="https://static.igem.wiki/teams/4751/wiki/bionothf.png"
               alt=""
             />
             <div
@@ -224,7 +224,7 @@ export default function BioMarker4() {
               PRESENCE OF THF
             </div>
             <img
-              src="https://media.canva.com/1/image-resize/1/820_278_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9HY2R4SS9NQUZ3NmtHY2R4SS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAACbq6GW5JEcd7SjXfdLvJ0Q8S0fyrW6470Ht9dJM6QpQ&exp=1697086261&x-canva-quality=screen_3x&csig=AAAAAAAAAAAAAAAAAAAAAO6I-qXMf59g1UC1JriwnAI6MsoFRHehP3yw6cJHN6Mq"
+              src="https://static.igem.wiki/teams/4751/wiki/biothf.png"
               alt=""
             />
           </div>

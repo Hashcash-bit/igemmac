@@ -14,7 +14,7 @@ export default function BioMarker1() {
       }}
     >
       <Container>
-        <TopBar src="https://media.canva.com/1/image-resize/1/200_200_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9QaXR3WS9NQUZ0S1dQaXR3WS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAIhBGDh2zZ4q1jEuDCYZ7z3imyeRudUXfpKHXhGnWaan&exp=1697062394&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAAMuJG6me7JUK_5UL5-9KEJrso3lf-eI4emgPi3TJY_sn" />
+        <TopBar src="https://static.igem.wiki/teams/4751/wiki/mgemlogo.png" />
         <div
           style={{
             justifyContent: 'end',
@@ -244,7 +244,7 @@ export default function BioMarker1() {
             }}
           >
             <img
-              src="https://media.canva.com/1/image-resize/1/704_270_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS81enItVS9NQUZ1ZDQ1enItVS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAADyqBSpVRL8M0yAgA4AZqfqTWoL4Hq1ksfyS_nEMeV5j&exp=1697080054&x-canva-quality=screen_3x&csig=AAAAAAAAAAAAAAAAAAAAANMawhtzO3RNndwuozAWTZuATXjXWHIaNguoRA6QPrjU"
+              src="https://static.igem.wiki/teams/4751/wiki/biobut.png"
               alt=""
             />
           </div>

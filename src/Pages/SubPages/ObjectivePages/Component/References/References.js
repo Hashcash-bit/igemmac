@@ -18,7 +18,7 @@ export default function References() {
       }}
     >
       <Container>
-        <TopBar src="https://media.canva.com/1/image-resize/1/200_200_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9QaXR3WS9NQUZ0S1dQaXR3WS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAIhBGDh2zZ4q1jEuDCYZ7z3imyeRudUXfpKHXhGnWaan&exp=1697062394&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAAMuJG6me7JUK_5UL5-9KEJrso3lf-eI4emgPi3TJY_sn" />
+        <TopBar src="https://static.igem.wiki/teams/4751/wiki/mgemlogo.png" />
         <div
           style={{
             justifyContent: 'end',
@@ -58,7 +58,7 @@ export default function References() {
       }}
       >
         <iframe
-          src="https://static.igem.wiki/teams/4751/wiki/market-report.pdf"
+          src="https://static.igem.wiki/teams/4751/wiki/designreferences.pdf"
           width="80%"
           height="600px"
           title="PDF in an iFrame"
