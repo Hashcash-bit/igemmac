@@ -41,7 +41,7 @@ export default function Objective2() {
           <div
             style={{
               display: 'flex',
-              justifyContent: 'center',
+              paddingLeft: '10%',
               gap: '20px',
               marginTop: '20px',
             }}
@@ -49,7 +49,7 @@ export default function Objective2() {
             <div
               style={{
                 fontSize: '14px',
-                width: '60%',
+                width: '90%',
               }}
             >
               As our biosensor utilizes a molecular recording mechanism that is

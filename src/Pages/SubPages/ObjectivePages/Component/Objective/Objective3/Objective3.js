@@ -41,7 +41,8 @@ export default function Objective3() {
           <div
             style={{
               display: 'flex',
-              justifyContent: 'center',
+              // justifyContent: 'center',
+              paddingLeft: '10%',
               gap: '20px',
               marginTop: '20px',
             }}
