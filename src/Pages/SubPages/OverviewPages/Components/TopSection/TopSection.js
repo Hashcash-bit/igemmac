@@ -65,12 +65,7 @@ adherence, decrease the incidence of MDD, and improve doctor-patient relationshi
               Integrated Human Practices
             </BackdropButton>
             <LikkleBlurb>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              pretium tortor sit amet dignissim interdum. Etiam vitae malesuada
-              purus. Sed fringilla urna id nibh imperdiet laoreet. Praesent
-              vestibulum quis enim ac ullamcorper. Suspendisse massa quam,
-              sagittis euismod gravida eu, condimentum sit amet sem. Nunc arcu
-              ex, consequat a lorem at.
+            Our Integrated Human Practices page includes the journey of our iGEM team this year. It establishes the problem we are trying to address and our thought process on developing a novel synthetic biology device. It discusses how many of the activities and discussions we had this year aided in the overall vision of our project.
             </LikkleBlurb>
           </IndividualDividers>
           <IndividualDividers>
