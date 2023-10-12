@@ -20,11 +20,10 @@ const Banner = styled.div`
 `;
 
 const Title = styled.h1`
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: black;
 `;
 
-export default function TR() {
+export default function Attributions() {
   return (
     <div
       style={{
@@ -38,14 +37,14 @@ export default function TR() {
     >
       <SubNavbar />
       <Banner>
-        <Title>Treatment Report</Title>
+        <Title>Attributions</Title>
       </Banner>
       <Container>
         <iframe
-          src='https://static.igem.wiki/teams/4751/wiki/hp-treatment-report.pdf'
+          src="https://attributions.igem.org/?year=2023&team=McMaster-Canada"
           width="80%"
           height="600px"
-          title="PDF in an iFrame"
+          title="Attributions Form"
         />
       </Container>
       <Footer />

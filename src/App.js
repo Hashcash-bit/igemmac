@@ -26,6 +26,7 @@ import ResultsPage from './Pages/SubPages/Results/ResultsPage';
 import NormModel from './Pages/SubPages/NormModel/NormModel';
 import WR from './Pages/SubPages/WR/WR';
 import Safety from './Pages/SubPages/Safety/Safety';
+import Attributions from './Pages/SubPages/Attributions/Attributions';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="/results" element={<ResultsPage />} exact />
           <Route path="/treatment-report" element={<TR />} exact />
           <Route path="/safety" element={<Safety />} exact />
+          <Route path="/attributions" element={<Attributions />} exact />
           <Route
             path="/Entrepreneurship"
             element={<Entrepreneurship />}

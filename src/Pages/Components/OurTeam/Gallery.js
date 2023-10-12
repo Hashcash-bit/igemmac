@@ -52,9 +52,10 @@ const Gallery = () => {
     { id: 15, image: 'https://static.igem.wiki/teams/4751/wiki/aribah-ali-hp-lead.jpg', job: 'Human Practices Lead', name: 'Aribah Ali' },
     { id: 16, image: 'https://static.igem.wiki/teams/4751/wiki/selina-tang-hp-lead.jpg', job: 'Human Practices Lead', name: 'Selina Tang' },
     { id: 17, image: 'https://static.igem.wiki/teams/4751/wiki/helen-peng-hp.png', job: 'Human Practices', name: 'Helen Peng' },
-    { id: 18, image: 'https://static.igem.wiki/teams/4751/wiki/jayden-hewitt-hp.jpg', job: 'Human Practices', name: 'Jayden Hewitt' },
-    { id: 19, image: 'https://static.igem.wiki/teams/4751/wiki/linda-wu-hp.jpg', job: 'Human Practices', name: 'Linda Wu' },
-    { id: 20, image: 'https://static.igem.wiki/teams/4751/wiki/zoha-ali-naqvi-hp.jpg', job: 'Researchers', name: 'Zoha Ali Naqvi' },
+    { id: 18, image: 'https://static.igem.wiki/teams/4751/wiki/anjana-sud-hp.png', job: 'Human Practices', name: 'Anjana Sud' },
+    { id: 19, image: 'https://static.igem.wiki/teams/4751/wiki/jayden-hewitt-hp.jpg', job: 'Human Practices', name: 'Jayden Hewitt' },
+    { id: 20, image: 'https://static.igem.wiki/teams/4751/wiki/linda-wu-hp.jpg', job: 'Human Practices', name: 'Linda Wu' },
+    { id: 21, image: 'https://static.igem.wiki/teams/4751/wiki/zoha-ali-naqvi-hp.jpg', job: 'Researchers', name: 'Zoha Ali Naqvi' },
     // Add more image data with different job categories
   ];
 
@@ -106,9 +107,9 @@ const Gallery = () => {
                   </ImageContainer>
                 ))
               )}
-            </GalleryImages>
-            */}
-            <GalleryImage src="https://static.igem.wiki/teams/4751/wiki/team1.png" />
+            </GalleryImages>*/}
+            
+            <GalleryImage src="https://static.igem.wiki/teams/4751/wiki/team2.png" />
           </GalleryContainer>
         </Box>
       </Container>
