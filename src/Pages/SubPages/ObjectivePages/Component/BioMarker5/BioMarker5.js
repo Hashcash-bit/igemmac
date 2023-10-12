@@ -257,7 +257,7 @@ export default function BioMarker5() {
             }}
           >
             <img
-              src="https://media.canva.com/1/image-resize/1/771_265_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9velAzQS9NQUZ2Q2pvelAzQS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAHVPhkCnlDy71zVzMxEBTb_IJPixqguPjD3hP3tdtobP&exp=1697081243&x-canva-quality=screen_3x&csig=AAAAAAAAAAAAAAAAAAAAAEjxkKolEIL_sZhSwP6qY5jb4GnpKfOppMajo8sU7Two"
+              src="https://media.canva.com/1/image-resize/1/692_365_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9ZR3BwOC9NQUZ3Nm9ZR3BwOC8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAALegsimwsIUud8TxwAriiOwWd5fYrW1yALB96jJ5NzkQ&exp=1697085709&x-canva-quality=screen&csig=AAAAAAAAAAAAAAAAAAAAAD7nyumS5m-r8qwP4EVrkf8kl3wzcOrKCcBeBz32ZdnJ"
               alt=""
             />
           </div>
