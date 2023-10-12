@@ -309,6 +309,7 @@ export default function BioMarker1() {
               >
                 Butyrate
               </div>
+
               <div
                 style={{
                   display: 'flex',
@@ -325,6 +326,7 @@ export default function BioMarker1() {
               >
                 Indole
               </div>
+
               <div
                 style={{
                   display: 'flex',
@@ -341,6 +343,7 @@ export default function BioMarker1() {
               >
                 H2O2
               </div>
+
               <div
                 style={{
                   display: 'flex',
@@ -357,6 +360,7 @@ export default function BioMarker1() {
               >
                 Tetrahydrofolate
               </div>
+
               <div
                 style={{
                   display: 'flex',
